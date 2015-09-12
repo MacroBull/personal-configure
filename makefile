@@ -27,7 +27,7 @@ pre_private:
 
 pre_public:
 	git add -uv *
-	git commit -m 'manual backup'
+	-git commit -m 'manual backup'
 	git checkout public
 	
 backup_private: 
@@ -35,7 +35,7 @@ backup_private:
 	$(MAKE) sys_private
 	$(MAKE) app_private
 	git add -uv *
-	git commit -m $(DATE)
+	-git commit -m $(DATE)
 	git gc
 	tar czf /mnt/data/Backups/Achieved/configure-private-$(DATE).tgz ./*
 	
@@ -50,7 +50,7 @@ backup_public:
 	-find -iname "*thumb*" -exec rm -rf {} \;
 	git add -uv *
 	privChecker
-	git commit -m $(DATE)
+	-git commit -m $(DATE)
 	git gc
 	tar czf /mnt/data/Backups/Achieved/configure-public-$(DATE).tgz ./*
 	
