@@ -9,7 +9,7 @@ alias qmake='qmake-qt5'
 alias make='make -j6'
 alias gmake='gmake -j6'
 
-alias m2k='./configure --prefix=/usr && make'
+alias m2k='./configure --prefix=/usr && /usr/bin/make'
 alias m3k='m2k && sudo make install'
 
 alias c2k'=if [ `pwd | tr / "\n" |tail -n 1` != "build" ]; then mkdir -p build; cd build; fi; cmake .. && make'

@@ -33,8 +33,8 @@ Startup Session=last
 
 [KFileDialog Settings]
 Height 768=420
-Recent Files[$e]=$HOME/workspace/Qt/QmlPlayground/ww.qml,$HOME/Application/bin/privChecker,$HOME/workspace/Qt/qqgleffect/qqgleffect.qml,$HOME/.mpv/config,$HOME/.alias,/etc/X11/xdm/Xsetup,$HOME/.conky.lua,$HOME/.conkyrc,$HOME/Application/bin/startup,/usr/bin/startplasmacompositor,/usr/bin/kf5-config,/etc/sysconfig/displaymanager,/usr/bin/startkde,$HOME/Application/Autostart/MyStartups.desktop,$HOME/Application/bin/wePixiv,$HOME/.paths
-Recent URLs[$e]=/usr/bin/,/etc/sysconfig/,/etc/X11/xdm/,$HOME/Application/biligrab-danmaku2ass/,$HOME/.mpv/,$HOME/workspace/Qt/qqgleffect/,$HOME/Application/bin/
+Recent Files[$e]=$HOME/workspace/Qt/QmlPlayground/ww.qml,$HOME/.alias,$HOME/Application/bin/git-truncate,$HOME/Application/bin/privChecker,$HOME/workspace/Qt/qqgleffect/qqgleffect.qml,$HOME/.mpv/config,/etc/X11/xdm/Xsetup,$HOME/.conky.lua,$HOME/.conkyrc,$HOME/Application/bin/startup,/usr/bin/startplasmacompositor,/usr/bin/kf5-config,/etc/sysconfig/displaymanager,/usr/bin/startkde,$HOME/Application/Autostart/MyStartups.desktop
+Recent URLs[$e]=/etc/sysconfig/,/etc/X11/xdm/,$HOME/Application/biligrab-danmaku2ass/,$HOME/.mpv/,$HOME/workspace/Qt/qqgleffect/,$HOME/Application/bin/,$HOME/workspace/personal-configure/
 Width 1366=672
 
 [KTextEditor::Search]
