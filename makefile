@@ -13,9 +13,11 @@ C_SYNC=rsync -r --del
 C_CPR=cp -rf
 C_CPF=cp -f
 
+MAKE=/usr/bin/make
+
 submit:
-	make backup_public
-	make backup_private
+	$(MAKE) backup_public
+	$(MAKE) backup_private
 	git push origin public
 
 pre_private:
@@ -29,9 +31,9 @@ pre_public:
 	git checkout public
 	
 backup_private: 
-	make pre_private
-	make sys_private
-	make app_private
+	$(MAKE) pre_private
+	$(MAKE) sys_private
+	$(MAKE) app_private
 	git add -uv *
 	git commit -m $(DATE)
 	git gc
@@ -39,10 +41,10 @@ backup_private:
 	
 	
 backup_public: 
-	make pre_public
-	make kde sys_public 
-	make app_public 
-	make shell
+	$(MAKE) pre_public
+	$(MAKE) kde sys_public
+	$(MAKE) app_public
+	$(MAKE) shell
 	-find -iname "*hist*" -exec rm -rf {} \;
 	-find -iname "*log" -exec rm -rf {} \;
 	-find -iname "*thumb*" -exec rm -rf {} \;
