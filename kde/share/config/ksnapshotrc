@@ -1,0 +1,18 @@
+[GENERAL]
+delay=3
+filename[$e]=file://$HOME/Images/Screenshot/ss53.png
+includeDecorations=true
+includePointer=false
+mode=2
+
+[KFileDialog Settings]
+Height 1080=420
+Height 768=510
+Recent Files[$e]=$HOME/Images/Screenshot/ss2.png,$HOME/Images/Screenshot/ss52.png,$HOME/Images/Screenshot/ss51.png,$HOME/Images/Screenshot/ss50.png,$HOME/Images/Screenshot/ss49.png,$HOME/Images/Screenshot/ss48.png,$HOME/Images/Screenshot/ss47.png,$HOME/Images/Screenshot/ss46.png,$HOME/Images/Screenshot/ss45.png,$HOME/Images/Screenshot/ss44.png,$HOME/Images/Screenshot/ss43.png,$HOME/Images/Screenshot/ss42.png,$HOME/Images/Screenshot/ss41.png,$HOME/Images/Screenshot/ss40.png,$HOME/Images/Screenshot/ss39.png,$HOME/Images/Screenshot/ss38.png
+Recent URLs[$e]=$HOME/Images/Screenshot/,$HOME/Images/
+Width 1366=816
+Width 1920=672
+
+[MainWindow]
+Height 768=504
+Width 1366=932

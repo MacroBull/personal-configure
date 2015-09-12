@@ -1,0 +1,42 @@
+Height 768=733
+State=AAAA/wAAAAD9AAAAAAAAAn8AAAKdAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1366=639
+
+[Desktop Entry]
+FullScreen=false
+
+[KFileDialog Settings]
+Height 768=737
+Recent Files[$e]=奋斗版stm32 MINI-SST原理图.pdf,$HOME/Documents/Papers/New/p70-santina.pdf,$HOME/Documents/Papers/New/loopblinn05.pdf,$HOME/tmp/奋斗开发板各种配件的文档/奋斗板配2.4寸显示模块文档/ILI9325AN_V0 27.pdf,$HOME/tmp/奋斗STM32开发板教程/奋斗STM32开发板MINI入门手册.pdf,$HOME/Documents/datasheet/ST-STM32/CD00191185-STM32F103xC\\, STM32F103xD\\, STM32F103xE.pdf,$HOME/tmp/奋斗开发板各种配件的文档/奋斗板配2.4寸显示模块文档/2.4寸屏原理图(适合ILI9325驱动).pdf,$HOME/tmp/奋斗开发板各种配件的文档/奋斗板配2.4寸显示模块文档/ILI9325DS_V0.40.pdf,$HOME/Documents/datasheet/ST-STM32/CD00171190-STM32F1xx Reference.pdf
+Recent URLs[$e]=$HOME/Documents/datasheet/ST-STM32/,$HOME/tmp/奋斗开发板各种配件的文档/奋斗板配2.4寸显示模块文档/,/mnt/fast/misc/奋斗开发板各种配件的文档/奋斗板配2.4寸显示模块文档/,$HOME/Documents/datasheet/,$HOME/tmp/奋斗STM32开发板教程/,$HOME/Documents/Papers/New/,$HOME/Documents/Papers/
+Width 1366=1306
+
+[MainWindow]
+Height 1080=1081
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABRoAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1367
+Width 1920=1921
+
+[Recent Files]
+File1[$e]=/mnt/fast/misc/器件数据手册/STM32F101xx和STM32F103xx固件函数库.pdf
+File10[$e]=/mnt/fast/Downloads/Browser/loopblinn05.pdf
+File2[$e]=/mnt/fast/misc/器件数据手册/ENC28J60 Stand-Alone Ethernet Controller with SPI Interface (Chinese).pdf
+File3[$e]=/mnt/fast/misc/器件数据手册/tsc2046.pdf
+File4[$e]=/mnt/fast/misc/器件数据手册/PCM1770_低功耗立体声音频DAC芯片.pdf
+File5[$e]=/mnt/fast/misc/器件数据手册/MMA7455L.pdf
+File6[$e]=/mnt/fast/misc/器件数据手册/vs1003.pdf
+File7[$e]=/mnt/fast/misc/器件数据手册/TEA5767 中文收音模块资料.pdf
+File8[$e]=smb://192.168.10.1/Share/500.pdf
+File9[$e]=$HOME/Documents/James R. Munkres-Analysis on Manifolds-Addison-Wesley (1990).djvu
+Name1[$e]=STM32F101xx和STM32F103xx固件函数库.pdf
+Name10[$e]=loopblinn05.pdf
+Name2[$e]=ENC28J60 Stand-Alone Ethernet Controller with SPI Interface (Chinese).pdf
+Name3[$e]=tsc2046.pdf
+Name4[$e]=PCM1770_低功耗立体声音频DAC芯片.pdf
+Name5[$e]=MMA7455L.pdf
+Name6[$e]=vs1003.pdf
+Name7[$e]=TEA5767 中文收音模块资料.pdf
+Name8[$e]=500.pdf
+Name9[$e]=James R. Munkres-Analysis on Manifolds-Addison-Wesley (1990).djvu

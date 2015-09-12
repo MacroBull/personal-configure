@@ -1,0 +1,28 @@
+<!DOCTYPE kpartgui>
+<kpartplugin version="7" name="kdevprojectmanagerview" library="libkdevprojectmanagerview">
+ <MenuBar>
+  <Menu name="project">
+   <Text context="@title:menu">Run</Text>
+   <Action group="build_operations" name="project_configure"/>
+   <Action group="build_operations" name="project_buildall"/>
+   <Action group="build_operations" name="project_build"/>
+   <Action group="build_operations" name="project_install"/>
+   <Action group="build_operations" name="project_clean"/>
+   <Action group="build_operations" name="project_prune"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar position="Top" name="mainToolBar">
+  <Action group="build_operations" name="project_build"/>
+ </ToolBar>
+ <ActionProperties scheme="Default">
+  <Action shortcut="Ctrl+&lt;" name="locate_document"/>
+  <Action shortcut="" name="project_install"/>
+ </ActionProperties>
+ <ActionProperties scheme="Macrobull">
+  <Action shortcut="F7" name="project_build"/>
+  <Action shortcut="Shift+F7" name="project_clean"/>
+  <Action shortcut="Ctrl+&lt;" name="locate_document"/>
+  <Action shortcut="Shift+F6" name="project_install"/>
+ </ActionProperties>
+ <ActionProperties scheme="test"/>
+</kpartplugin>

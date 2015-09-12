@@ -1,0 +1,16 @@
+[cache]
+DisconnectedModeEnabled=true
+IntervalCheckTime=15
+KnownMailBoxes=,Macrobull,xwcenter,ZJU,Sent,INBOX,Trash,Virus Items,Drafts,Sent Items,Junk E-mail,ZJU misc
+TrashCollection=10
+TrashCollectionMigrated=true
+
+[idle]
+IdleRidPath=/INBOX,imap://macrobull@imap.zju.edu.cn/
+
+[network]
+Authentication=7
+ImapPort=143
+ImapServer=imap.zju.edu.cn
+Safety=STARTTLS
+UserName=macrobull

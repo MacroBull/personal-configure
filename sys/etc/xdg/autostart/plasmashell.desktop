@@ -1,0 +1,10 @@
+[Desktop Entry]
+X-SuSE-translate=true
+Exec=plasmashell --shut-up
+X-DBUS-StartupType=Unique
+Name=Plasma Desktop Workspace
+Type=Application
+X-KDE-StartupNotify=false
+X-DBUS-ServiceName=org.kde.plasmashell
+OnlyShowIn=KDE;
+X-KDE-autostart-phase=0

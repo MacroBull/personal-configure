@@ -1,0 +1,86 @@
+[$Version]
+update_info=kate-2.4.upd:kate2.4
+
+[CTags]
+GlobalCommand=ctags -R --c++-types=+px --extra=+q --excmd=pattern --exclude=Makefile --exclude=.
+GlobalNumTargets=0
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Favorite Profiles]
+Favorites=
+
+[FileDialogSize]
+Height 1080=439
+Height 768=472
+Width 1366=711
+Width 1920=670
+
+[General]
+Config Revision=10
+Days Meta Infos=15
+Last Session=
+Modified Notification=true
+Recent File List Entry Count=24
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=true
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+Startup Session=last
+
+[KFileDialog Settings]
+Height 768=420
+Recent Files[$e]=$HOME/workspace/Qt/QmlPlayground/ww.qml,$HOME/Application/bin/privChecker,$HOME/workspace/Qt/qqgleffect/qqgleffect.qml,$HOME/.mpv/config,$HOME/.alias,/etc/X11/xdm/Xsetup,$HOME/.conky.lua,$HOME/.conkyrc,$HOME/Application/bin/startup,/usr/bin/startplasmacompositor,/usr/bin/kf5-config,/etc/sysconfig/displaymanager,/usr/bin/startkde,$HOME/Application/Autostart/MyStartups.desktop,$HOME/Application/bin/wePixiv,$HOME/.paths
+Recent URLs[$e]=/usr/bin/,/etc/sysconfig/,/etc/X11/xdm/,$HOME/Application/biligrab-danmaku2ass/,$HOME/.mpv/,$HOME/workspace/Qt/qqgleffect/,$HOME/Application/bin/
+Width 1366=672
+
+[KTextEditor::Search]
+Replace History=:,,wget ,acroread,\\\\n,\\\\t,delay_ms,LCD_WR_CMD,LCD_WR_CMD(,LCD_WR
+Search History=appman,spyder,mpv,sysgu,konsol,akonadi,intel,baloo,photoq,android,uv,commi,katepartplugi,smpl,pulse,mil,make,<<<,biligrab(,keep_fps,increase_fps,mpvflags,fps,title,;,opengl,wayland,^,quad,::drawpolygon,drawpolygon,masterEngineType,createRunControl,engineTypeName,grep,benc,adoberead,adob,LCD_GetBitMask,PAINTER_FILL_FFLEN,InferiorShutdownFailed,UNEXPECTED,v,CHECK_STATE,msgInferiorStopFailed,is not being,WriteError,serverStartScript,serverStartScriptPathChooser,serverStartScriptPathChooser-,start scrip,commercial,external,_IO u32,_IO,for,<main>,debug,<main,main,lds,addrinfo,linear_x16,18620....02,18620?????2,18620????02,02\\\\n,02,185,\\,,\\,185,65,cir,sbrk,\\\\n,LCD_ReadData,RD,RD_,LCD_RD_data,tim4,^ +,AF,pwm_setPeriod,FSMC_LCD_Init,pic,a1,zm,a2,啊,test,LCD_Init,delayms,LCD_CtrlWrite_ILI9325,Init,clock,LCD_WR(,LCD_WR,LCD_WR_CMD,LCD_WR_REG,lcd_rst
+
+[Konsole]
+AutoSyncronize=true
+SetEditor=true
+
+[MainWindow]
+Height 1080=480
+Height 768=737
+State=AAAA/wAAAAD9AAAAAAAABRoAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAEgBnAGQAYgBwAGwAdQBnAGkAbgEAAAI6/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1306
+Width 1920=640
+Window-Maximized 1080x1920=true
+Window-Maximized 768x1366=true
+
+[PluginSymbolViewer]
+ExpandTree=true
+SortSymbols=false
+TreeView=false
+ViewTypes=true
+
+[Shortcuts]
+kate_mdi_toolview_Debug View=none
+kate_mdi_toolview_Locals and Stack=none
+kate_mdi_toolview_kate_plugin_katebuildplugin=none
+kate_mdi_toolview_kate_plugin_katectagsplugin=none
+kate_mdi_toolview_kate_plugin_katesearch=none
+kate_mdi_toolview_kate_plugin_symbolviewer=none
+kate_mdi_toolview_kate_private_plugin_katebacktracebrowserplugin=none
+kate_mdi_toolview_kate_private_plugin_katefileselectorplugin=none
+kate_mdi_toolview_kate_private_plugin_katefiletreeplugin=none
+kate_mdi_toolview_kate_private_plugin_katekonsoleplugin=none
+kate_mdi_toolview_kate_private_plugin_katesnippetsplugin=none
+
+[filetree]
+editShade=228,165,204
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=168,158,194
+
+[project]
+autorepository=git,mercurial

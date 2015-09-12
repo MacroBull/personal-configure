@@ -1,0 +1,62 @@
+[color_tools]
+insertColor:lastUsedColor=S'#ffffff'\np0\n.
+
+[color_tools.color_chooser]
+insertColor:lastUsedColor=V#0000c0\np0\n.
+
+[commentar]
+commentStartPos=I60\n.
+
+[django_utils]
+DjangoUtils:patternModel=Vclass %(class_name)s(models.Model):\\u000a\\u000a\tclass Meta:\\u000a\t\tverbose_name = _('%(class_name)s')\\u000a\t\tverbose_name_plural = _('%(class_name)ss')\\u000a\\u000a\t@permalink\\u000a\tdef get_absolute_url(self):\\u000a\t\tpass\\u000a\\u000a\tdef __unicode__(self):\\u000a\t\tpass\\u000a\\u000a\np0\n.
+DjangoUtils:patternModelForm=Vclass %(class_name)s(forms.ModelForm):\\u000a\\u000a\tclass Meta:\\u000a\t\tmodel = %(class_model)s\\u000a\\u000a\tdef __init__(self, *args, **kwargs):\\u000a\t\tsuper(%(class_name)s, self).__init__(*args, **kwargs)\\u000a\\u000a\tdef clean(self):\\u000a\t\treturn super(%(class_name)s, self).clean()\\u000a\\u000a\tdef save(self, commit=True):\\u000a\t\treturn super(%(class_name)s, self).save(commit)\\u000a\\u000a\np0\n.
+DjangoUtils:tagsClose=Vautoescape, blocktrans, block, comment, filter, for, ifchanged, ifequal, if, spaceless, with\np0\n.
+DjangoUtils:textURLS=Vfrom django.conf.urls.defaults import patterns, url\\u000a\\u000a\\u000aurlpatterns = patterns('%(app)s.views',\\u000a\turl(r'^$', '%(change)s', name='%(change)s'),\\u000a)\\u000a\np0\n.
+DjangoUtils:textViews=Vfrom django.core.urlresolvers import reverse\\u000afrom django.http import HttpResponseRedirect, HttpResponse\\u000afrom django.shortcuts import render_to_response, get_object_or_404\\u000afrom django.template import RequestContext\\u000a\np0\n.
+
+[gid]
+idFile=V/view/myview/vob/ID\np0\n.
+keySize=I5\n.
+srcIn=V/vob\np0\n.
+srcOut=V%{idPrefix}/vob\np0\n.
+useEtags=I01\n.
+useSuffixes=V.h;.hxx\np0\n.
+
+[python_console_classic]
+exceptionColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I180\nI3\nI3\nI255\ntp3\ntp4\nRp5\n.
+floatColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I176\nI126\nI0\nI255\ntp3\ntp4\nRp5\n.
+font=Vmonospace,12,-1,5,50,0,0,0,0,0\np0\n.
+helpColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I0\nI128\nI0\nI255\ntp3\ntp4\nRp5\n.
+integerColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I0\nI20\nI255\nI255\ntp3\ntp4\nRp5\n.
+nameColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I0\nI128\nI0\nI255\ntp3\ntp4\nRp5\n.
+promptColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I160\nI160\nI160\nI255\ntp3\ntp4\nRp5\n.
+ps1=V>>>\np0\n.
+ps2=V...\np0\n.
+stringColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I190\nI3\nI3\nI255\ntp3\ntp4\nRp5\n.
+
+[python_console_classic.python_console_classic]
+exceptionColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I180\nI3\nI3\nI255\ntp3\ntp4\nRp5\n.
+floatColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I176\nI126\nI0\nI255\ntp3\ntp4\nRp5\n.
+font=Vmonospace,12,-1,5,50,0,0,0,0,0\np0\n.
+helpColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I0\nI128\nI0\nI255\ntp3\ntp4\nRp5\n.
+integerColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I0\nI20\nI255\nI255\ntp3\ntp4\nRp5\n.
+nameColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I0\nI128\nI0\nI255\ntp3\ntp4\nRp5\n.
+promptColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I160\nI160\nI160\nI255\ntp3\ntp4\nRp5\n.
+ps1=V>>>\np0\n.
+ps2=V...\np0\n.
+stringColour=csip\n_unpickle_type\np0\n(S'PyQt4.QtGui'\np1\nS'QColor'\np2\n(I190\nI3\nI3\nI255\ntp3\ntp4\nRp5\n.
+
+[python_console_ipython.python_console_ipython]
+ipythonConsole:guiCompletionType=I0\n.
+ipythonConsole:scrollbackLinesCount=I1000\n.
+
+[python_utils]
+PythonUtils:checkPEP8WhenSave=I01\n.
+PythonUtils:checkParseCode=I01\n.
+PythonUtils:checkPyFlakesWhenSave=I01\n.
+PythonUtils:ignorePEP8Errors=VE226,E24\np0\n.
+PythonUtils:ipdbSnippet=Vimport ipdb; ipdb.set_trace()\np0\n.
+
+[xml_pretty]
+XMLPretty:indentXXX=V\\u005ct\np0\n.
+XMLPretty:newlXXX=V\\u005cn\np0\n.

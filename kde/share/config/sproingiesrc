@@ -1,0 +1,14 @@
+[count]
+Value=3
+
+[delay]
+Value=0
+
+[nofall]
+Value=false
+
+[showfps]
+Value=true
+
+[wire]
+Value=false

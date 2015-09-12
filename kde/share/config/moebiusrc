@@ -1,0 +1,11 @@
+[ants]
+Value=true
+
+[delay]
+Value=0
+
+[showfps]
+Value=true
+
+[solid]
+Value=true

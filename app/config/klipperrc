@@ -1,0 +1,17 @@
+[$Version]
+update_info=klipper-kconfigxt.upd:KlipperNoSpacesInKeyNames
+
+[Actions]
+StripWhiteSpace=false
+
+[General]
+IgnoreImages=false
+IgnoreSelection=true
+MaxClipItems=24
+Number of Actions=0
+TimeoutForActionPopups=3
+URLGrabberEnabled=true
+Version=0.9.7
+
+[Notification Messages]
+StartAutomatically=true

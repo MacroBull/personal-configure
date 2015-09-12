@@ -1,0 +1,4 @@
+#! /bin/bash 
+# export KDE_SESSION_VERSION=0
+# yakuake-session -q -t "QML Tester" -e /opt/Qt/Current/gcc_64/bin/qmlscene -- -I /opt/Qt/Current/gcc_64/qml -I . -I imports /home/macrobull/workspace/Qt/myQMLTester/main.qml
+yakuake-session -q -t "QML Tester" -e qmlscene -- -I . -I imports /home/macrobull/workspace/Qt/myQMLTester/main.qml

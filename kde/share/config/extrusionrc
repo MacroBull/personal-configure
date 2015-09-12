@@ -1,0 +1,14 @@
+[delay]
+Value=0
+
+[mode]
+Value=0
+
+[render]
+Value=1
+
+[showfps]
+Value=true
+
+[wire]
+Value=false

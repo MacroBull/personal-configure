@@ -1,0 +1,6 @@
+#! /bin/bash
+which --skip-dot $1 || which --skip-tilde ${1##*/}
+if [ "0" == "$?" ]; then
+	ln -s /home/macrobull/Application/bin/.hooks/nonkde /home/macrobull/Application/bin/.hooks/$1
+	$@
+fi

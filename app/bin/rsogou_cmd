@@ -1,0 +1,5 @@
+#! /bin/bash
+( ps -e |grep sogou-qimpanel ) && pkill 'sogou*' || echo "not running"
+fcitx --replace 2>/dev/null
+sogou-qimpanel  2>/dev/null
+notify-send -i fcitx-sogoupinyin "Restarting SogouPinyin" "`ps -e |grep sogou-qimpanel`"

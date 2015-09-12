@@ -1,0 +1,11 @@
+[cycles]
+Value=2953
+
+[delay]
+Value=0
+
+[ncolors]
+Value=255
+
+[showfps]
+Value=true

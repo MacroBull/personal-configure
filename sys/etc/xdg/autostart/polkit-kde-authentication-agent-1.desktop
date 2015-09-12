@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-SuSE-translate=true
+Name=PolicyKit Authentication Agent
+Comment=PolicyKit Authentication Agent
+Exec=/usr/lib64/libexec/polkit-kde-authentication-agent-1
+Terminal=false
+Type=Application
+Categories=
+OnlyShowIn=KDE;
+X-KDE-StartupNotify=false
+X-KDE-autostart-phase=0
+NoDisplay=true
+X-DBUS-StartupType=Unique

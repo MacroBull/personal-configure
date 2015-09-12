@@ -1,0 +1,11 @@
+[delay]
+Value=0
+
+[opacity]
+Value=0.64
+
+[showfps]
+Value=true
+
+[timeout]
+Value=30

@@ -1,0 +1,8 @@
+[OBS-M17N@Twaren]
+name=OBS-M17N@Twaren
+enabled=1
+autorefresh=1
+baseurl=http://ftp.twaren.net/Linux/OpenSuSE/repositories/M17N/openSUSE_Tumbleweed/
+type=rpm-md
+priority=83
+keeppackages=1

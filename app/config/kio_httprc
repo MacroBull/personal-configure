@@ -1,0 +1,5 @@
+MaxCacheSize=99
+SendUserAgent=true
+UseCache=true
+UserAgentKeys=:ovm
+cache=Cache

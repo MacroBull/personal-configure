@@ -1,0 +1,38 @@
+# Write your default config options here!
+
+# Video
+
+[default]
+vo=vaapi,wayland,opengl,opengl-hq
+hwdec=vaapi
+# hwdec=vaapi-copy
+hwdec-codecs=h264,mpeg4
+
+framedrop=decoder+vo
+
+# vd-lavc-fast
+
+# Audio
+
+# af=drc
+# softvol=yes
+# volume=16
+softvol-max=250
+
+# Misc
+
+ontop=yes
+no-border
+# ytdl=yes
+
+screenshot-format=jpg
+screenshot-jpeg-quality=85
+screenshot-template="~/Images/Capture/%{media-title}[%wH_%wM_%wS_%wT]"
+
+cache-initial=256
+cache-default=8192
+cache-secs=8
+
+#cache-pause
+cache-file=TMP
+cache-file-size=1048576

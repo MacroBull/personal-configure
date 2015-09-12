@@ -1,0 +1,17 @@
+[delay]
+Value=0
+
+[duration]
+Value=65
+
+[mismunch]
+Value=0
+
+[mode]
+Value=0
+
+[showfps]
+Value=true
+
+[simultaneous]
+Value=5

@@ -1,0 +1,26 @@
+[bitmap]
+Value=/home/macrobull/Media/Images/Wallpaper/New/Yuyuko_Youmu0026 (1).jpg
+
+[delay]
+Value=0
+
+[light]
+Value=true
+
+[roll]
+Value=true
+
+[rotate]
+Value=true
+
+[showfps]
+Value=true
+
+[stars]
+Value=false
+
+[wander]
+Value=true
+
+[wire]
+Value=false

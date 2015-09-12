@@ -1,0 +1,5 @@
+<kpartgui version="1" name="kdevsourceformatter">
+  <ActionProperties>
+    <Action shortcut="Ctrl+`" name="edit_reformat_source"/>
+  </ActionProperties>
+</kpartgui>

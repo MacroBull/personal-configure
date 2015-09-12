@@ -1,0 +1,6 @@
+#! /bin/sh
+DUDE="kernel-default qt3 plasma5-workspace gns3 opencl-1.2-intel-devel mkinitrd plasmoid-networkmanagement makehuman-data cinelerra ffDiaporama marble"
+sudo zypper ref
+sudo zypper al $DUDE
+echo $DUDE have been locked.
+sudo zypper -n up --auto-agree-with-licenses

@@ -1,0 +1,12 @@
+<!DOCTYPE kpartgui>
+<kpartplugin version="7" name="kdevtestview" library="libkdevtestview">
+ <MenuBar>
+  <Menu name="run">
+   <Text context="@title:menu">Run</Text>
+   <Action group="run_operations" name="run_all_tests"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+ <ActionProperties scheme="Macrobull"/>
+ <ActionProperties scheme="test"/>
+</kpartplugin>

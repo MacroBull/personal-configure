@@ -1,0 +1,14 @@
+[cellsize]
+Value=11
+
+[delay]
+Value=0
+
+[density]
+Value=30
+
+[maxage]
+Value=121
+
+[showfps]
+Value=true

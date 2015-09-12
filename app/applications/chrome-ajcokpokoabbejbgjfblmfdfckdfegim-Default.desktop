@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Hearthstone
+Exec=/opt/google/chrome-beta/google-chrome-beta --user-data-dir=/home/macrobull/.config/google-chrome-beta --profile-directory=Default --app-id=ajcokpokoabbejbgjfblmfdfckdfegim
+Icon=chrome-ajcokpokoabbejbgjfblmfdfckdfegim-Default
+StartupWMClass=crx_ajcokpokoabbejbgjfblmfdfckdfegim

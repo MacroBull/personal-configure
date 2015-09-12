@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Hello QML
+Comment=A hello world widget in QML
+Icon=kde
+ 
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-DefaultSize=800,480
+ 
+X-KDE-PluginInfo-Author=Macrobull
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Examples
+X-KDE-PluginInfo-Name=orz.macrobull.helloqml
+X-KDE-PluginInfo-Version=0.0
+ 
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-ServiceTypes=Plasma/Applet
+Type=Service

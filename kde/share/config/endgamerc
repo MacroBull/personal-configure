@@ -1,0 +1,8 @@
+[classic]
+Value=true
+
+[delay]
+Value=0
+
+[showfps]
+Value=true

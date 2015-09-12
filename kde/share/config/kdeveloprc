@@ -1,0 +1,150 @@
+[CMakeBuildDirChooser]
+LastExtraArguments=
+
+[Desktop Entry]
+DefaultProfile=Flan.profile
+
+[External Scripts]
+firstUse=false
+
+[External Scripts][script 0]
+command=g++ -o %b %f && ./%b
+errorMode=0
+filterMode=0
+inputMode=0
+name=Quick Compile
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=true
+
+[External Scripts][script 1]
+command=xdg-open "http://www.google.de/search?q=%s"
+errorMode=0
+filterMode=0
+inputMode=0
+name=Google Selection
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=false
+
+[External Scripts][script 2]
+command=sort
+errorMode=0
+filterMode=0
+inputMode=2
+name=Sort Selection
+outputMode=3
+saveMode=0
+shortcuts=
+showOutput=false
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+Height 768=390
+Recent Files[$e]=khotkeysrc,$HOME/workspace/kdev/stm32f1t0/.kdev_include_paths,$HOME/Application/bin/myApps,$HOME/workspace/personal_conf/kde/share/config/khotkeysrc
+Recent URLs[$e]=$HOME/workspace/personal_conf/kde/share/config/,$HOME/Application/bin/,$HOME/workspace/kdev/stm32f1t0/
+Width 1366=648
+
+[KatePart Settings]
+documents=/home/macrobull/workspace/kdev/stm32f1t0/.kdev_include_paths,/home/macrobull/workspace/kdev/stm32f1t0/main.c
+
+[KatePart Settings][/home/macrobull/workspace/kdev/stm32f1t0/.kdev_include_paths]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=normal
+Mode=
+
+[KatePart Settings][/home/macrobull/workspace/kdev/stm32f1t0/main.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[Main Window]
+Desktop 1920 1080=70,338,1296,742
+
+[MainWindow]
+Height 1080=1081
+Height 768=769
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEqAAADw/wCAAAAAfsAAAAaAFAAcgBvAGoAZQBjAHQAcwBfAGMAbwBkAGUBAAAAPwAAA8MAAAFjAQAAAwAAAAMAAAYdAAAA4vwBAAAAAfsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQEAAAFHAAAGHQAAAGwBAAADAAAGHQAAAuAAAAAEAAAABAAAAAEAAAAC/AAAAAQAAAAAAAAAAQAAAB4ATABlAGYAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAEAAAABAAAAIABSAGkAZwBoAHQAIABCAHUAdAB0AG8AbgAgAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAACAAAABAAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAgAHEAdQBpAGMAawBPAHAAZQBuAFQAbwBvAGwAQgBhAHIBAAACaP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAACwASwBEAGUAdgBDAG8AZABlAGIAcgBvAHcAcwBlAHIAVABvAG8AbABCAGEAcgEAAANQ/////wAAAAAAAAAAAAAAAwAAAAEAAAAiAEIAbwB0AHQAbwBtACAAQgB1AHQAdABvAG4AIABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1367
+Width 1920=1921
+
+[MainWindow_code]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEqAAACi/wCAAAAAfsAAAAaAFAAcgBvAGoAZQBjAHQAcwBfAGMAbwBkAGUBAAAAPwAAAosAAAFjAQAAAwAAAAMAAAOtAAAA4vwBAAAAAfsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQEAAAFHAAADrQAAAGwBAAADAAADrQAAAagAAAAEAAAABAAAAAEAAAAC/AAAAAQAAAAAAAAAAQAAAB4ATABlAGYAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAEAAAABAAAAIABSAGkAZwBoAHQAIABCAHUAdAB0AG8AbgAgAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAACAAAABAAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAgAHEAdQBpAGMAawBPAHAAZQBuAFQAbwBvAGwAQgBhAHIBAAACpv////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAACwASwBEAGUAdgBDAG8AZABlAGIAcgBvAHcAcwBlAHIAVABvAG8AbABCAGEAcgEAAAOO/////wAAAAAAAAAAAAAAAwAAAAEAAAAiAEIAbwB0AHQAbwBtACAAQgB1AHQAdABvAG4AIABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1366=1367
+debugToolBarVisibility=false
+
+[Open File]
+Last Open File Directory=file:///home/macrobull/workspace/kdev/t2/src/
+
+[Project Manager]
+Projects Base Directory=file:///home/macrobull/workspace/kdev
+
+[Recent Files]
+File1[$e]=$HOME/workspace/kdev/stm32f1t0/main.c
+File2[$e]=$HOME/workspace/kdev/stm32f1t0/.kdev_include_paths
+Name1[$e]=main.c
+Name2[$e]=.kdev_include_paths
+
+[RecentProjects]
+File1[$e]=$HOME/workspace/kdev/stm32f1t0/stm32f1t0.kdev4
+File2[$e]=$HOME/workspace/kdev/t2/t2.kdev4
+Name1[$e]=stm32f1t0.kdev4
+Name2[$e]=t2.kdev4
+
+[Sessions]
+Active Session ID={9dcebaa7-9ff9-4d20-85ee-8046550e1be8}
+
+[User Interface]
+Main Windows Count=1
+
+[User Interface][Main Window 0][Area code]
+desired views=org.kdevelop.ClassBrowserView:1,org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentationView:2,org.kdevelop.DocumentsView:1,org.kdevelop.ExternalScriptView:2,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView:8,org.kdevelop.ProblemReporterView:8,org.kdevelop.ProjectsView:1,org.kdevelop.SnippetView:2
+id=code
+thickness bottom=-1
+thickness left=-1
+thickness right=-1
+thickness top=-1
+view on bottom=org.kdevelop.ContextBrowser
+view on left=org.kdevelop.ProjectsView
+view on right=
+view on top=
+working set=code_9232844
+
+[User Interface][Main Window 0][Area debug]
+desired views=org.kdevelop.DocumentationView:2,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.debugger.BreakpointsView:8,org.kdevelop.debugger.ConsoleView:8,org.kdevelop.debugger.StackView:8,org.kdevelop.debugger.VariablesView:1
+id=debug
+thickness bottom=-1
+thickness left=-1
+thickness right=-1
+thickness top=-1
+view on bottom=
+view on left=
+view on right=
+view on top=
+working set=
+
+[User Interface][Main Window 0][Area review]
+desired views=org.kdevelop.DocumentationView:2,org.kdevelop.FileManagerView:1,org.kdevelop.PatchReview:8,org.kdevelop.ProjectsView:1
+id=review
+thickness bottom=-1
+thickness left=-1
+thickness right=-1
+thickness top=-1
+view on bottom=
+view on left=
+view on right=
+view on top=
+working set=
+
+[breakpoints]
+number=0

@@ -1,0 +1,8 @@
+[delay]
+Value=22
+
+[lines]
+Value=1640
+
+[showfps]
+Value=true

@@ -1,0 +1,5 @@
+#! /bin/bash
+for l in `cat "$1"`; do
+	wget "$l" -O /home/macrobull/Downloads/KDE/${l##*/}
+	
+done

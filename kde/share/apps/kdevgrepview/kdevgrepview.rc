@@ -1,0 +1,14 @@
+<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
+<kpartgui version="7" name="kdevgrepview">
+ <MenuBar>
+  <Menu name="edit">
+   <Text context="@title:menu">Edit</Text>
+   <Action group="edit_find_merge" name="edit_grep"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+ <ActionProperties scheme="Macrobull">
+  <Action shortcut="Ctrl+Shift+F" name="edit_grep"/>
+ </ActionProperties>
+ <ActionProperties scheme="test"/>
+</kpartgui>

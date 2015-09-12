@@ -1,0 +1,12 @@
+#!/bin/bash
+
+CURRENT_BRANCH=`git rev-parse --abbrev-ref HEAD`
+tr_commit="HEAD"
+
+[[ -z "$1" ]] || tr_commit=$1
+
+git checkout --orphan temp $tr_commit
+git commit -m "Truncated history"
+git rebase --onto temp $tr_commit $CURRENT_BRANCH
+git checkout $CURRENT_BRANCH
+git branch -D temp

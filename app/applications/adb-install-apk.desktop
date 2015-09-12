@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/macrobull/Application/bin/adb-install-apk
+MimeType=application/vnd.android.package-archive;
+Name=adb-install-apk
+NoDisplay=true
+Terminal=true
+Type=Application

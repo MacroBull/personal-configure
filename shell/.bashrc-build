@@ -1,0 +1,94 @@
+umask 002
+
+echo "build is logged in." |wall
+
+#alias m2q='mkdir build && cd build && qmake .. && make  -j6'
+
+source /opt/intel/composerxe/bin/compilervars.sh intel64
+source /opt/intel/impi_latest/bin64/mpivars.sh intel64
+
+CPATH+=:/opt/intel/impi_latest/include64
+CPATH+=:/opt/intel/ipp/include
+CPATH+=:/opt/intel/opencl-sdk/include
+export CPATH
+
+LD_LIBRARY_PATH+=:/opt/intel/opencl/lib64
+export LD_LIBRARY_PATH
+
+PATH+=:/opt/intel/opencl-sdk/bin
+export PATH
+
+
+export PATH=$PATH:/home/build/bin
+
+# export QMAKESPEC=/usr/lib64/qt5/mkspecs/linux-clang/
+export QMAKESPEC=/usr/lib64/qt5/mkspecs/linux-g++/
+
+alias git='proxychains4 git'
+
+
+#export CPATH=$CPATH:~/libsigrok/bindings/cxx/include
+
+export CC=gcc
+export CXX=g++
+
+source ~/.ccconfig
+
+alias fix_permission='sudo chown -R build:users *'
+
+######## alias to function ##################
+
+#type -t make &> /dev/null && unalias make
+make6() {
+	make
+# -j6
+}
+export -f make6
+
+#type -t gmake &> /dev/null && unalias gmake
+gmake6() {
+	gmake
+# -j6
+}
+export -f gmake6
+
+type -t m2k &> /dev/null && unalias m2k
+m2k() {
+	./configure && make
+}
+export -f m2k
+
+type -t m3k &> /dev/null && unalias m3k
+m3k() {
+	m2k && sudo make install
+
+}
+export -f m3k
+
+type -t c2k &> /dev/null && unalias c2k
+c2k() {
+	if [ `pwd | tr / '\n' |tail -n 1` != "build" ]; then mkdir -p build; cd build; fi; cmake .. && make
+}
+export -f c2k
+
+type -t c3k &> /dev/null && unalias c3k
+c3k() {
+	c2k && sudo make install
+
+}
+export -f c3k
+
+type -t q2k &> /dev/null && unalias q2k
+q2k() {
+	if [ `pwd | tr / '\n' |tail -n 1` != "build" ]; then mkdir -p build; cd build; fi; qmake .. && make
+}
+export -f q2k
+
+type -t q3k &> /dev/null && unalias q3k
+q3k() {
+	q2k && sudo make install
+}
+export -f q3k
+
+alias gp='git pull'
+alias cb='check_build'

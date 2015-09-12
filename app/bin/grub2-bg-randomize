@@ -1,0 +1,10 @@
+#!/bin/bash
+
+THEMEDIR=/boot/grub2/themes/macrobull/
+BGDIR=/boot/grub2/themes/macrobull/backgrounds/
+FILE=`ls $BGDIR  |sort -R |tail -n 1`
+rm "$THEMEDIR"bg.png
+ln -s "$BGDIR$FILE" "$THEMEDIR"bg.png
+
+echo "Background set to $FILE"
+

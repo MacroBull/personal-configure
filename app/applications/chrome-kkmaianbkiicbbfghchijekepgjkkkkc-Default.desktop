@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=STM8 Launcher
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=kkmaianbkiicbbfghchijekepgjkkkkc
+Icon=chrome-kkmaianbkiicbbfghchijekepgjkkkkc-Default
+StartupWMClass=crx_kkmaianbkiicbbfghchijekepgjkkkkc

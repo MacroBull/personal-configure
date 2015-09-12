@@ -1,0 +1,9 @@
+[openSUSE-tumbleweed-debug@NetEase]
+name=openSUSE-tumbleweed-debug@NetEase
+enabled=0
+autorefresh=1
+baseurl=http://mirrors.163.com/openSUSE/factory/repo/debug/
+path=/
+type=yast2
+priority=7
+keeppackages=1

@@ -1,0 +1,8 @@
+[OBS-multimedia:apps]
+name=OBS-multimedia:apps
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/repositories/multimedia:/apps/openSUSE_Factory
+type=rpm-md
+priority=33
+keeppackages=1

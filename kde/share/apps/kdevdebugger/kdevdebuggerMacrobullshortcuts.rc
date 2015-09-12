@@ -1,0 +1,11 @@
+<kpartgui version="1" name="kdevdebugger">
+  <ActionProperties>
+    <Action shortcut="F9" name="debug_continue"/>
+    <Action shortcut="Alt+F9" name="debug_pause"/>
+    <Action shortcut="Shift+F9" name="debug_runtocursor"/>
+    <Action shortcut="F10" name="debug_stepover"/>
+    <Action shortcut="F11" name="debug_stepinto"/>
+    <Action shortcut="F12" name="debug_stepout"/>
+    <Action shortcut="F8" name="debug_toggle_breakpoint"/>
+  </ActionProperties>
+</kpartgui>

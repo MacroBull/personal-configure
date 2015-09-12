@@ -1,0 +1,17 @@
+[delay]
+Value=0
+
+[harmonics]
+Value=8
+
+[holdtime]
+Value=2
+
+[linewidth]
+Value=4
+
+[ncolors]
+Value=100
+
+[showfps]
+Value=true

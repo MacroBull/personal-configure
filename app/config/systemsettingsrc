@@ -1,0 +1,48 @@
+[ConfigDialog]
+Height 1080=251
+Height 768=250
+Width 1366=380
+Width 1920=372
+
+[DownloadDialog Settings]
+Height 1080=512
+Height 768=512
+Width 1366=700
+Width 1920=700
+
+[FileDialogSize]
+Height 1080=359
+Width 1920=519
+Window-Maximized 768x1366=true
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KFileDialog Settings]
+Recent Files[$e]=bg.png,$HOME/.face.icon,/boot/grub2/themes/macrobull/bg.png,$HOME/Application/Autostart/MyStartups.desktop
+Recent URLs[$e]=/boot/,/bot/,/boot/grub2/themes/macrobull/,$HOME/Application/Autostart/
+Window-Maximized 768x1366=true
+
+[MainWindow]
+Height 1080=684
+Height 768=665
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABRoAAAK7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1246
+Width 1920=1051
+Window-Maximized 1080x1920=true
+Window-Maximized 768x1366=true
+
+[Notification Messages]
+FontSettingsChanged=false
+FormatSettingsChanged=false
+LanguageChangesApplyOnlyToNewlyStartedPrograms=false
+welcome=false
+
+[PlasmaRunnerManager]
+LaunchCounts=
+
+[classic_mode]
+autoExpandOneLevel=false
+viewLayout=249,1056

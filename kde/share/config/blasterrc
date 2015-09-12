@@ -1,0 +1,14 @@
+[delay]
+Value=0
+
+[num_lasers]
+Value=3
+
+[num_robots]
+Value=5
+
+[num_stars]
+Value=94
+
+[showfps]
+Value=true

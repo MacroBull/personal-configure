@@ -1,0 +1,7 @@
+[google-webdesigner]
+name=google-webdesigner
+enabled=0
+autorefresh=1
+baseurl=http://dl.google.com/linux/webdesigner/rpm/stable/x86_64
+type=rpm-md
+keeppackages=1

@@ -1,0 +1,14 @@
+[count]
+Value=3
+
+[cycles]
+Value=10
+
+[delay]
+Value=0
+
+[ncolors]
+Value=226
+
+[showfps]
+Value=true

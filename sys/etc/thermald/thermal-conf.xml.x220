@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!--
+use "man thermal-conf.xml" for details
+-->
+<!-- BEGIN -->
+<ThermalConfiguration>
+    <Platform>
+        <Name>Lenovo ThinkPad X220</Name>
+        <ProductName>*</ProductName>
+        <Preference>QUIET</Preference>
+        <ThermalZones>
+            <ThermalZone>
+                <Type>x86_pkg_temp</Type>
+                <TripPoints>
+                    <TripPoint>
+                        <SensorType>x86_pkg_temp</SensorType>
+                        <Temperature>60000</Temperature>
+                        <type>passive</type>
+                        <ControlType>SEQUENTIAL</ControlType>
+                        <CoolingDevice>
+                            <index>1</index>
+                            <type>Fan_1</type>
+                            <influence> 100 </influence>
+                            <SamplingPeriod> 20 </SamplingPeriod>
+                        </CoolingDevice>
+                    </TripPoint>
+                    <TripPoint>
+                        <SensorType>x86_pkg_temp</SensorType>
+                        <Temperature>70000</Temperature>
+                        <type>passive</type>
+                        <ControlType>SEQUENTIAL</ControlType>
+                        <CoolingDevice>
+                            <index>1</index>
+                            <type>Fan_2</type>
+                            <influence> 100 </influence>
+                            <SamplingPeriod> 12 </SamplingPeriod>
+                        </CoolingDevice>
+                    </TripPoint>
+                    <TripPoint>
+                        <SensorType>x86_pkg_temp</SensorType>
+                        <Temperature>80000</Temperature>
+                        <type>passive</type>
+                        <ControlType>SEQUENTIAL</ControlType>
+                        <CoolingDevice>
+                            <index>1</index>
+                            <type>Fan_3</type>
+                            <influence> 100 </influence>
+                            <SamplingPeriod> 12 </SamplingPeriod>
+                        </CoolingDevice>
+                    </TripPoint>
+                </TripPoints>
+            </ThermalZone>
+        </ThermalZones>
+        <CoolingDevices>
+            <CoolingDevice>
+                <Type>Fan_1</Type>
+                <Path>/sys/devices/platform/thinkpad_hwmon/pwm1</Path>
+                <MinState>37</MinState>
+                <IncDecStep>37</IncDecStep>
+                <ReadBack> 0 </ReadBack>
+                <MaxState>112</MaxState>
+                <DebouncePeriod>5</DebouncePeriod>
+            </CoolingDevice>
+            <CoolingDevice>
+                <Type>Fan_2</Type>
+                <Path>/sys/devices/platform/thinkpad_hwmon/pwm1</Path>
+                <MinState>112</MinState>
+                <IncDecStep>37</IncDecStep>
+                <ReadBack> 0 </ReadBack>
+                <MaxState>149</MaxState>
+                <DebouncePeriod>5</DebouncePeriod>
+            </CoolingDevice>
+            <CoolingDevice>
+                <Type>Fan_3</Type>
+                <Path>/sys/devices/platform/thinkpad_hwmon/pwm1</Path>
+                <MinState>149</MinState>
+                <IncDecStep>37</IncDecStep>
+                <ReadBack> 0 </ReadBack>
+                <MaxState>223</MaxState>
+                <DebouncePeriod>5</DebouncePeriod>
+            </CoolingDevice>
+        </CoolingDevices>
+    </Platform>
+</ThermalConfiguration>
+<!-- END -->

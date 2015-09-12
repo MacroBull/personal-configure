@@ -1,0 +1,9 @@
+[OBS-home:MargueriteSu]
+name=home:MargueriteSu
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/repositories/home:/MargueriteSu/openSUSE_Tumbleweed/
+path=/
+type=rpm-md
+priority=84
+keeppackages=1

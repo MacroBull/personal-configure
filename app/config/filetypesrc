@@ -1,0 +1,4 @@
+[EmbedSettings]
+embed-multipart=false
+embed-text=true
+embed-text/x-csrc=true

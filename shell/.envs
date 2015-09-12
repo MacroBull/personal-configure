@@ -1,0 +1,107 @@
+#! /bin/bash
+umask 066
+
+#### Macrobull's IMPORTANT!!! ####
+source /opt/FLEXnet/env.sh
+
+export TERM=xterm-256color
+
+source /home/macrobull/workspace/lib-macrobull/python/pythonenv 
+
+# export LIBGL_DRI3_DISABLE=1
+
+export EVERNOTEHOST="app.yinxiang.com"
+# export EVERNOTEHOST="www.evernote.com"
+
+###### WPS ###########
+export XMODIFIERS=@im=fcitx
+export QT_IM_MODULE=fcitx
+#export QT_MODULE=fcitx
+
+#### TeX ####
+TEXMFHOME=$HOME/.local/share/texmf
+export TEXMFHOME
+# export TEXMFCONFIG=$HOMETEXMF
+
+
+
+# TEXINPUTS=/usr/share/texmf/tex
+TEXINPUTS+=:$HOME/Templates/Tex
+
+export TEXINPUTS
+
+##### Go lang env #### 
+
+# export $GOROOT=/usr/lib64/go
+# export GOBIN=$GOROOT/bin
+export GOBIN=/usr/bin
+export GOARCH=amd64
+export GOOS=linux
+export GOMAXPROCS=4
+
+#### Qt ####
+
+# export QT_STYLE_OVERRIDE=breeze
+
+
+JAVA_HOME=/usr/lib64/jvm/java-openjdk
+
+
+
+################### Intel ###########################
+
+load_intel_sdk (){
+
+	# source ~/.intel_sdk_vars
+
+	source /opt/intel/composerxe/bin/compilervars.sh intel64
+	source /opt/intel/impi_latest/bin64/mpivars.sh
+
+
+	CPATH+=:/opt/intel/impi_latest/include64
+	CPATH+=:/opt/intel/ipp/include
+	CPATH+=:/opt/intel/opencl-sdk/include
+	export CPATH
+
+	LD_LIBRARY_PATH+=:/opt/intel/opencl/lib64
+	export LD_LIBRARY_PATH
+
+	PATH+=:/opt/intel/opencl-sdk/bin
+	export PATH
+}
+
+#export -f load_intel_sdk
+
+################## OpenCV ################
+
+export OPENCV_OPENCL_DEVICE=':GPU:'
+
+
+######## Cadence SPB #################
+#Cadence SPB environment
+
+# export CDS_AUTO_64BIT ALL
+# export CDS_INST_DIR=/opt/Cadence/SPB166
+# # export CDS_LIC_FILE=/home/macrobull/.license/cadence/spb-eth0.lic
+# export CDS_LIC_FILE="5280@Macrobull-x230"
+# export CDS_DIR=$CDS_INST_DIR
+# export CONCEPT_INST_DIR=$CDS_DIR
+# export CDS_SITE=$CDS_DIR/share/local/
+# export CDSDOC_PROJECT=$CDS_INST_DIR/doc
+# 
+# LD_LIBRARY_PATH+=:$CDS_INST_DIR/tools/lib:$CDS_INST_DIR/tools.lnx86/mainwin520/mw/lib-linux_optimized/
+# PATH+=:$CDS_INST_DIR/tools/jre/bin:$CONCEPT_INST_DIR/tools/bin:$CONCEPT_INST_DIR/tools/pcb/bin:$CONCEPT_INST_DIR/tools/fet/bin 
+# 
+# export LD_LIBRARY_PATH
+# export PATH
+
+#### misc ####
+
+# export EDITOR=/usr/bin/kate
+
+############## CFLAGS ################
+
+export CC=clang
+export CXX=clang++
+
+source ~/.ccconfig

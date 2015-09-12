@@ -1,0 +1,47 @@
+[Colors]
+CurrentPalette=* Custom Colors *
+
+[ConfigDialog]
+Height 768=249
+Width 1366=402
+
+[DownloadDialog Settings]
+Height 1080=400
+Height 768=400
+Width 1366=700
+Width 1920=700
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KFileDialog Settings]
+Height 1080=600
+Height 768=420
+Recent Files[$e]=/media/data/GRUB_BG/grub-bg.jpg,$HOME/Downloads/New/compass-icon-theme-1.3.1.tar.gz,$HOME/Application/bin/yakuake-session,/media/data/GRUB_BG/grub-bg.png
+Recent URLs[$e]=/media/data/GRUB_BG/,$HOME/Application/bin/,$HOME/Downloads/New/
+Width 1366=683
+Width 1920=960
+
+[Main]
+ActiveView=classic_mode
+
+[MainWindow]
+Height 1080=636
+Height 768=769
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABRAAAALGAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1367
+Width 1920=1005
+
+[Notification Messages]
+FontSettingsChanged=false
+GRUBFullscreenPreview=false
+
+[Open-with settings]
+CompletionMode=5
+History=/home/macrobull/Application/bin/yakuake-session
+
+[classic_mode]
+autoExpandOneLevel=false
+viewLayout=258,1037

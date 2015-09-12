@@ -1,0 +1,98 @@
+# Window specifications
+own_window yes
+own_window_colour 2D2D2D
+own_window_argb_visual yes
+# own_window_argb_value 180
+own_window_type normal
+# own_window_type panel
+# own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+# own_window_transparent yes
+
+# Graphic
+double_buffer yes
+draw_borders no
+no_buffers yes
+background yes
+update_interval 5
+imlib_cache_size 0
+
+# Layout
+# maximum_width 250
+minimum_size 250
+
+# Alignment #
+alignment top_right
+gap_x 10
+gap_y 30
+border_inner_margin 10
+border_outer_margin 0
+border_width 0
+
+# Graph
+draw_graph_borders no
+draw_shades yes
+# show_graph_range yes
+# show_graph_scale yes
+# stippled_borders yes
+
+# Text
+# draw_outline yes
+draw_shades yes
+format_human_readable yes
+override_utf8_locale yes
+short_units yes
+temperature_unit celsius
+use_xft yes
+xftalpha 1
+xftfont Roboto Condensed:size=9
+
+# Color scheme #
+default_color DCDCDC
+
+color1 42C8E6
+color2 A4D443
+color3 FF6FBC
+color4 16F3AD
+color5 CE5A5A
+color6 AAAAAA
+color7 484848
+
+cpu_avg_samples 4
+diskio_avg_samples 4
+
+default_bar_size 2 2
+default_gauge_size 8 8
+default_graph_size 8 8
+
+default_outline_color 2D2D2D
+default_shade_color 2D2D2D
+default_outline_color 2D2D2D
+
+lua_load ~/.conky.lua
+
+TEXT
+${execi 900 curl "https://weather.yahooapis.com/forecastrss?w=2132574&u=c" -o /tmp/weather.xml}${font Roboto Condensed:size=12}${execi 900 grep "yweather:location" /tmp/weather.xml | grep -o "city=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}, ${execi 900 grep "yweather:location" /tmp/weather.xml | grep -o "country=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}${font}
+${if_existing /tmp/cover}${font Roboto Condensed:size=36}${alignr}${execi 900 grep "yweather:condition" /tmp/weather.xml | grep -o "temp=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}°${font}
+${image /tmp/cover -p 165,85 -s 80x80}
+${else}${font Roboto Condensed:size=48}${alignr}${execi 900 grep "yweather:condition" /tmp/weather.xml | grep -o "temp=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}°${font}
+${endif}${execi 900 cp -f ~/.weathericons/$(grep "yweather:condition" /tmp/weather.xml | grep -o "code=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*").png ~/.cache/weather.png}${image ~/.cache/weather.png -p 0,45 -s 60x60}
+${execi 900 grep "yweather:condition" /tmp/weather.xml | grep -o "text=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}
+${color6}${execi 900 grep "yweather:wind" /tmp/weather.xml | grep -o "speed=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}${execi 900 grep "yweather:units" /tmp/weather.xml | grep -o "speed=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}${color}
+${execi 900 cp -f ~/.weathericons/$(grep "yweather:forecast" /tmp/weather.xml | grep -o "code=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | head -n1).png ~/.cache/weather-today.png}${image ~/.cache/weather-today.png -p 0,175 -s 30x30}${execi 900 cp -f ~/.weathericons/$(grep "yweather:forecast" /tmp/weather.xml | grep -o "code=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | head -n2 | tail -n1).png ~/.cache/weather-tomorrow.png}${image ~/.cache/weather-tomorrow.png -p 130,175 -s 30x30}
+${goto 60}${execi 900 grep "yweather:forecast" /tmp/weather.xml | grep -o "day=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | head -n1}${goto 190}${execi 900 grep "yweather:forecast" /tmp/weather.xml | grep -o "day=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | head -n2 | tail -n1}
+${goto 60}${execi 900 grep "yweather:forecast" /tmp/weather.xml | grep -o "high=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | head -n1}° ${color6}${execi 900 grep "yweather:forecast" /tmp/weather.xml | grep -o "low=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | head -n1}°${color}${goto 190}${execi 900 grep "yweather:forecast" /tmp/weather.xml | grep -o "high=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | head -n2 | tail -n1}° ${color6}${execi 900 grep "yweather:forecast" /tmp/weather.xml | grep -o "low=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | head -n2 | tail -n1}°${color}${voffset 15}
+${if_existing /proc/net/route wlp3s0}\
+${color7}${hr}${color}
+${color1}Up:${color} ${color2}${upspeed wlp3s0}${color}${alignr}${color1}Down:${color} ${color2}${downspeed wlp3s0}${color}
+${upspeedgraph wlp3s0 25,120 E8842B E8842B}${alignr}${downspeedgraph wlp3s0 25,120 E8842B E8842B}
+${endif}\
+CPU: ${color3}${cpu cpu0}%${color}/${freq_g}GHz\
+${alignr}\
+GPU: ${color4}${lua gpu_rc6_load}%${color}/${lua gpu_freq_load}MHz
+${cpugraph 0 33,120 255885 FF6FBC -t}${alignr}${lua_graph gpu_load 33,120 255885 16F3AD 100 -t}
+SYSTEM INFO		${hr}
+Up-Down Time:$alignr$uptime/$battery_time
+Battery:$alignr$battery_percent%/${exec echo `cat /sys/class/power_supply/BAT0/power_now`/1000000 |bc}W
+Temperature:$alignr$acpitemp°/${exec cat /sys/devices/platform/thinkpad_hwmon/fan1_input}rpm
+RAM Usage:$alignr$mem/$cached/$swap

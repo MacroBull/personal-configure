@@ -1,0 +1,11 @@
+[showfps]
+Value=true
+
+[sleep]
+Value=3
+
+[speed]
+Value=0
+
+[tile]
+Value=0

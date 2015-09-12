@@ -1,0 +1,14 @@
+[delay]
+Value=5
+
+[delay2]
+Value=1
+
+[density]
+Value=13
+
+[seeds]
+Value=20
+
+[showfps]
+Value=true

@@ -1,0 +1,12 @@
+<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
+<kpartgui version="5" name="KDevDocumentSwitcher">
+ <MenuBar>
+  <Menu name="navigation">
+   <Action group="navigation_file" name="last_used_views_forward"/>
+   <Action group="navigation_file" name="last_used_views_backward"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+ <ActionProperties scheme="Macrobull"/>
+ <ActionProperties scheme="test"/>
+</kpartgui>

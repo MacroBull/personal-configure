@@ -1,0 +1,9 @@
+#! /bin/bash
+killall lmgrd mgcld
+eth0mock
+export WDIR=/home/macrobull/workspace/EDA
+export LM_LICENSE_FILE="$LICENCE_FOLDER/mentor/float-eth0.dat"
+lmgrd -c
+chmod -R +w /home/macrobull/Documents/Study/GP/EE/
+chmod -R +w /home/macrobull/workspace/EDA/
+/opt/mentor/2007.7EE/SDD_HOME/common/linux/bin/dash

@@ -1,0 +1,14 @@
+[blursize]
+Value=29
+
+[delay]
+Value=0
+
+[rotation]
+Value=7
+
+[showfps]
+Value=true
+
+[wander]
+Value=true

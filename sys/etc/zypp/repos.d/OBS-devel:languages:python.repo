@@ -1,0 +1,9 @@
+[OBS-devel:languages:python]
+name=OBS-devel:languages:python
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/repositories/devel:/languages:/python/openSUSE_Tumbleweed/
+path=/
+type=rpm-md
+priority=12
+keeppackages=1

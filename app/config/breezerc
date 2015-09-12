@@ -1,0 +1,13 @@
+[Common]
+ShadowSize=32
+ShadowStrength=115
+
+[Style]
+DockWidgetDrawFrame=true
+MenuItemDrawStrongFocus=false
+MnemonicsMode=MN_ALWAYS
+ScrollBarAddLineButtons=2
+SidePanelDrawFrame=true
+
+[Windeco]
+ButtonSize=ButtonSmall

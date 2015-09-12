@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=downlist
+MimeType=text/downlist;
+Name=downlist
+NoDisplay=true
+Type=Application

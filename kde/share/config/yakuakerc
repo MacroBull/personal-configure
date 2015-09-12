@@ -1,0 +1,37 @@
+[$Version]
+update_info=yakuake.upd:2.9.9-startupnotification
+
+[Animation]
+Frames=10
+
+[Appearance]
+Skin=breeze_dark
+SkinInstalledWithKns=true
+TerminalHighlightOnManualActivation=true
+
+[Colors]
+CurrentPalette=Forty Colors
+
+[Desktop Entry]
+DefaultProfile=Reimu.profile
+
+[Dialogs]
+FirstRun=false
+
+[DownloadDialog Settings]
+Height 768=400
+Width 1366=700
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+Height 768=737
+Recent Files[$e]=きんたろ - 神の武器を手に入れし巫女 (18697741@10009)[ %23東方 博麗霊夢 ガーレ 透明感 楽園の素敵な巫女 東方無問題 エルシャダイ 紅白 ]{Photoshop SAI}(Alpha3-SP).xcf,$HOME/Images/Wallpaper/AlphaConsole/きんたろ - 神の武器を手に入れし巫女 (18697741@10009)[ %23東方 博麗霊夢 ガーレ 透明感 楽園の素敵な巫女 東方無問題 エルシャダイ 紅白 ]{Photoshop SAI}(Alpha3-SP).xcf
+Recent URLs[$e]=$HOME/Images/Wallpaper/AlphaConsole/
+Width 1366=1306
+
+[Window]
+DynamicTabTitles=true
+Height=90
+KeepOpen=false

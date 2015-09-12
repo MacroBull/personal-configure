@@ -1,0 +1,17 @@
+[count]
+Value=25
+
+[cycles]
+Value=40
+
+[delay]
+Value=0
+
+[showfps]
+Value=true
+
+[spinspeed]
+Value=5.017
+
+[wire]
+Value=false

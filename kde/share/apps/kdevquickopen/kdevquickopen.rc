@@ -1,0 +1,28 @@
+<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
+<kpartgui version="9" name="KDevQuickopen">
+ <MenuBar>
+  <Menu name="navigation">
+   <Action group="navigation_code" name="quick_open"/>
+   <Action group="navigation_code" name="quick_open_file"/>
+   <Action group="navigation_code" name="quick_open_class"/>
+   <Action group="navigation_code" name="quick_open_function"/>
+   <Action group="navigation_code" name="quick_open_already_open"/>
+   <Action group="navigation_code" name="quick_open_navigate"/>
+   <Action group="navigation_fxn" name="quick_open_prev_function"/>
+   <Action group="navigation_fxn" name="quick_open_next_function"/>
+   <Action group="navigation_fxn" name="quick_open_outline"/>
+   <Action group="navigation_jmp" name="quick_open_jump_declaration"/>
+   <Action group="navigation_jmp" name="quick_open_jump_definition"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar name="quickOpenToolBar">
+  <text>Quick Open Toolbar</text>
+  <Separator/>
+  <Action name="quick_open_line"/>
+  <Separator/>
+  <WeakSeparator/>
+ </ToolBar>
+ <ActionProperties scheme="Default"/>
+ <ActionProperties scheme="Macrobull"/>
+ <ActionProperties scheme="test"/>
+</kpartgui>

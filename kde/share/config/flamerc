@@ -1,0 +1,17 @@
+[delay]
+Value=0
+
+[delay2]
+Value=2543119
+
+[iterations]
+Value=70
+
+[ncolors]
+Value=255
+
+[points]
+Value=10000
+
+[showfps]
+Value=true

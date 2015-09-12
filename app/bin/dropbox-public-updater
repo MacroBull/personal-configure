@@ -1,0 +1,3 @@
+#! /bin/sh
+alias update_db="dropbox-index -R -T ~/Dropbox/Public/macrobull.0.html -J i ~/Dropbox/Public/"
+while [ 1 ]; do echo "[" `date`"]Performing index updating..."; update_db ; echo "[" `date`"]Done!"; sleep 1200 ; done

@@ -1,0 +1,15 @@
+<!DOCTYPE kpartgui>
+<kpartgui version="3" name="kdevsourceformatter">
+ <MenuBar>
+  <Menu name="edit">
+   <Text context="@title:menu">Edit</Text>
+   <Action group="edit_formatting" name="edit_reformat_source"/>
+   <Action group="edit_formatting" name="edit_reformat_line"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+ <ActionProperties scheme="Macrobull">
+  <Action shortcut="Ctrl+`" name="edit_reformat_source"/>
+ </ActionProperties>
+ <ActionProperties scheme="test"/>
+</kpartgui>

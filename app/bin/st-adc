@@ -1,0 +1,95 @@
+#! /usr/bin/env python3
+
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 22 17:14:40 2015
+Project	:Python-Project
+Version	:0.0.1
+@author	:macrobull (http://github.com/macrobull)
+
+"""
+
+
+#addr[0] = 0x4001244C; // ADC1->DR
+#addr[1] = 0x4001284C
+
+
+from macrobull.dynamicPlot import dynamicFigure, average
+from macrobull.stlink.stream import Source
+from macrobull.misc import mplTheme
+
+
+#mplTheme("none")
+
+df=dynamicFigure(updateInterval=40,screenLen=0.1)
+s = Source()
+
+
+s.addRequest(0x40010C0C, 2)  # GPIOB->ODR
+#s.addRequest(0x4001244C, 2)  # ADC1
+
+s.addRequest(0x20000110, 2, 10)  # current
+#s.addRequest(0x2000011c, 2, 5)  # EMF
+s.addRequest(0x20000114, 2, 5, -1)  # pEMF
+
+
+def keep_constant():
+#	df.ylim[211] = (0, 6)
+#	df.ylim[212] = (1500,2500)
+#	df.ylim[212] = (1000,4000)
+	df.ylim[212] = (1000,3000)
+	return True
+#	pass
+
+def update(fs):
+	p0 = []
+	p1 = []
+	p4 = []
+	adc1 = []
+
+	iv = [[], [], [], [], [], [], [], [], [], []]
+	ev = [[], [], [], [], []]
+	vv = [[], [], [], [], []]
+
+	for i in range(100):
+#	for i in range(300):
+		data = s.poll()
+
+		db = data[0]
+		p0 += [((byte >> 2) & 1) for byte in db]
+		p1 += [2 + ((byte >> 3) & 1) for byte in db]
+		p4 += [4 + ((byte >> 6) & 1) for byte in db]
+
+#		adc1 += data[1]
+
+		for i, d in enumerate(data[1]):
+			if d>0: iv[i].append(d)
+
+#		for i, d in enumerate(data[2]):
+#			if d>0: ev[i].append(d)
+
+		for i, d in enumerate(data[2]):
+			vv[i].append(d)
+
+	df.appendData(p0,'EN0',311)
+#	df.appendData(p1,'EN1',211)
+#	df.appendData(p4,'EN4',211)
+	#df.appendData(adc2,'ADC',212
+
+#	for i, d in enumerate(iv):
+#		df.appendData(d, 'IV' + str(i), 212)
+
+#	for i, d in enumerate(vv):
+##		df.appendData(d, 'VV' + str(i), 212)
+#		df.appendData(d, 'PV' + str(i), 212)
+#
+	df.appendData(iv[0], 'IV0' , 312)
+#	df.appendData(iv[1], 'IV1' , 212)
+#	df.appendData(ev[0], 'EV0' , 211)
+	df.appendData(vv[0], 'PV0' , 313)
+#	df.appendData(vv[1], 'PV1' , 212)
+
+#df.newYLim = keep_constant
+df.newData=update
+
+df.run()

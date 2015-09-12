@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=mupdf
+MimeType=application/pdf;
+Name=mupdf
+NoDisplay=true
+Icon=application-pdf
+Type=Application

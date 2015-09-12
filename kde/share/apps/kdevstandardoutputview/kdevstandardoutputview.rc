@@ -1,0 +1,13 @@
+<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
+<kpartgui version="6" name="kdevstandardoutputview">
+ <MenuBar>
+  <Menu name="navigation">
+   <Text context="@title:menu">Navigation</Text>
+   <Action name="prev_error"/>
+   <Action name="next_error"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+ <ActionProperties scheme="Macrobull"/>
+ <ActionProperties scheme="test"/>
+</kpartgui>

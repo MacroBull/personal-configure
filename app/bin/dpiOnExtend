@@ -1,0 +1,3 @@
+xrandr --output LVDS1 --dpi 125
+xrandr --output HDMI1 --dpi 96
+xrandr --output VGA1 --dpi 300

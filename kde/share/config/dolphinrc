@@ -1,0 +1,54 @@
+[CompactMode]
+FontWeight=25
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[DetailsMode]
+FontWeight=25
+IconSize=48
+PreviewSize=32
+
+[DownloadDialog Settings]
+Height 768=737
+Width 1366=1306
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+AutoExpandFolders=true
+BrowseThroughArchives=true
+ConfirmClosingMultipleTabs=false
+ShowSpaceInfo=true
+ShowToolTips=true
+Version=200
+ViewPropsTimestamp=2015,8,15,16,12,13
+
+[IconsMode]
+FontWeight=25
+PreviewSize=112
+
+[KPropertiesDialog]
+Height 768=458
+Width 1366=441
+
+[MainWindow]
+Height 1080=1049
+Height 768=769
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACtAAACu/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAmAAAAlAAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAACuwAAAFABAAADAAAAAQAAAP0AAAK7/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACYAAAK7AAAACgEAAAMAAAADAAAFGgAAATz8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAFGgAAAAoBAAADAAAEbAAAArsAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=1367
+Width 1920=957
+
+[Open-with settings]
+CompletionMode=5
+History=okteta,ark,kate,gwenview,photoqt,mpv,konqueror
+
+[PreviewSettings]
+Plugins=desktopthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,svgthumbnail
+
+[SettingsDialog]
+Height 768=691
+Width 1366=1058

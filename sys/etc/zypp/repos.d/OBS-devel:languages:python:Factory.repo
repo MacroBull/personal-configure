@@ -1,0 +1,8 @@
+[OBS-devel:languages:python:Factory]
+name=OBS-devel:languages:python:Factory
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/repositories/devel:/languages:/python:/Factory/openSUSE_Tumbleweed/
+type=rpm-md
+priority=36
+keeppackages=1

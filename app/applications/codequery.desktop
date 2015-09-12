@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=CodeQuery
+GenericName=Code viewer
+Comment=
+Exec=codequery
+Icon=codequery.png
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;
+# MimeType=text/md;text/markdown;text/mkd

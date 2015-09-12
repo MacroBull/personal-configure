@@ -1,0 +1,6 @@
+<kpartgui version="1" name="kdevcppsupport">
+  <ActionProperties>
+    <Action shortcut="Ctrl+U" name="code_rename_declaration"/>
+    <Action shortcut="F2" name="code_move_definition"/>
+  </ActionProperties>
+</kpartgui>

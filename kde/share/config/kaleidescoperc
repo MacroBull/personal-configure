@@ -1,0 +1,14 @@
+[delay]
+Value=0
+
+[nsegments]
+Value=7
+
+[ntrails]
+Value=100
+
+[showfps]
+Value=true
+
+[symmetry]
+Value=7

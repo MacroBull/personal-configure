@@ -1,0 +1,8 @@
+[delay]
+Value=0
+
+[showfps]
+Value=true
+
+[wire]
+Value=false

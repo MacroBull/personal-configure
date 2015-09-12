@@ -1,0 +1,11 @@
+[delay]
+Value=0
+
+[ncolors]
+Value=255
+
+[showfps]
+Value=true
+
+[thickness]
+Value=2

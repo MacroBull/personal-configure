@@ -1,0 +1,9 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+LockGrace=30
+
+[Greeter]
+Theme=org.openSUSE.desktop
+ThemeBackground=/boot/grub2/themes/macrobull/bg.png

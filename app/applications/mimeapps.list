@@ -1,0 +1,38 @@
+[Added Associations]
+application/json=org.kde.kate.desktop;iccexamin.desktop;kde4-okularApplication_txt.desktop;
+application/node-webkit=node-webkit.desktop;
+application/x-cue=mpv.desktop;flacon.desktop;kde4-kate.desktop;
+application/x-kicad-project=kicad.desktop;
+application/x-wine-extension-ini=kde4-kate.desktop;
+application/zip=kde4-ark.desktop;peazip.desktop;node-webkit-zip.desktop;
+image/gif=photoqt.desktop;kde4-gwenview.desktop;kde4-okularApplication_kimgio.desktop;nomacs.desktop;feh.desktop;kde4-kolourpaint.desktop;gimp.desktop;kde4-showfoto.desktop;
+image/jpeg=photoqt.desktop;kde4-gwenview.desktop;kde4-okularApplication_kimgio.desktop;nomacs.desktop;wePixiv.desktop;iccexamin.desktop;feh.desktop;kde4-kolourpaint.desktop;gimp.desktop;darktable.desktop;kde4-showfoto.desktop;kde4-krita_jpeg.desktop;
+image/png=photoqt.desktop;kde4-gwenview.desktop;kde4-okularApplication_kimgio.desktop;nomacs.desktop;wePixiv.desktop;kde4-krita_png.desktop;iccexamin.desktop;feh.desktop;kde4-kolourpaint.desktop;gimp.desktop;darktable.desktop;kde4-showfoto.desktop;
+inode/directory=kde4-dolphin.desktop;
+text/downlist=downlist.desktop;kde4-kate.desktop;
+text/html=google-chrome.desktop;
+text/qtproject=qtcreator.desktop;kde4-kate.desktop;
+text/x-c++hdr=kde4-kate.desktop;qtcreator.desktop;DigiaQt-qtcreator-community.desktop;writer.desktop;kde4-author.desktop;kde4-okularApplication_txt.desktop;atom.desktop;aegisub.desktop;diffuse.desktop;sublime_text.desktop;kde4-calligrawords_ascii.desktop;texmacs.desktop;
+text/x-c++src=kde4-kate.desktop;qtcreator.desktop;DigiaQt-qtcreator-community.desktop;writer.desktop;kde4-author.desktop;kde4-okularApplication_txt.desktop;atom.desktop;aegisub.desktop;diffuse.desktop;sublime_text.desktop;kde4-calligrawords_ascii.desktop;texmacs.desktop;
+text/x-qml=QML2.desktop;qtcreator.desktop;DigiaQt-qtcreator-community.desktop;kde4-kate.desktop;writer.desktop;kde4-author.desktop;kde4-okularApplication_txt.desktop;atom.desktop;aegisub.desktop;diffuse.desktop;sublime_text.desktop;kde4-calligrawords_ascii.desktop;texmacs.desktop;
+video/mp4=mpv.desktop;QMPlay2_enqueue.desktop;QMPlay2.desktop;
+video/x-flv=mpv.desktop;QMPlay2_enqueue.desktop;QMPlay2.desktop;
+video/x-ms-wmv=mpv.desktop;QMPlay2.desktop;kde4-amarok_containers.desktop;clementine.desktop;mu.desktop;QMPlay2_enqueue.desktop;
+video/x-msvideo=mpv.desktop;QMPlay2_enqueue.desktop;QMPlay2.desktop;
+x-scheme-handler/tg=telegramdesktop.desktop
+
+[Default Applications]
+application/json=org.kde.kate.desktop;
+text/html=google-chrome.desktop
+video/mp4=mpv.desktop;
+video/x-flv=mpv.desktop;
+video/x-ms-wmv=mpv.desktop;
+video/x-msvideo=mpv.desktop;
+x-scheme-handler/tg=telegramdesktop.desktop
+
+[Removed Associations]
+application/node-webkit=nw.desktop;
+application/x-cue=writer.desktop;kde4-author.desktop;kde4-okularApplication_txt.desktop;atom.desktop;aegisub.desktop;komodo-ide-9.desktop;diffuse.desktop;sublime_text.desktop;kde4-calligrawords_ascii.desktop;texmacs.desktop;
+application/x-kicad-project=kde4-kate.desktop;writer.desktop;kde4-author.desktop;kde4-okularApplication_txt.desktop;atom.desktop;aegisub.desktop;diffuse.desktop;sublime_text.desktop;kde4-calligrawords_ascii.desktop;texmacs.desktop;
+text/downlist=writer.desktop;kde4-author.desktop;kde4-okularApplication_txt.desktop;atom.desktop;aegisub.desktop;tea.desktop;diffuse.desktop;sublime_text.desktop;kde4-calligrawords_ascii.desktop;texmacs.desktop;
+text/qtproject=qtcreator-comm.desktop;writer.desktop;kde4-author.desktop;kde4-okularApplication_txt.desktop;atom.desktop;aegisub.desktop;diffuse.desktop;sublime_text.desktop;kde4-calligrawords_ascii.desktop;texmacs.desktop;

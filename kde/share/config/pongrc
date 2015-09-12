@@ -1,0 +1,17 @@
+[clock]
+Value=false
+
+[noise]
+Value=0.05
+
+[showfps]
+Value=true
+
+[speed]
+Value=1
+
+[tvbrightness]
+Value=150
+
+[tvcontrast]
+Value=1000

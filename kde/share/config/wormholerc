@@ -1,0 +1,11 @@
+[delay]
+Value=0
+
+[showfps]
+Value=true
+
+[stars]
+Value=10
+
+[zspeed]
+Value=30

@@ -1,0 +1,6 @@
+[Dolphin]
+GroupedSorting=true
+Timestamp=2015,9,12,23,37,54
+Version=3
+ViewMode=1
+VisibleRoles=Details_text,Details_size,Details_date,Details_imageSize,CustomizedDetails

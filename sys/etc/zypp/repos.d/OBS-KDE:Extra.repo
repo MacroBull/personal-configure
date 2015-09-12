@@ -1,0 +1,8 @@
+[OBS-KDE:Extra]
+name=OBS-KDE:Extra
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/repositories/KDE:/Extra/openSUSE_Tumbleweed/
+type=rpm-md
+priority=36
+keeppackages=1

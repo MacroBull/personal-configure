@@ -1,0 +1,9 @@
+[OBS-home:oojah:mqtt]
+name=OBS-home:oojah:mqtt
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/repositories/home:/oojah:/mqtt/openSUSE_Tumbleweed/
+path=/
+type=rpm-md
+priority=33
+keeppackages=1

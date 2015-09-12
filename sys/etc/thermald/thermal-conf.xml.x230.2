@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!--
+use "man thermal-conf.xml" for details
+-->
+<!-- BEGIN -->
+<ThermalConfiguration>
+  
+  
+    <Platform>
+	<Name>Lenovo_ThinkPad_X230</Name>
+	<UUID>*</UUID>
+	<ProductName>*</ProductName>
+	<Preference>Cool</Preference>
+	<ThermalZones>
+		<ThermalZone>
+			<Type>General</Type>
+			<TripPoints>
+				
+				<TripPoint>
+					<SensorType>acpitz</SensorType>
+					<Temperature>55000</Temperature>
+					<type>passive</type>
+					<ControlType>SEQUENTIAL</ControlType>
+					<CoolingDevice>
+						<index>1</index>
+						<type>CPU_fan_fast</type>
+						<influence>100</influence>
+						<SamplingPeriod>12</SamplingPeriod>
+					</CoolingDevice>
+				</TripPoint>
+				
+				<TripPoint>
+					<SensorType>acpitz</SensorType>
+					<Temperature>65000</Temperature>
+					<type>passive</type>
+					<ControlType>SEQUENTIAL</ControlType>
+					<CoolingDevice>
+						<index>1</index>
+						<type>CPU_fan_disengaged</type>
+						<influence>100</influence>
+						<SamplingPeriod>10</SamplingPeriod>
+					</CoolingDevice>
+				</TripPoint>
+				
+			</TripPoints>
+		</ThermalZone>
+	</ThermalZones>
+	<CoolingDevices>
+		
+		<CoolingDevice>
+			<Type>CPU_fan_fast</Type>
+			<Path>/sys/devices/platform/thinkpad_hwmon/pwm1</Path>
+			<MinState>0</MinState>
+			<IncDecStep>36.57143</IncDecStep>
+			<ReadBack>0</ReadBack>
+			<MaxState>255</MaxState>
+			<PidControl>
+				<kp>0.002</kp>
+				<kd>0.04</kd>
+				<ki>0.00003</ki>
+			</PidControl>
+		</CoolingDevice>
+		
+		<CoolingDevice>		
+			<Type>CPU_fan_disengaged</Type>
+			<Path>/sys/devices/platform/thinkpad_hwmon/pwm1_enable</Path>
+			<MinState>1</MinState>
+			<IncDecStep>0.2</IncDecStep>
+			<ReadBack>0</ReadBack>
+			<MaxState>0</MaxState>
+			<PidControl>
+				<kp>-0.0008</kp>
+				<kd>-0.002</kd>
+				<ki>0.</ki>
+			</PidControl>
+		</CoolingDevice>
+		
+	</CoolingDevices>
+    </Platform>
+  
+
+</ThermalConfiguration>
+<!-- END -->

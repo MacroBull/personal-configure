@@ -1,0 +1,8 @@
+[delay]
+Value=0
+
+[rotate]
+Value=true
+
+[showfps]
+Value=true

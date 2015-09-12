@@ -1,0 +1,11 @@
+[count]
+Value=224
+
+[cycles]
+Value=7147
+
+[delay]
+Value=0
+
+[showfps]
+Value=true

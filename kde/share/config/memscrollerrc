@@ -1,0 +1,11 @@
+[delay]
+Value=0
+
+[drawMode]
+Value=0
+
+[seedMode]
+Value=0
+
+[showfps]
+Value=true

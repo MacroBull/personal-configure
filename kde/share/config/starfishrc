@@ -1,0 +1,17 @@
+[delay]
+Value=0
+
+[duration]
+Value=30
+
+[mode]
+Value=0
+
+[ncolors]
+Value=255
+
+[showfps]
+Value=true
+
+[thickness]
+Value=8

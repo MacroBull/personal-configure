@@ -1,0 +1,9 @@
+[openSUSE-tumbleweed-debug@ZJU]
+name=openSUSE-tumbleweed-debug@ZJU
+enabled=1
+autorefresh=1
+baseurl=http://mirrors.zju.edu.cn/opensuse/factory/repo/debug/
+path=/
+type=yast2
+priority=7
+keeppackages=1

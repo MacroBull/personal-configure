@@ -1,0 +1,41 @@
+Version=1.2
+0::+::__zoomIn
+0::-::__zoomOut
+0::0::__zoomReset
+0::1::__zoomActual
+0::Backspace::__prev
+0::Ctrl++::__zoomIn
+0::Ctrl+-::__zoomOut
+0::Ctrl+0::__rotate0
+0::Ctrl+1::__zoomActual
+0::Ctrl+C::__copy
+0::Ctrl+E::__hideMeta
+0::Ctrl+H::__flipH
+0::Ctrl+M::__move
+0::Ctrl+O::__open
+0::Ctrl+Q::__close
+0::Ctrl+R::__reloadThb
+0::Ctrl+V::__flipV
+0::Ctrl+X::__scale
+0::Delete::__delete
+0::E::__settings
+0::End::__gotoLastThb
+0::Escape::__hide
+0::F2::__rename
+0::Home::__gotoFirstThb
+0::I::__about
+0::L::__rotateL
+0::Left::__prev
+0::M::__slideshow
+0::O::__open
+0::Q::__close
+0::R::__rotateR
+0::Right::__next
+0::S::__stopThb
+0::Shift+M::__slideshowQuick
+0::Space::__next
+0::W::__wallpaper
+0::[M] Ctrl+Middle Button::__zoomReset
+0::[M] Ctrl+Wheel Down::__zoomOut
+0::[M] Ctrl+Wheel Up::__zoomIn
+0::[M] Right Button::__showContext

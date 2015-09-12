@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Autodesk Maya 2015
+Type=Application
+Comment=Run Autodesk Maya 2015
+Categories=Application;Graphics;
+Icon=Maya.png
+Exec=maya
+Encoding=UTF-8

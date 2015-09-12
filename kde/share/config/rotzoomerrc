@@ -1,0 +1,17 @@
+[anim]
+Value=true
+
+[delay]
+Value=0
+
+[duration]
+Value=120
+
+[mode]
+Value=0
+
+[n]
+Value=2
+
+[showfps]
+Value=true

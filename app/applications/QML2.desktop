@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+# Exec=/opt/Qt/Current/gcc_64/bin/qmlscene -I /opt/Qt/Current/gcc_64/qml -I . -I imports %f
+Exec=qmlscene -I . -I imports %f
+GenericName[en_US]=
+GenericName=
+MimeType=text/x-qml;
+Name[en_US]=QML2
+Name=QML2
+NoDisplay=true
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

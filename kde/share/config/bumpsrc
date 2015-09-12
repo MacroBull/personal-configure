@@ -1,0 +1,8 @@
+[delay]
+Value=0
+
+[duration]
+Value=120
+
+[showfps]
+Value=true

@@ -1,0 +1,1 @@
+cd ~/Application/qserterm/repo/build/lin/ && KDE_SESSION_VERSION=0 ./qserterm

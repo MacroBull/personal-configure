@@ -1,0 +1,4 @@
+mkdir /tmp/efi-hdd /tmp/efi-ssd
+sudo mount /dev/sda1 /tmp/efi-hdd
+sudo mount /dev/sda2 /tmp/efi-ssd
+dolphin /tmp/efi-ssd

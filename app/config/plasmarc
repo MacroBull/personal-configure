@@ -1,0 +1,8 @@
+[Theme]
+name=openSUSEdark
+
+[Theme-plasmashell_org.kde.plasma.mediacenter]
+name=breeze-dark
+
+[Theme-plasmathemeexplorer]
+name=breeze-dark

@@ -1,0 +1,60 @@
+#! /usr/bin/python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jan 24 23:19:30 2015
+Project	:Python-Project
+Version	:0.0.1
+@author	:macrobull (http://github.com/macrobull)
+
+"""
+
+import os, sys
+
+PTFILE=os.environ['HOME']+"/temp/pt"
+
+if len(sys.argv) >1: PTFILE += '_last'
+
+from pylab import *
+
+power = []
+cap_g = []
+cap_p = []
+volt = []
+t = []
+
+
+buf = []
+for l in open(PTFILE):
+	buf.append(int(l))
+	if len(buf) == 8:
+		time, power_now, capacity, voltage_now, energy_now, cycle_count, alarm,energy_full = buf
+		buf = []
+		power_now /= 1000000
+		voltage_now /= 1000000
+		energy_now /= 1000000
+		energy_full /= 1000000
+		t.append(time)
+		power.append(power_now)
+		cap_g.append(capacity)
+		cap_p.append(energy_now)
+		volt.append(voltage_now)
+		print(cycle_count, alarm,energy_full)
+
+#cap_p = array(cap_p)
+
+pf = '-'
+if len(t) < 200: pf = 'o'+pf
+
+subplot(311)
+plot(t, power, pf, label="Power", lw = 2.0, alpha = 0.8)
+legend(loc='best')
+subplot(312)
+plot(t, cap_g, pf, label="Capacity(%)", lw = 2.0, alpha = 0.8)
+plot(t, cap_p, pf, label="Capacity(Wh)", lw = 2.0, alpha = 0.8)
+legend(loc='best')
+subplot(313)
+plot(t, volt, pf, label="Voltage", lw = 2.0, alpha = 0.8)
+legend(loc='best')
+
+savefig(os.environ['HOME']+"/temp/pt.png")
+show()

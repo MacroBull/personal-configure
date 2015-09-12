@@ -1,0 +1,12 @@
+#! /bin/bash
+git init
+if [ -z "$1" ]; then
+	exit
+fi
+giPath=$HOME/Application/gitignore/
+gitIgn=`ls $giPath |grep -i $1|head -n 1`
+if [ ! -z "$gitIgn" ]; then
+	echo "[32mInit with $gitIgn[39;49;00m"
+	cp $giPath/$gitIgn .gitignore
+fi
+

@@ -1,0 +1,11 @@
+[delay]
+Value=0
+
+[duration]
+Value=120
+
+[radius]
+Value=217
+
+[showfps]
+Value=true

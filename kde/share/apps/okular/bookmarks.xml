@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" dbusName="okular">
+ <folder href="file:///home/macrobull/tmp/%E5%A5%8B%E6%96%97%E5%BC%80%E5%8F%91%E6%9D%BF%E5%90%84%E7%A7%8D%E9%85%8D%E4%BB%B6%E7%9A%84%E6%96%87%E6%A1%A3/%E5%A5%8B%E6%96%97%E6%9D%BF%E9%85%8D2.4%E5%AF%B8%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%9D%97%E6%96%87%E6%A1%A3/ILI9325DS_V0.40.pdf">
+  <title>/home/macrobull/tmp/奋斗开发板各种配件的文档/奋斗板配2.4寸显示模块文档/ILI9325DS_V0.40.pdf</title>
+  <bookmark href="file:///home/macrobull/tmp/%E5%A5%8B%E6%96%97%E5%BC%80%E5%8F%91%E6%9D%BF%E5%90%84%E7%A7%8D%E9%85%8D%E4%BB%B6%E7%9A%84%E6%96%87%E6%A1%A3/%E5%A5%8B%E6%96%97%E6%9D%BF%E9%85%8D2.4%E5%AF%B8%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%9D%97%E6%96%87%E6%A1%A3/ILI9325DS_V0.40.pdf#69;C2:0.52384:0.549726:1">
+   <title>#70</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-pdf"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="file:///home/macrobull/tmp/%E5%A5%8B%E6%96%97%E5%BC%80%E5%8F%91%E6%9D%BF%E5%90%84%E7%A7%8D%E9%85%8D%E4%BB%B6%E7%9A%84%E6%96%87%E6%A1%A3/%E5%A5%8B%E6%96%97%E6%9D%BF%E9%85%8D2.4%E5%AF%B8%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%9D%97%E6%96%87%E6%A1%A3/ILI9325DS_V0.40.pdf#80;C2:0.465217:0.601573:1">
+   <title>#81</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-pdf"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder href="file:///mnt/fast/misc/%E5%99%A8%E4%BB%B6%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/STM32F101xx%E5%92%8CSTM32F103xx%E5%9B%BA%E4%BB%B6%E5%87%BD%E6%95%B0%E5%BA%93.pdf">
+  <title>/mnt/fast/misc/器件数据手册/STM32F101xx和STM32F103xx固件函数库.pdf</title>
+  <bookmark href="file:///mnt/fast/misc/%E5%99%A8%E4%BB%B6%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/STM32F101xx%E5%92%8CSTM32F103xx%E5%9B%BA%E4%BB%B6%E5%87%BD%E6%95%B0%E5%BA%93.pdf#34;C2:0.499505:0.869657:1">
+   <title>#35</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-pdf"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+</xbel>

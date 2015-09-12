@@ -1,0 +1,72 @@
+#! /bin/bash
+
+TOKEN=`cat ~/.myjar/token/pushbullet`
+URL_PUSH="https://api.pushbullet.com/v2/pushes"
+URL_ME="https://api.pushbullet.com/v2/users/me"
+URL_DEVICES="https://api.pushbullet.com/v2/devices"
+
+get_me(){
+	echo "about:me"
+	curl --header "Authorization: Bearer $TOKEN" 
+}
+
+get_devices(){
+	echo "about:devices"
+	curl --header "Authorization: Bearer $TOKEN" -X GET https://api.pushbullet.com/v2/devices
+}
+
+create_device(){
+	curl --header "Authorization: Bearer $TOKEN" -X POST https://api.pushbullet.com/v2/devices -d nickname=$name -d type=stream
+}
+
+push_note(){
+	echo "push:note"
+	curl --header "Authorization: Bearer $TOKEN" -X POST https://api.pushbullet.com/v2/pushes --header 'Content-Type: application/json' --data-binary "{\"type\": \"note\", \"title\": \"$title\", \"body\": \"$body\"}"
+}
+
+push_link(){
+	echo "push:link"
+	curl --header "Authorization: Bearer $TOKEN" -X POST https://api.pushbullet.com/v2/pushes --header 'Content-Type: application/json' --data-binary "{\"type\": \"link\", \"title\": \"$title\", \"body\": \"$body\", \"url\": \"$url\"}"
+}
+
+push_image(){
+	echo "push:file/image"
+	url=${url##file://}
+	ext=${url##*.}
+	ret=`curl --header "Authorization: Bearer $TOKEN" -X POST https://api.pushbullet.com/v2/upload-request -d file_name=$url -d file_type="image/$ext"`
+	
+# 	l=`expr $ret : '.*{'`
+# 	ll=`expr ${ret:$((l+1))} : '.*{'`
+	ll=`expr $ret : '.*{'`
+	r=`expr $ret : '.*}'`
+	rr=`expr ${ret:$ll:$((r-ll-1))} : '.*}'`
+	
+	upload_url=${ret##*upload_url\":\"}
+	upload_url=${upload_url%%\"*}
+	file_url=${ret##*file_url\":\"}
+	file_url=${file_url%%\"*}
+	
+	params=`echo ${ret:$ll:$((rr-1))} | sed s/:/=/g | sed s/,/" -F "/g | sed s/\"//g `
+	params="-F $params -F file=@$url"
+# 	echo $params
+	curl -X POST $upload_url $params
+	
+	curl --header "Authorization: Bearer $TOKEN" -X POST https://api.pushbullet.com/v2/pushes --header 'Content-Type: application/json' --data-binary "{\"type\": \"file\", \"file_name\": \"$url\", \"file_type\": \"image/$ext\", \"file_url\": \"$file_url\", \"body\": \"$body\"}"
+	
+}
+
+title=$1
+body=$2
+url=$3
+
+expr "$title" : '.*://' && body=$title
+expr "$body" : '.*://' && url=$body
+
+# echo "$title $body $url"
+
+if [[ $url ]]; then
+	expr "$url" : 'file://' && push_image || push_link;
+else
+	push_note;
+fi
+

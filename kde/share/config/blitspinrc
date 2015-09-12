@@ -1,0 +1,11 @@
+[delay]
+Value=1
+
+[delay2]
+Value=300001
+
+[duration]
+Value=120
+
+[showfps]
+Value=true

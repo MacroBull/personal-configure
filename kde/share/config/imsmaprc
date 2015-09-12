@@ -1,0 +1,17 @@
+[delay]
+Value=29
+
+[delay2]
+Value=0
+
+[iterations]
+Value=4
+
+[mode]
+Value=0
+
+[ncolors]
+Value=255
+
+[showfps]
+Value=true

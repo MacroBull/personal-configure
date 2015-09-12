@@ -1,0 +1,24 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+</head>
+<body style="text-align: center; white-space: nowrap; opacity: 1; color: rgba(231, 252, 255, 0.827451); font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Sans Serif';">
+<div>
+
+	<span style="font-size: 30px;"><span component="Hour" options="'alternative': false">12</span>:<span component="Minute">30</span>:<span component="Second">15</span></span><br>
+	<span style="font-size: 18px;"><span component="DayOfWeek" options="'short': true, 'text': true">Sat</span>, <span style="font-size: 18px;"><span component="Month">01</span>-<span component="DayOfMonth">01</span></span>
+</span></div>
+<script type="text/javascript">
+function setupClock()
+{
+	var opacity = Clock.getOption('textOpacity', 85);
+
+	document.body.style.color = Clock.getOption('themeTextColor', Clock.getColor('text'));
+	document.body.style.font = ((Clock.getOption('fontItalic', false) ? 'italic ' : '') + (Clock.getOption('fontBold', false) ? 'bold ' : '') + '12px \'' + Clock.getOption('themeFont', Clock.getFont()) + '\'');
+	document.body.style.opacity = ((opacity == 100) ? '1' : ('0.' + opacity));
+}
+
+document.addEventListener('ClockThemeChanged', setupClock);
+</script>
+
+
+</body></html>

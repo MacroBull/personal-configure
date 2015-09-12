@@ -1,0 +1,11 @@
+[delay]
+Value=21
+
+[ncolors]
+Value=255
+
+[offset]
+Value=50
+
+[showfps]
+Value=true

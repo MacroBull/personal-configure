@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=MyStartups
+Exec=/home/macrobull/Application/bin/startup
+Type=Application
+Terminal=false

@@ -1,0 +1,17 @@
+[colorspeed]
+Value=52
+
+[count]
+Value=9
+
+[delay]
+Value=0
+
+[maxradius]
+Value=0.2011
+
+[minradius]
+Value=0.05
+
+[showfps]
+Value=true

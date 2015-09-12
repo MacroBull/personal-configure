@@ -1,0 +1,17 @@
+[animate]
+Value=true
+
+[count]
+Value=2
+
+[delay]
+Value=0
+
+[mode]
+Value=0
+
+[ncolors]
+Value=231
+
+[showfps]
+Value=true

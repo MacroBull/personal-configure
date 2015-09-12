@@ -1,0 +1,81 @@
+#! /usr/bin/bash
+#### Libary! ####
+
+export LIB_MACROBULL=/home/macrobull/workspace/lib-macrobull
+export LIB_EXTERNAL=/home/macrobull/workspace/lib-external
+
+export LIBMSP430_MACROBULL=$LIB_MACROBULL/msp430
+
+#### Python ####
+
+PYTHONPATH+=:$LIB_MACROBULL/python
+PYTHONPATH+=:$LIB_EXTERNAL/python
+export PYTHONPATH
+
+#### R ####
+
+R_LIBS+=:$LIB_MACROBULL/R
+export R_LIBS
+
+####nodejs####
+
+NODE_PATH=/home/macrobull/Application/NodejsApps/
+PATH+=:$NODE_PATH/bin
+export NODE_PATH
+#export npm_config_prefix=$NODE_PATH
+
+####Qt####
+
+# PATH=/opt/Qt/5.3/gcc_64/bin:$PATH
+# PATH=/opt/Qt/Tools/QtCreator/bin:$PATH
+# PATH+=:/opt/Qt/Tools/QtCreator/bin
+
+# export QMAKESPEC=/usr/lib64/qt5/mkspecs/linux-g++-64/
+export QMAKESPEC=/usr/lib64/qt5/mkspecs/linux-clang/
+
+############ Qt official 
+# export QMAKESPEC=/opt/Qt/5.4/gcc_64/mkspecs/linux-clang
+# alias qmake='/opt/Qt/5.4/gcc_64/bin/qmake'
+
+# QML2_IMPORT_PATH+=/opt/Qt/Current/gcc_64/qml
+QML2_IMPORT_PATH+=:/opt/Qt/5.4/gcc_64/qml
+QML2_IMPORT_PATH+=:$LIB_MACROBULL/qml
+QML2_IMPORT_PATH+=:$LIB_EXTERNAL/qml
+
+export QML2_IMPORT_PATH
+
+QML_IMPORT_PATH=$QML2_IMPORT_PATH
+export QML_IMPORT_PATH
+
+#### Application Paths ####
+
+PATH+=:/sbin:/usr/sbin
+# export JDK_HOME=/opt/oracle/java/current
+# export JAVA_HOME=/opt/oracle/java/current/jre
+
+PATH+=:/opt/FLEXnet/bin
+PATH+=:/home/macrobull/Application/goagent-current/local
+# PATH+=:/opt/ti/ccsv6/eclipse
+# PATH+=:/opt/oracle/java/current/bin
+# PATH+=:/opt/altera/13.0/quartus/bin
+PATH+=:/opt/genymotion
+PATH+=:/opt/sublime_text/sublime_text_2:/opt/sublime_text/sublime_text_3
+PATH+=:/opt/x86_open64-4.5.2.1/bin
+
+export QSYS_ROOTDIR="/opt/altera/QuartusII14.0/quartus/sopc_builder/bin"
+
+# added by Anaconda 2.0.1 installer
+# PATH="$PATH:/opt/anaconda/Anaconda2/bin:/opt/anaconda/Anaconda3/bin"
+
+PATH+=:/home/macrobull/Application/danmaku2ass
+
+
+export MAYA_APP_DIR="$HOME/.config/maya"
+
+
+#### First level overide
+PATH=~/Application/bin:/opt/bin:$PATH
+PATH=~/Application/bin/.hooks:$PATH
+
+export PATH
+

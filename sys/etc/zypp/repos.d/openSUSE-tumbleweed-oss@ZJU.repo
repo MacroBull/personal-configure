@@ -1,0 +1,9 @@
+[openSUSE-tumbleweed-oss@ZJU]
+name=openSUSE-tumbleweed-oss@ZJU
+enabled=1
+autorefresh=1
+baseurl=http://mirrors.zju.edu.cn/opensuse/factory/repo/oss/
+path=/
+type=yast2
+priority=7
+keeppackages=1

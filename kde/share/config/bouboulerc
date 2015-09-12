@@ -1,0 +1,14 @@
+[3d]
+Value=false
+
+[count]
+Value=100
+
+[delay]
+Value=0
+
+[ncolors]
+Value=64
+
+[showfps]
+Value=true

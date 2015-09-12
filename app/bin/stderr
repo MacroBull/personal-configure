@@ -1,0 +1,112 @@
+0xF7579700 0 3  COM_DBG_IF C: N11XPCOMLogger8CoLoggerE::OnEnabledChanged()
+0xF7579700 0 3  XPCOM C: ( (dsISimpleEventCallback*)0x98be600 )->onEvent()
+0xF7579700 0 3  XPCOM C: ( (dsISimpleEvent*)0xc5d60d40 )->removeListener( 0x896f3a0 )
+0xF7579700 0 3  XPCOM R: ( (dsISimpleEvent*)0xc5d60d40 )->removeListener( 0x896f3a0 ) = 0x00000000
+0xF7579700 0 3  XPCOM R: ( (dsISimpleEventCallback*)0x98be600 )->onEvent() = 0x00000000
+0xF7579700 0 3  COM_DBG_IF R: N11XPCOMLogger8CoLoggerE::OnEnabledChanged()
+0xF7579700 0 3  XPCOM R: ( (dsILogger*)0xc5d60d10 )->enable( true ) = 0x00000000
+0xF7579700 0 3  XPCOM C: ( (dsISimpleEvent*)0xc5d60d40 )->addListener( 0x896f3a0 )
+0xF7579700 0 3  XPCOM R: ( (dsISimpleEvent*)0xc5d60d40 )->addListener( 0x896f3a0 ) = 0x00000000
+0xF7579700 0 3  XPCOM C: ( (dsILogger*)0xc5d60d10 )->getLogFile( 0xffb53378 )
+0xF7579700 0 3  XPCOM R: ( (dsILogger*)0xc5d60d10 )->getLogFile( *0xffb53378 = /home/macrobull/Application/bin/stderr ) = 0x00000000
+0xF7579700 0 3  XPCOM C: ( (dsILogger*)0xc5d60d10 )->getLogFile( 0xffb53368 )
+0xF7579700 0 3  XPCOM R: ( (dsILogger*)0xc5d60d10 )->getLogFile( *0xffb53368 = /home/macrobull/Application/bin/stderr ) = 0x00000000
+0xF7579700 0 3  XPCOM C: ( (dsILogger*)0xc5d60d10 )->getLogFile( 0xffb53368 )
+0xF7579700 0 3  XPCOM R: ( (dsILogger*)0xc5d60d10 )->getLogFile( *0xffb53368 = /home/macrobull/Application/bin/stderr ) = 0x00000000
+0xF7579700 0 3  XPCOM C: ( (dsILogger*)0xc5d60d10 )->getLogFile( 0xffb53368 )
+0xF7579700 0 3  XPCOM R: ( (dsILogger*)0xc5d60d10 )->getLogFile( *0xffb53368 = /home/macrobull/Application/bin/stderr ) = 0x00000000
+0xF7579700 0 3  XPCOM C: ( (dsILogger*)0xc5d60d10 )->getLogFile( 0xffb53368 )
+0xF7579700 0 3  XPCOM R: ( (dsILogger*)0xc5d60d10 )->getLogFile( *0xffb53368 = /home/macrobull/Application/bin/stderr ) = 0x00000000
+0xBB21AB40 92917 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB21AB40 92917 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB21AB40 92917 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB21AB40 92917 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB21AB40 92917 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, 0xbb219a28 )
+0xBB21AB40 92921 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, *0xbb219a28 = 0x0037B1D0 ) = 0x00000000
+0xBB21AB40 92921 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( 0xbb219a38 )
+0xBB21AB40 92921 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( *0xbb219a38 = CCSTUDIO6_FREE_LICENSE ) = 0x00000000
+0xBB21AB40 92921 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, 0xbb219a38 )
+0xBB21AB40 92922 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, *0xbb219a38 = false ) = 0x00000000
+0xBB21AB40 92922 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, 0xbb219a38 )
+0xBB21AB40 92922 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, *0xbb219a38 = true ) = 0x00000000
+0xBB21AB40 92922 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, 0xbb219a38 )
+0xBB21AB40 92922 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, *0xbb219a38 = false ) = 0x00000000
+0xB945DB40 96527 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license )
+0xB945DB40 96527 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license ) = 0x00000000
+0xB945DB40 96527 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license )
+0xB945DB40 96527 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license ) = 0x00000000
+0xB945DB40 96527 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, 0xb945caa8 )
+0xB945DB40 96527 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, *0xb945caa8 = 0xFFFFFFFF ) = 0x00000000
+0xB945DB40 96527 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->LastErrorDetails( 0xb945ca98 )
+0xB945DB40 96527 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->LastErrorDetails( *0xb945ca98 = Cannot find license file.
+ The license files (or license server system network addresses) attempted are 
+listed below.  Use LM_LICENSE_FILE to use a different license file,
+ or contact your software provider for a license file.
+Feature:       CCS_DEBUGGER
+Filename:      /home/macrobull/ti/license
+License path:  /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license/*.lic:/home/macrobull/ti/license:
+FLEXnet Licensing error:-1,359.  System Error: 2 "No such file or directory"
+For further information, refer to the FLEXnet Licensing End User Guide,
+available at "www.macrovision.com". ) = 0x00000000
+0xB945DB40 96527 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->HostID( 0xb945ca68 )
+0xB945DB40 96527 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->HostID( *0xb945ca68 = 1234567890ab ) = 0x00000000
+0xB945DB40 96527 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( 0xb945ca68 )
+0xB945DB40 96527 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( *0xb945ca68 = CCSTUDIO6_FREE_LICENSE ) = 0x00000000
+0xBB402B40 96680 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB402B40 96680 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB402B40 96680 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB402B40 96680 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB402B40 96680 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, 0xbb401a38 )
+0xBB402B40 96684 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, *0xbb401a38 = 0x0037B1D0 ) = 0x00000000
+0xBB402B40 96685 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( 0xbb401a38 )
+0xBB402B40 96685 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( *0xbb401a38 = CCSTUDIO6_FREE_LICENSE ) = 0x00000000
+0xBB402B40 96685 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, 0xbb401a48 )
+0xBB402B40 96685 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, *0xbb401a48 = false ) = 0x00000000
+0xBB402B40 96685 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, 0xbb401a48 )
+0xBB402B40 96686 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, *0xbb401a48 = true ) = 0x00000000
+0xBB402B40 96686 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, 0xbb401a48 )
+0xBB402B40 96686 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, *0xbb401a48 = false ) = 0x00000000
+0xBB453B40 115780 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/opt/FLEXnet/license/ti/CCSv5-China-University-Site_License.lic:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB453B40 115781 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/opt/FLEXnet/license/ti/CCSv5-China-University-Site_License.lic:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB453B40 115781 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/opt/FLEXnet/license/ti/CCSv5-China-University-Site_License.lic:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB453B40 115781 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/opt/FLEXnet/license/ti/CCSv5-China-University-Site_License.lic:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB453B40 115781 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, 0xbb452aa8 )
+0xBB453B40 115786 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, *0xbb452aa8 = 0x0037B1D0 ) = 0x00000000
+0xBB453B40 115786 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( 0xbb452ab8 )
+0xBB453B40 115786 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( *0xbb452ab8 = SITE_UNIVERSITY_CHINA ) = 0x00000000
+0xBB453B40 115786 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, 0xbb452ab8 )
+0xBB453B40 115786 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, *0xbb452ab8 = true ) = 0x00000000
+0xBB453B40 115786 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, 0xbb452ab8 )
+0xBB453B40 115787 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, *0xbb452ab8 = true ) = 0x00000000
+0xBB453B40 115787 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, 0xbb452ab8 )
+0xBB453B40 115788 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, *0xbb452ab8 = true ) = 0x00000000
+0xBB127B40 122272 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB127B40 122272 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB127B40 122272 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB127B40 122272 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB127B40 122272 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, 0xbb1268a8 )
+0xBB127B40 122276 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, *0xbb1268a8 = 0x0037B1D0 ) = 0x00000000
+0xBB127B40 122276 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( 0xbb1268b8 )
+0xBB127B40 122276 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( *0xbb1268b8 = CCSTUDIO6_FREE_LICENSE ) = 0x00000000
+0xBB127B40 122276 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, 0xbb1268b8 )
+0xBB127B40 122277 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, *0xbb1268b8 = false ) = 0x00000000
+0xBB127B40 122277 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, 0xbb1268b8 )
+0xBB127B40 122277 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, *0xbb1268b8 = true ) = 0x00000000
+0xBB127B40 122277 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, 0xbb1268b8 )
+0xBB127B40 122277 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, *0xbb1268b8 = false ) = 0x00000000
+0xF7579700 124082 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->HostID( 0xffb53958 )
+0xF7579700 124082 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->HostID( *0xffb53958 = 1234567890ab ) = 0x00000000
+0xBB3B1B40 130777 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/opt/FLEXnet/license/ti/CCSv5-China-University-Site_License.lic:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB3B1B40 130780 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->initialize( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/opt/FLEXnet/license/ti/CCSv5-China-University-Site_License.lic:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB3B1B40 130780 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/opt/FLEXnet/license/ti/CCSv5-China-University-Site_License.lic:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic )
+0xBB3B1B40 130780 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->setLocation( /opt/ti/ccsv6/ccs_base/DebugServer/bin/../license:/home/macrobull/ti/license:/opt/FLEXnet/license/ti/CCSv5-China-University-Site_License.lic:/home/macrobull/.ti/ti/0/TI_CCS_Free_License.lic ) = 0x00000000
+0xBB3B1B40 130780 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, 0xbb3b09a8 )
+0xBB3B1B40 130785 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->acquireLicense( CCS_DEBUGGER, 6.0, *0xbb3b09a8 = 0x0037B1D0 ) = 0x00000000
+0xBB3B1B40 130786 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( 0xbb3b09b8 )
+0xBB3B1B40 130786 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->FulfillmentID( *0xbb3b09b8 = SITE_UNIVERSITY_CHINA ) = 0x00000000
+0xBB3B1B40 130786 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, 0xbb3b09b8 )
+0xBB3B1B40 130786 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_CONNECTION_ALL, *0xbb3b09b8 = true ) = 0x00000000
+0xBB3B1B40 130786 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, 0xbb3b09b8 )
+0xBB3B1B40 130787 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_ISA_ALL, *0xbb3b09b8 = true ) = 0x00000000
+0xBB3B1B40 130787 3  XPCOM C: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, 0xbb3b09b8 )
+0xBB3B1B40 130788 3  XPCOM R: ( (dsIMdex*)0xc8d616c0 )->featureExists( CCS_LINKER_FULL, *0xbb3b09b8 = true ) = 0x00000000

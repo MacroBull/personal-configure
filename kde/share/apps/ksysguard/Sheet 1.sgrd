@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet title="Misc" interval="5" locked="0" rows="3" columns="2">
+ <host port="-1" command="ksysguardd" shell="" name="localhost"/>
+ <display title="Temperature" columnSpan="1" hScale="2" svgBackground="" version="1" max="100" vLines="1" labels="1" manualRange="1" autoRange="1" rowSpan="1" min="45" stacked="0" vDistance="30" vScroll="0" fontSize="8" column="0" unit="" hLines="1" showUnit="0" class="FancyPlotter" row="1">
+  <beam sensorName="acpi/Thermal_Zone/0/Temperature" sensorType="integer" hostName="localhost" color="0xff0057ae"/>
+  <beam sensorName="acpi/Thermal_Zone/1/Temperature" sensorType="integer" hostName="localhost" color="0xffe20800"/>
+  <beam sensorName="lmsensors/coretemp-isa-0000/Core_0" sensorType="float" hostName="localhost" color="0xff00a900"/>
+  <beam sensorName="lmsensors/coretemp-isa-0000/Core_1" sensorType="float" hostName="localhost" color="0xffa9287c"/>
+ </display>
+ <display title="Memory Detail" columnSpan="1" hScale="2" svgBackground="" version="1" vLines="1" labels="1" manualRange="0" autoRange="1" rowSpan="1" stacked="1" vDistance="30" fontSize="8" vScroll="0" column="1" unit="" hLines="1" showUnit="0" class="FancyPlotter" row="0">
+  <beam sensorName="mem/physical/application" sensorType="integer" hostName="localhost" color="0xfff3c300"/>
+  <beam sensorName="mem/physical/cached" sensorType="integer" hostName="localhost" color="0xff00a900"/>
+  <beam sensorName="mem/swap/used" sensorType="integer" hostName="localhost" color="0xffff0004"/>
+ </display>
+ <display title="IO" columnSpan="1" hScale="2" svgBackground="" version="1" vLines="1" labels="1" manualRange="0" autoRange="1" rowSpan="1" stacked="1" vDistance="30" fontSize="8" vScroll="0" column="1" unit="" hLines="1" showUnit="0" class="FancyPlotter" row="1">
+  <beam sensorName="disk/sda_(8:0)/Rate/rblk" sensorType="float" hostName="localhost" color="0xff0057ae"/>
+  <beam sensorName="disk/sda_(8:0)/Rate/wblk" sensorType="float" hostName="localhost" color="0xffe20800"/>
+  <beam sensorName="disk/sdb_(8:16)/Delta/rblk" sensorType="integer" hostName="localhost" color="0xff197ead"/>
+  <beam sensorName="disk/sdb_(8:16)/Delta/wblk" sensorType="integer" hostName="localhost" color="0xffc77721"/>
+ </display>
+ <display title="CPU Freq" columnSpan="1" hScale="2" svgBackground="" version="1" max="3500" vLines="1" labels="1" manualRange="1" autoRange="1" rowSpan="1" min="1000" stacked="0" vDistance="30" vScroll="0" fontSize="8" column="0" unit="" hLines="1" showUnit="0" class="FancyPlotter" row="0">
+  <beam sensorName="cpu/cpu0/clock" sensorType="float" hostName="localhost" color="0xffb7551c"/>
+  <beam sensorName="cpu/cpu3/clock" sensorType="float" hostName="localhost" color="0xff275ba9"/>
+ </display>
+ <display title="Resources" columnSpan="1" hScale="2" svgBackground="" version="1" vLines="1" labels="1" manualRange="0" autoRange="1" rowSpan="1" stacked="0" vDistance="30" fontSize="8" vScroll="0" column="1" unit="" hLines="1" showUnit="0" class="FancyPlotter" row="2">
+  <beam sensorName="cpu/context" sensorType="float" hostName="localhost" color="0xff238843"/>
+  <beam sensorName="cpu/interrupts/int00" sensorType="float" hostName="localhost" color="0xffff0000"/>
+  <beam sensorName="acpi/battery/0/batteryusage" sensorType="integer" hostName="localhost" color="0xffb919bb"/>
+  <beam sensorName="lmsensors/thinkpad-isa-0000/fan1" sensorType="float" hostName="localhost" color="0xff0946ff"/>
+ </display>
+ <display title="Instant Load" columnSpan="1" hScale="2" svgBackground="" version="1" vLines="1" labels="1" manualRange="0" autoRange="1" rowSpan="1" stacked="0" vDistance="30" fontSize="8" vScroll="0" column="0" unit="" hLines="1" showUnit="0" class="FancyPlotter" row="2">
+  <beam sensorName="cpu/system/user" sensorType="float" hostName="localhost" color="0xffe20800"/>
+  <beam sensorName="cpu/system/sys" sensorType="float" hostName="localhost" color="0xfff3c300"/>
+  <beam sensorName="acpi/battery/0/batterycharge" sensorType="integer" hostName="localhost" color="0xff3cb179"/>
+ </display>
+</WorkSheet>

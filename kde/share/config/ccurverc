@@ -1,0 +1,11 @@
+[delay]
+Value=11
+
+[limit]
+Value=170456
+
+[pause]
+Value=1.2
+
+[showfps]
+Value=true

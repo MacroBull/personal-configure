@@ -1,0 +1,3 @@
+#! /bin/bash
+chmod +x ~/Application/bin/* 2>/dev/null
+chmod +x /opt/bin/* 2>/dev/null

@@ -1,0 +1,4 @@
+#! /bin/bash
+stat=`systemd-analyze`
+stat=`echo ${stat##*+} |cut -d + -f 5`
+notify-send -i computer-laptop "本次开机时间" "$stat"

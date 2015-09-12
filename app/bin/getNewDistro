@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+case $1 in
+	kde|--kde)
+		url=http://mirrors.zju.edu.cn/opensuse/factory/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso
+		;;
+	gnome|--gnome)
+		url=http://mirrors.zju.edu.cn/opensuse/factory/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso
+		;;
+	dvd|--dvd)
+		url=http://mirrors.zju.edu.cn/opensuse/factory/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
+		;;
+# 	net|--net)
+	*)
+		url=http://mirrors.zju.edu.cn/opensuse/factory/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso
+		;;
+esac
+
+target="$HOME/Downloads/KDE/`echo "$url" | cut -d '/' -f 7`_`date -I`.iso"
+echo "Save to $target ..."
+curl $url -o $target
+

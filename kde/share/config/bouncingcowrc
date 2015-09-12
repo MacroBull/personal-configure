@@ -1,0 +1,14 @@
+[count]
+Value=2
+
+[delay]
+Value=0
+
+[showfps]
+Value=true
+
+[speed]
+Value=1.5125
+
+[wire]
+Value=false

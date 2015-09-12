@@ -1,0 +1,58 @@
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABRoAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1366=1367
+
+[Crop]
+CropAdvancedSettingsEnabled=true
+
+[General]
+ThumbnailBarIsVisible=true
+ThumbnailBarOrientation=Vertical
+
+[ImageView]
+ThumbnailSplitterSizes=922,136
+
+[KFileDialog Settings]
+Height 768=420
+Recent Files[$e]=$HOME/tmp/a.png,$HOME/workspace/Embedded/STM32/VectorFontCover.jpg,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/lp.jpg,/mnt/data/misc/100CANON/xIMG_9224.jpg
+Recent URLs[$e]=$HOME/tmp/,/mnt/data/misc/100CANON/,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/,$HOME/workspace/Embedded/STM32/
+Width 1366=672
+
+[MainWindow]
+Height 1080=1081
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABRoAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1367
+Width 1920=1921
+
+[Recent Files]
+File1[$e]=/mnt/data/Downloads/KDE/b9ed26bbjw1eu66n1634mj218g0tmq8s.jpg
+File10[$e]=$HOME/workspace/personal-configure/doc/kate0.png
+File2[$e]=/mnt/data/Downloads/KDE/b9ed26bbjw1eu66n35szyj20tm18g0yq.jpg
+File3[$e]=/mnt/data/Downloads/KDE/b9ed26bbjw1eu66n9c70lj23344mou16.jpg
+File4[$e]=/mnt/data/Downloads/KDE/0036ef80224b11e5aa8ae340441bb94b.jpg
+File5[$e]=/mnt/data/Downloads/KDE/0062ojRCjw1eqyknekkwcj30no0vkq60.jpg
+File6[$e]=/mnt/data/Downloads/KDE/0062ojRCjw1eqyknghi13j30no0vkad3.jpg
+File7[$e]=/mnt/data/Downloads/KDE/0062ojRCjw1eqyknijbelj30no0vkjul.jpg
+File8[$e]=/mnt/data/Downloads/KDE/0062ojRCjw1eqyknq59zhj30no0vkacy.jpg
+File9[$e]=/mnt/data/Downloads/KDE/Capture2.PNG
+Name1[$e]=b9ed26bbjw1eu66n1634mj218g0tmq8s.jpg
+Name10[$e]=kate0.png
+Name2[$e]=b9ed26bbjw1eu66n35szyj20tm18g0yq.jpg
+Name3[$e]=b9ed26bbjw1eu66n9c70lj23344mou16.jpg
+Name4[$e]=0036ef80224b11e5aa8ae340441bb94b.jpg
+Name5[$e]=0062ojRCjw1eqyknekkwcj30no0vkq60.jpg
+Name6[$e]=0062ojRCjw1eqyknghi13j30no0vkad3.jpg
+Name7[$e]=0062ojRCjw1eqyknijbelj30no0vkjul.jpg
+Name8[$e]=0062ojRCjw1eqyknq59zhj30no0vkacy.jpg
+Name9[$e]=Capture2.PNG
+
+[SideBar-BrowseMode]
+IsVisible=true
+
+[SideBar-ViewMode]
+IsVisible=true
+
+[ThumbnailView]
+ThumbnailSize=168

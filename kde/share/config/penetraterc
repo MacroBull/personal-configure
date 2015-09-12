@@ -1,0 +1,11 @@
+[bgrowth]
+Value=2
+
+[lrate]
+Value=200
+
+[mode]
+Value=0
+
+[showfps]
+Value=true

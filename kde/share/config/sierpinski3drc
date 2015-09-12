@@ -1,0 +1,14 @@
+[delay]
+Value=0
+
+[depth]
+Value=4
+
+[descent]
+Value=352
+
+[showfps]
+Value=true
+
+[wire]
+Value=false

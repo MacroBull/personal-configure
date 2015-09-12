@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=2.0.0
+Name=Baka-MPlayer
+Comment=Baka MPlayer is a free and open source, cross-platform, **libmpv** based multimedia player.
+Exec=baka-mplayer %u
+Icon=baka-mplayer/64x64.png
+Terminal=false
+Categories=AudioVideo;Audio;Video;

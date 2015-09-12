@@ -1,0 +1,17 @@
+[changetime]
+Value=127
+
+[delay]
+Value=0
+
+[holdtime]
+Value=280
+
+[showfps]
+Value=true
+
+[tex]
+Value=false
+
+[wire]
+Value=true

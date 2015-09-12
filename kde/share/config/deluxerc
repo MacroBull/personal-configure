@@ -1,0 +1,17 @@
+[count]
+Value=7
+
+[delay]
+Value=0
+
+[ncolors]
+Value=57
+
+[showfps]
+Value=true
+
+[thickness]
+Value=99
+
+[transparent]
+Value=true

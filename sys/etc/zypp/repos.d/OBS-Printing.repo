@@ -1,0 +1,8 @@
+[OBS-Printing]
+name=OBS-Printing
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/repositories/Printing/openSUSE_Tumbleweed/
+type=rpm-md
+priority=66
+keeppackages=1

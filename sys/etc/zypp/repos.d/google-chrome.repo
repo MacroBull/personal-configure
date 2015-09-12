@@ -1,0 +1,7 @@
+[google-chrome]
+name=google-chrome
+enabled=1
+autorefresh=1
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
+type=rpm-md
+keeppackages=0

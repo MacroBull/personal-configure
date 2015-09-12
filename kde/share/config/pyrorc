@@ -1,0 +1,14 @@
+[count]
+Value=906
+
+[delay]
+Value=0
+
+[launch]
+Value=80
+
+[scatter]
+Value=145
+
+[showfps]
+Value=true

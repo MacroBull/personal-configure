@@ -1,0 +1,14 @@
+[delay]
+Value=0
+
+[light]
+Value=true
+
+[showfps]
+Value=true
+
+[tex]
+Value=true
+
+[wire]
+Value=false

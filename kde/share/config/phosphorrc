@@ -1,0 +1,14 @@
+[delay]
+Value=0
+
+[fade]
+Value=43
+
+[fg]
+Value=0
+
+[scale]
+Value=6
+
+[showfps]
+Value=true

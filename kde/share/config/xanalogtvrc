@@ -1,0 +1,14 @@
+[showfps]
+Value=true
+
+[tvbrightness]
+Value=150
+
+[tvcolor]
+Value=70
+
+[tvcontrast]
+Value=1000
+
+[tvtint]
+Value=5

@@ -1,0 +1,7 @@
+[google-talkplugin]
+name=google-talkplugin
+enabled=1
+autorefresh=1
+baseurl=http://dl.google.com/linux/talkplugin/rpm/stable/x86_64
+type=rpm-md
+keeppackages=1

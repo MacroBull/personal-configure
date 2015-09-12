@@ -1,0 +1,6 @@
+[Dolphin]
+GroupedSorting=true
+PreviewsShown=true
+Timestamp=2015,1,20,0,31,10
+Version=3
+VisibleRoles=Details_text,Details_size,Details_date,Details_imageSize,CustomizedDetails

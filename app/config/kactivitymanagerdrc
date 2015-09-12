@@ -1,0 +1,15 @@
+[Plugins]
+org.kde.ActivityManager.ResourceScoringEnabled=true
+org.kde.ActivityManager.VirtualDesktopSwitchEnabled=true
+
+[activities]
+6134f113-d345-4618-b790-2a23d6139ad6=Back
+68213dcc-ed00-4150-8918-0c372a874d1f=Front
+
+[activities-icons]
+6134f113-d345-4618-b790-2a23d6139ad6=preferences-activities
+68213dcc-ed00-4150-8918-0c372a874d1f=preferences-activities
+
+[main]
+currentActivity=68213dcc-ed00-4150-8918-0c372a874d1f
+runningActivities=68213dcc-ed00-4150-8918-0c372a874d1f,6134f113-d345-4618-b790-2a23d6139ad6

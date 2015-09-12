@@ -1,0 +1,7 @@
+#! /bin/bash
+killall lmgrd mgcld
+#eth0mock
+export LM_LICENSE_FILE="$LICENCE_FOLDER/autodesk/maya.dat"
+lmgrd -c
+/opt/Autodesk/maya/bin/maya2015
+rmdir ~/Adlm ~/xgen

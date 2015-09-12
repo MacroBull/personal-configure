@@ -1,0 +1,9 @@
+[openSUSE-update-current-non-oss@NetEase]
+name=openSUSE-update-current-non-oss@NetEase
+enabled=0
+autorefresh=1
+baseurl=http://mirrors.163.com/openSUSE/update/openSUSE-non-oss-current/
+path=/
+type=yast2
+priority=22
+keeppackages=1

@@ -1,0 +1,120 @@
+#! /bin/bash
+#: Title       : rpmcache
+#: Date Created: Sat Aug 20 14:27:51 PDT 2011 
+#: Last Edit   : Mon Jan  2 13:04:04 PST 2012
+#: Author      : Agnelo de la Crotche (please_try_again)
+#: Version     : 1.0
+#: Description : delete rpm packages from zypper cache while keeping
+#                a given number of versions (default is 2)
+#: Usage       : rpmcache -l | -o | -d | -k | -D | -O [N]
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# !!! comment out this line or set DEBUG to 0 to really delete rpms !!!
+DEBUG=1
+
+PKGDIR=/var/cache/zypp/packages
+NumVer=2
+
+TMPDIR=${TMPDIR:-/tmp}
+PKGDIR_DEF=$(awk '/packagesdir *=/ { print $NF}' /etc/zypp/zypp.conf)
+PKGDIR=${PKGDIR:-PKGDIR_DEF}
+pkglst=$TMPDIR/pkg.lst
+orplst=$TMPDIR/orp.lst
+dellst=$TMPDIR/del.lst
+keplst=$TMPDIR/kep.lst
+pkgdel=$TMPDIR/pkgdel.sh
+orpdel=$TMPDIR/orpdel.sh
+spksed=$TMPDIR/spkg.sed
+arch=$(uname -m)
+Arch=${arch/i6/i[56]}
+
+del="to delete"
+kep="to keep"
+
+
+# list all rpms
+function lst_rpms {
+echo "Processing list of rpms ${!1} ..."
+lst=${1}lst ; lst=${!lst}
+[ "$1" == "del" -o "$1" == "kep" ] && C=$NumVer || C=0
+echo > $lst
+for dir in $(find -L $PKGDIR -mindepth 2 -type d ! -empty -name "$Arch" -o -name "noarch" ) ; do
+  ls -1 $dir | sed '/delta.rpm/d' | sed -f $spksed \
+| awk '{ if ( $1 == P ) print "#", $1"-"$2 ; else print $1"-"$2 ; P=$1 }' \
+| sed -e :a -e '$!N;s/\n#/ /;ta' -e 'P;D' | sed 's/  / /g' \
+| awk 'BEGIN { C='$C' } ; { if (NF > C) {for (i=C+1; i <= NF ; i++) print $i}}' \
+| sed "s|^|$dir/|" | sort -Vr >> $lst
+done
+if [ "$1" == "del" -o "$1" == "kep" ] ; then
+	find -L $PKGDIR -mindepth 2 -type f -name "*delta.rpm" >> $dellst
+else
+	sed -n 's/rpm-$/rpm/p' $lst > $orplst
+	sed -i 's/rpm-$/rpm/' $lst
+fi
+}
+
+# list installed packages and available rpms 
+function lst_pkgs {
+	echo "Looking for installed packages ..."
+	zypper se -i -t package | awk '/^i/{ print "s/\\("$3"\\)-\\([0-9A-E]\\)/\\1 \\2/"} ; END {print "s/ \\(32bit\\)-/-\\1 /;s/ \\(.*\\) /-\\1 /"}' > $spksed
+	echo "Processing file list ..."
+	lst_rpms pkg
+}
+
+# delete rpms { 
+function del_rpms {
+	[ -f $1 ] || return
+	sed -n 's|^/|rm -v /|p' $1 > $pkgdel
+	echo "Deleting rpms ..."
+	unalias rm 2>/dev/null
+	$DEL $pkgdel
+	rm $pkgdel
+}
+
+# display usage
+function usage {
+PRG=$(basename $0)
+VER=$(awk '/^#: Version/ { print $NF }' $0)
+cat << EOFUSAGE
+$PRG $VER - lists/clears rpm packages cache.
+
+Usage: $PRG [ -l | -k | -d | -D | -o | -O] [ N ]
+
+    -l --list     list all rpm packages in cache
+    -o --orphans  list rpms of not installed packages
+    -d --delete   list rpm packages to be deleted
+    -k --keep     list rpm packages to be kept
+     N            Number of package versions to keep (default: 2)
+
+    -D            delete older rpm packages (!)
+    -O            delete rpms of non installed packages (!)
+EOFUSAGE
+}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Script starts here. 
+
+# check if we are root
+[ $UID -eq 0 ] || exec echo "You have to run this script as root or sudo"
+
+args=`getopt -q -u -o klodhOD -l keep,list,orphans,delete,help -- "$@"`
+set -- $args
+
+OPTS=(${args%--*})
+ARGS=(${args##*--})
+
+[ ${#OPTS[*]} -lt 1 ] && exec echo "Missing or invalid option"
+[ ${#OPTS[*]} -gt 1 ] && exec echo "Two many options"
+[ ${#ARGS[*]} -le 1 ] && n=${ARGS[0]} || exec echo "Two many arguments"
+
+NumVer=${n:-$NumVer}
+
+[ "$1" == "-h" -o "$1" == "--help" ] && usage || lst_pkgs
+[ "x$DEBUG" == "x1" ] && DEL=cat || DEL=sh
+
+case $1 in
+-l|--list) cat $pkglst ;;
+-o|--orphans|-O) [ "$1" == "-O" ] && del_rpms $orplst || cat $orplst ;; 
+-d|--delete|-D) lst_rpms del ; [ "$1" == "-D" ] && del_rpms $dellst || cat $dellst ;;
+-k|--keep) lst_rpms kep ; diff $dellst $pkglst | sed -n 's/^> //p' ;;
+esac

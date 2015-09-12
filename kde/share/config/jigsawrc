@@ -1,0 +1,17 @@
+[delay]
+Value=0
+
+[density]
+Value=1
+
+[resolution]
+Value=300
+
+[showfps]
+Value=true
+
+[speed]
+Value=3.576
+
+[wobble]
+Value=true

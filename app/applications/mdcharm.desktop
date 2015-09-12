@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=MdCharm
+GenericName=A Markdown Editor
+Comment=MdCharm is a wiki editor, currently it supports markdown(markdown extra) and MultiMarkdown.
+Exec=mdcharm
+Icon=mdcharm
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;
+MimeType=text/md;text/markdown;text/mkd

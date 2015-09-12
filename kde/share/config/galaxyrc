@@ -1,0 +1,17 @@
+[count]
+Value=-5
+
+[cycles]
+Value=396
+
+[delay]
+Value=0
+
+[ncolors]
+Value=179
+
+[showfps]
+Value=true
+
+[spin]
+Value=true

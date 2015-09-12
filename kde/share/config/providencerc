@@ -1,0 +1,11 @@
+[eye]
+Value=true
+
+[showfps]
+Value=true
+
+[speed]
+Value=0
+
+[wire]
+Value=false

@@ -1,0 +1,9 @@
+#! /bin/bash
+PTFILE=~/temp/pt
+mv $PTFILE ${PTFILE}_last
+touch $PTFILE
+while [ 1 ]; do
+	date +%s  >> $PTFILE
+	cat /sys/class/power_supply/BAT0/{power_now,capacity,voltage_now,energy_now,cycle_count,alarm,energy_full} >> $PTFILE
+	sleep 20
+done

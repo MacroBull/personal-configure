@@ -1,0 +1,147 @@
+[General]
+IgnoreImages=false
+IgnoreSelection=true
+MaxClipItems=24
+Number of Actions=9
+TimeoutForActionPopups=3
+URLGrabberEnabled=true
+Version=5.3.2
+
+
+[Notification Messages]
+StartAutomatically=true
+
+
+[Action_0]
+Automatic=false
+Description=Transform
+Number of commands=3
+Regexp=.*
+
+[Action_0/Command_0]
+Commandline[$e]=clipcli text/html
+Description=In html
+Enabled=true
+Icon=
+Output=1
+
+[Action_0/Command_1]
+Commandline[$e]=clipcli text/html | html2md
+Description=In markdown
+Enabled=true
+Icon=
+Output=1
+
+[Action_0/Command_2]
+Commandline[$e]=clipcli text/html | html2zim -k /home/macrobull/Documents/Notebooks/WebclipImages
+Description=In Zim wiki markdown
+Enabled=true
+Icon=
+Output=1
+
+[Action_1]
+Automatic=true
+Description=Remove Protocol
+Number of commands=1
+Regexp=\\w+:\\/\\/.+
+
+[Action_1/Command_0]
+Commandline[$e]=echo -n '%s' | sed 's/\\w*:\\/\\///g'
+Description=Remove Protocol
+Enabled=true
+Icon=
+Output=1
+
+[Action_2]
+Automatic=true
+Description=Bilibili Video
+Number of commands=1
+Regexp=http://.*.bilibili.*/video/av.*
+
+[Action_2/Command_0]
+Commandline[$e]=bilidan %s
+Description=Open with Bilidan
+Enabled=true
+Icon=
+Output=0
+
+[Action_3]
+Automatic=true
+Description=Youku
+Number of commands=1
+Regexp=http://.*.youku.com/.*
+
+[Action_3/Command_0]
+Commandline[$e]=ympv %s
+Description=Youtube-dl + mpv
+Enabled=true
+Icon=
+Output=0
+
+[Action_4]
+Automatic=true
+Description=Tudou
+Number of commands=1
+Regexp=http://.*.tudou.com/.*
+
+[Action_4/Command_0]
+Commandline[$e]=ympv %s
+Description=Youtube-dl + mpv
+Enabled=true
+Icon=
+Output=0
+
+[Action_5]
+Automatic=true
+Description=Git SSH
+Number of commands=1
+Regexp=git://.*\\.git
+
+[Action_5/Command_0]
+Commandline[$e]=kdialog --getsavefilename /tmp/`echo %s|rev|cut -d / -f 1|rev` | xargs git clone %s
+Description=Git clone to...
+Enabled=true
+Icon=
+Output=0
+
+[Action_6]
+Automatic=true
+Description=Github
+Number of commands=1
+Regexp=http.*://github.com/.*/.*
+
+[Action_6/Command_0]
+Commandline[$e]=kdialog --getsavefilename /tmp/`echo %s|rev|cut -d / -f 1|rev` | xargs git clone %s
+Description=Git clone to...
+Enabled=true
+Icon=
+Output=0
+
+[Action_7]
+Automatic=true
+Description=Souhu Video
+Number of commands=1
+Regexp=http://tv.sohu.com/.*
+
+[Action_7/Command_0]
+Commandline[$e]=ympv %s
+Description=Youtubedl+mpv
+Enabled=true
+Icon=
+Output=0
+
+[Action_8]
+Automatic=true
+Description=Youtube
+Number of commands=1
+Regexp=https://.*.youtube.com/.*
+
+[Action_8/Command_0]
+Commandline[$e]=proxychains4 ympv %s
+Description=Youtube-dl+mpv
+Enabled=true
+Icon=
+Output=0
+
+[Actions]
+StripWhiteSpace=false

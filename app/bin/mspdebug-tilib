@@ -1,0 +1,8 @@
+#! /bin/bash
+# params=""
+# for s in "$@" ; do
+#   t=${s/ /}
+#   [ ${#s} == ${#t} ] && params="$params $s" || params="$params \"$s\""
+# done
+# echo param=\<$params\>
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/macrobull/Application/mspdebug /home/macrobull/Application/mspdebug/mspdebug tilib "$@"

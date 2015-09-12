@@ -1,0 +1,24 @@
+<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
+<kpartgui version="6" name="KDevCppLanguageSupport">
+ <MenuBar>
+  <Menu name="navigation">
+   <text context="@title:menu">Navigation</text>
+   <Action group="navigation_jmp" name="switch_definition_declaration"/>
+  </Menu>
+  <Menu name="code">
+   <text context="@title:menu">Code</text>
+   <Action name="code_new_class"/>
+   <Action name="code_rename_declaration"/>
+   <Action name="code_move_definition"/>
+   <Action name="code_private_implementation"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+ <ActionProperties scheme="Macrobull">
+  <Action shortcut="F2" name="code_move_definition"/>
+  <Action shortcut="Ctrl+U" name="code_rename_declaration"/>
+ </ActionProperties>
+ <ActionProperties scheme="test">
+  <Action shortcut="A, S, F, D" name="code_rename_declaration"/>
+ </ActionProperties>
+</kpartgui>

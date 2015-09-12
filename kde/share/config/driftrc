@@ -1,0 +1,11 @@
+[count]
+Value=30
+
+[delay]
+Value=0
+
+[ncolors]
+Value=255
+
+[showfps]
+Value=true

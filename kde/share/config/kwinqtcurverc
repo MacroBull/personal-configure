@@ -1,0 +1,15 @@
+[ActiveShadows]
+Size=48
+VOffset=20
+
+[General]
+BorderSize=2
+CustomShadows=true
+InnerBorder=0
+OpaqueBorder=false
+OuterBorder=0
+RoundBottom=false
+
+[InactiveShadows]
+Size=40
+VOffset=16

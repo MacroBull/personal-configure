@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=wePixiv
+GenericName[en_US]=
+GenericName=wePixiv
+MimeType=image/jpeg;image/png;
+Name[en_US]=wePixiv
+Name=wePixiv
+NoDisplay=true
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

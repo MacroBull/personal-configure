@@ -1,0 +1,6 @@
+#! /bin/bash
+EXEC=~/Application/bin/mdcharm-last
+EXEC_BUILD=/home/build/MdCharm/src/release/mdcharm
+test -d $EXEC_BUILD && EXEC=$EXEC_BUILD
+echo Invoking $EXEC "'$@'"
+$EXEC "$@"

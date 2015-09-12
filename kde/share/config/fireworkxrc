@@ -1,0 +1,14 @@
+[Delay]
+Value=0
+
+[flash]
+Value=true
+
+[maxlife]
+Value=51
+
+[shoot]
+Value=true
+
+[showfps]
+Value=true

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=GitBook
+GenericName=Code Editor
+Comment=Code Editor
+Exec=bash /home/macrobull/.gitbook/start.sh
+Icon=gitbook.png
+Categories=Development;Utilities;TextEditor
+Terminal=false

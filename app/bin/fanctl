@@ -1,0 +1,24 @@
+# #! /bin/bash
+mode=-1
+case $1 in
+	h|hw|hardware)
+		mode=2
+		;;
+	s|stop)
+		mode=1
+		sudo su -c "echo 0 > /sys/devices/platform/thinkpad_hwmon/pwm1"
+		;;
+	m|man)
+		mode=1
+		;;
+	f|b|fire|burn|open|ol)
+		mode=0
+		;;
+	*)
+		mode=-1
+		;;
+esac
+
+if [ $mode -ne -1 ]; then
+	sudo su -c "echo $mode > /sys/devices/platform/thinkpad_hwmon/pwm1_enable"
+fi

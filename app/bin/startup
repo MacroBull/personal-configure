@@ -1,0 +1,67 @@
+#! /bin/sh
+
+mkdir -p /tmp/cache-macrobull
+mkdir -p /tmp/tmp-macrobull
+cd /tmp/cache-macrobull
+mkdir -p downloads chromium Clementine/networkcache google-chrome google-chrome-beta Kingsoft kingsoft chromeCache/GPUCache chromeCache/ACache kdevduchain mozilla QuiteRss KDE KDE/http KDE/help
+# mkdir -p /var/tmp/temp-macrobull
+
+alias ykcmd="yakuake-session --noclose -qt"
+# ykcmd WLAN_Login -e wifiLogin
+
+
+#sleep 20
+#cd ~/Application/configBackups/Feeds/
+#./qRssBackup
+#quiterss &
+
+alias myflux='xflux -l 30.26 -g 120.11 -k 4200'
+myflux
+
+#horizontal scroll
+# xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Axes" 6 7 4 5
+
+
+# Proxy
+sleep 5
+# ykcmd GAEProxy -e ~/Application/goagent-current/local/proxy.py
+# ykcmd Shadowsocks -e shadowsocks-local -- -c /etc/shadowsocks/config.json
+ykcmd Shadowsocks -e /usr/bin/node /usr/lib/node_modules/nodejs-shadowsocks/local_.js
+# ss-qt5 &
+
+# powertrace &
+
+pkill 'sogou*'
+fcitx --replace
+sleep 2
+sogou-qimpanel
+notify-send -i fcitx-sogoupinyin 'Restarting SogouPinyin' "`ps -e |grep sogou-qimpanel`"
+#rsogou
+
+
+# First time boot
+# if [ -n /tmp/myIP ]; then
+	# Boot statistics
+	[ -f /tmp/myIP ] || bootstat
+	# Grub2 BG changer
+	[ -f /tmp/myIP ] || notify-send -i grub-customizer "Grub2 BG changer" "`grub2-bg-randomize`"
+# fi
+
+
+
+# conky: wait for network settled
+sleep 15
+conky
+
+
+# echo `ifconfig` > ~/Dropbox/Public/web/ifinfo
+#ln -s /tmp/myIP ~/Dropbox/Public/web/myIP
+# i=`ifconfig wlp3s0`;echo ${i#*inet addr:} | cut -d ' ' -f1 > ~/Dropbox/Public/web/myIP
+# i=`ifconfig wlp3s0`;echo ${i#*inet addr:} | cut -d ' ' -f1 
+ip=`networkctl status wlp3s0 | grep '  Addr' | cut -d ':' -f2`
+ip=${ip:1}
+echo $ip > /tmp/myIP
+
+
+
+

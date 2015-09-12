@@ -1,0 +1,8 @@
+[delay]
+Value=0
+
+[linger]
+Value=5
+
+[showfps]
+Value=true

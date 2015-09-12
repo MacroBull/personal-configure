@@ -1,0 +1,92 @@
+<!DOCTYPE klflibbrowserstate>
+<klflibbrowserstate>
+  <statemap>
+    <pair>
+      <key>CurrentUrl</key>
+      <value type="QUrl">klf+sqlite:/home/macrobull/.klatexformula/library.klf.db?klfDefaultSubResource=archive</value>
+    </pair>
+    <pair>
+      <key>ResourceRoleFlagsList</key>
+      <value type="QVariantList">
+        <item type="uint">65537</item>
+        <item type="uint">131073</item>
+      </value>
+    </pair>
+    <pair>
+      <key>UrlList</key>
+      <value type="QVariantList">
+        <item type="QUrl">klf+sqlite:/home/macrobull/.klatexformula/library.klf.db?klfDefaultSubResource=history</item>
+        <item type="QUrl">klf+sqlite:/home/macrobull/.klatexformula/library.klf.db?klfDefaultSubResource=archive</item>
+      </value>
+    </pair>
+    <pair>
+      <key>ViewStateList</key>
+      <value type="QVariantList">
+        <item type="QVariantMap">
+          <pair>
+            <key>CurrentViewTypeIdentifier</key>
+            <value type="QString">default+list</value>
+          </pair>
+          <pair>
+            <key>StateList</key>
+            <value type="QVariantList">
+              <item type="QVariantMap">
+                <pair>
+                  <key>ViewState</key>
+                  <value type="QVariantMap">
+                    <pair>
+                      <key>ColumnsState</key>
+                      <value type="QByteArray">\\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x1c\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xf4\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x02\x03\x00\x00\x00\x05\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x01;\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xc8\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00</value>
+                    </pair>
+                    <pair>
+                      <key>IconPreviewSize</key>
+                      <value type="QSize">(450 135)</value>
+                    </pair>
+                  </value>
+                </pair>
+                <pair>
+                  <key>ViewTypeIdentifier</key>
+                  <value type="QString">default+list</value>
+                </pair>
+              </item>
+            </value>
+          </pair>
+        </item>
+        <item type="QVariantMap">
+          <pair>
+            <key>CurrentViewTypeIdentifier</key>
+            <value type="QString">default</value>
+          </pair>
+          <pair>
+            <key>StateList</key>
+            <value type="QVariantList">
+              <item type="QVariantMap">
+                <pair>
+                  <key>ViewState</key>
+                  <value type="QVariantMap">
+                    <pair>
+                      <key>ColumnsState</key>
+                      <value type="QByteArray">\\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x1c\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x005\x00\x00\x00\x03\x00\x00\x005\x00\x00\x00\x02\x00\x00\x005\x00\x00\x02\x03\x00\x00\x00\x05\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x01;\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xc8\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00</value>
+                    </pair>
+                    <pair>
+                      <key>IconPreviewSize</key>
+                      <value type="QSize">(450 135)</value>
+                    </pair>
+                  </value>
+                </pair>
+                <pair>
+                  <key>ViewTypeIdentifier</key>
+                  <value type="QString">default</value>
+                </pair>
+              </item>
+            </value>
+          </pair>
+        </item>
+      </value>
+    </pair>
+    <pair>
+      <key>WidgetSize</key>
+      <value type="QSize">(901 584)</value>
+    </pair>
+  </statemap>
+</klflibbrowserstate>

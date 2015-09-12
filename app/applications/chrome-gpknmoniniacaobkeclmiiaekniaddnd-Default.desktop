@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=FastString - String Operations
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=gpknmoniniacaobkeclmiiaekniaddnd
+Icon=chrome-gpknmoniniacaobkeclmiiaekniaddnd-Default
+NoDisplay=true
+StartupWMClass=crx_gpknmoniniacaobkeclmiiaekniaddnd

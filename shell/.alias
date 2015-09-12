@@ -1,0 +1,102 @@
+#! /usr/bin/bash
+
+alias t='tree'
+
+#### Build Alias ####
+
+alias qmake='qmake-qt5'
+
+alias make='make -j6'
+alias gmake='gmake -j6'
+
+alias m2k='./configure --prefix=/usr && make'
+alias m3k='m2k && sudo make install'
+
+alias c2k'=if [ `pwd | tr / "\n" |tail -n 1` != "build" ]; then mkdir -p build; cd build; fi; cmake .. && make'
+alias c3k='c2k && sudo make install'
+
+alias q2k='if [ `pwd | tr / "\n" |tail -n 1` != "build" ]; then mkdir -p build; cd build; fi; qmake .. && make'
+alias q3k='q2k && sudo make install'
+
+alias configBackup='cd ~/workspace/personal-configure/ && make'
+alias sudo='sudo env PATH=$PATH'
+
+alias nokde='KDE_SESSION_VERSION=0 '
+## nokde alias for ~/app
+alias Logic15='nokde "~/Application/Logic 1.1.15 (64-bit)/Logic"'
+
+alias update_db='nice -n 19 dropbox-index -R -T ~/Dropbox/Public/macrobull.0.html -J i ~/Dropbox/Public/'
+
+alias startService='sudo systemctl start'
+alias rsogou="fcitx --replace;pkill 'sogou*';sogou-qimpanel;notify-send -i fcitx-sogoupinyin 'Restarting SogouPinyin' \"\`ps -e |grep sogou-qimpanel\`\""
+
+alias xwared='/opt/xware-desktop/xwared'
+alias xware='( ps -ea|grep xwared || /opt/xware-desktop/xwared & ) && /opt/xware-desktop/frontend/launcher.py'
+
+alias bilidan='bilidan --hd -c "`cat ~/.myjar/cookie/bilibili`" --keep-fps'
+
+alias pc4="proxychains4"
+
+# alias touhouran='INDEX=$((RANDOM*999/32768+1)); echo "\e[1;32m$INDEX\e[0;39m"; bilidan http://www.bilibili.com/video/av1680589/index_$INDEX.html'
+alias touhoucm='for INDEX in {`cat ~/temp/th`..3333}; do echo "\e[1;32m$INDEX\e[0;39m"; echo $INDEX > ~/temp/th; bilidan http://www.bilibili.com/video/av836207/index_$INDEX.html; done'
+
+alias matlab-cmd='matlab -nodisplay'
+
+alias gputop='~/Application/bin/intel-gpu-overlay -f -t 200000'
+
+######## zypper #######################
+
+alias zypref='sudo proxychains4 zypper ref'
+alias zypup='sudo zypper -n up'
+alias zypin='sudo zypper -n in'
+alias zyprm='sudo zypper rm --clean-deps'
+
+alias zypll='zypper se -vd'
+alias zypwp='zypper wp'
+alias zypli='rpm -ql'
+
+# alias recloneGit="git clone `git remote -v show |cut -f 2 |cut -f 1 -d ' '`"
+
+alias minecraft='java -DsocksProxyHost=localhost -DsocksProxyPort=8883 -jar ~/Application/Minecraft/launcher.jar'
+
+alias java7='/opt/mathworks/matlab_current/sys/java/jre/glnxa64/jre/bin/java'
+
+
+alias dude="LD_LIBRARY_PATH=/opt/google/android/sdk/tools/lib/ /opt/google/android/sdk/tools/emulator64-x86 -scale 1 -netdelay none -netspeed full -avd Dude_API_21 -qemu -enable-kvm"
+
+alias updateApps="proxychains4 clusterGit -d ~/Application -p -c -H --recursive"
+# alias updateBuilds="su build -c 'proxychains4 clusterGit -d ~/ -p -c -H --recursive -P \"yakuake-session --hold -qe bash -- --init-file ~/bin/check_build\"'"
+alias updateBuilds="su -l build -c 'proxychains4 clustergit -d ~/ -p -c -H --recursive -P ~/bin/check_build'"
+
+alias remount="sudo mount -o remount,rw"
+
+alias blenderpy='blender ~/workspace/BlenderVis/scene.blend -f 0 -o /tmp/render_ -F PNG --python'
+
+alias snapper='snapper -c macrobull'
+
+
+# alias qml2="QML2_IMPORT_PATH+=. qmlscene"
+# alias qml2="QML2_IMPORT_PATH+=/opt/Qt/Current/gcc_64/qml:. nokde /opt/Qt/Current/gcc_64/bin/qmlscene"
+# alias qml="nokde QML2_IMPORT_PATH+=. qml"
+alias qml="nokde qml -I . -I imports"
+alias qml2="qmlscene -I . -I imports"
+# alias qml2="nokde /opt/Qt/Current/gcc_64/bin/qmlscene -I /opt/Qt/Current/gcc_64/qml -I . -I imports"
+
+alias openocd-qserver='ps -ea | grep openocd || openocd -f ~/workspace/Embedded/STM32/stm32-qserver.cfg'
+
+################ For fun ########################
+
+alias dd='dd bs=16M'
+
+alias watchBall="/usr/lib64/xscreensaver/glplanet -image '~/Media/Images/Wallpaper/New/Yuyuko_Youmu0026 (1).jpg'"
+
+alias letsrock='cool-retro-term -e nyancat'
+
+alias fuck='$(thefuck $(fc -ln -1))' # You can use whatever you want as an alias, like for mondays: alias FUCK='fuck'
+
+alias colorq='load_intel_sdk; ~/workspace/imageProcess/colorQuati.py'
+
+alias cnf='zypper wp'
+
+
+alias cambright='cd ~/workspace/Qt/camBrightness/build && ./camBrightness'

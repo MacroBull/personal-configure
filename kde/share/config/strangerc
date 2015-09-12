@@ -1,0 +1,11 @@
+[delay]
+Value=0
+
+[ncolors]
+Value=255
+
+[points]
+Value=18160
+
+[showfps]
+Value=true

@@ -1,0 +1,12 @@
+[Containments][2]
+activityId=68213dcc-ed00-4150-8918-0c372a874d1f
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][2][Wallpaper][org.kde.image][General]
+height=768
+width=1366

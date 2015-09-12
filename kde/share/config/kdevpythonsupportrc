@@ -1,0 +1,4 @@
+[pep8]
+pap8arguments=
+pep8enabled=true
+pep8url=/usr/bin/pep8-python3

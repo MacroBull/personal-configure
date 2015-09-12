@@ -1,0 +1,1 @@
+cd /home/macrobull/Application/goagent-current/local/ && python proxy.py

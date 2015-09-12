@@ -1,0 +1,11 @@
+[delay]
+Value=0
+
+[density]
+Value=0.136032
+
+[random]
+Value=true
+
+[showfps]
+Value=true

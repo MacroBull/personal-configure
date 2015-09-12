@@ -1,0 +1,17 @@
+[delay]
+Value=0
+
+[engine]
+Value=0
+
+[showfps]
+Value=true
+
+[spin]
+Value=true
+
+[titles]
+Value=true
+
+[wander]
+Value=true

@@ -1,0 +1,11 @@
+[delay]
+Value=0
+
+[delay2]
+Value=1
+
+[graph]
+Value=false
+
+[showfps]
+Value=true

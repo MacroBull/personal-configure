@@ -1,0 +1,24 @@
+[general]
+File1[$e]=/mnt/fast
+File2[$e]=$HOME/tmp/localshare
+File3[$e]=$HOME/tmp/config
+File4[$e]=$HOME/tmp/config/google-chrome-beta/Default/Extensions/
+File5[$e]=$HOME/tmp/config/google-chrome-beta/Default/Extensions/mfaihdlpglflfgpfjcifdjdjcckigekc/45.5021.433.11_0/_platform_specific/nacl_x86_64/
+File6[$e]=/mnt/fast/
+File7[$e]=/mnt/fast/misc/
+File8[$e]=/mnt/fast/misc/dotfile/
+Name1[$e]=fast
+Name2[$e]=localshare
+Name3[$e]=config
+Name4[$e]=
+Name5[$e]=
+Name6[$e]=
+Name7[$e]=
+Name8[$e]=
+
+[window]
+Height 768=495
+State=AAAA/wAAAAD9AAAAAAAABRoAAAKOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAHo/////wAAAAAAAAAAAAAAFgB2AGkAZQB3AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=691
+Window-Maximized 768x1366=true

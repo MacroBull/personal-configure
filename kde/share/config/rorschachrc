@@ -1,0 +1,17 @@
+[delay]
+Value=17
+
+[iterations]
+Value=7500
+
+[offset]
+Value=7
+
+[showfps]
+Value=true
+
+[xsymmetry]
+Value=true
+
+[ysymmetry]
+Value=false

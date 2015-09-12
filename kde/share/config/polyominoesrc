@@ -1,0 +1,14 @@
+[cycles]
+Value=2000
+
+[delay]
+Value=0
+
+[identical]
+Value=false
+
+[ncolors]
+Value=255
+
+[showfps]
+Value=true

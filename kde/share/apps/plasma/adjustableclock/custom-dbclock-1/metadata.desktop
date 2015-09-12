@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment=dbClock like theme
+Encoding=UTF-8
+Icon=
+Keywords=
+Name=DB2
+Type=Service
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Michał Dutkiewicz
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=emdeck@gmail.com
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=custom-dbclock-1
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=http://emdek.pl/
+X-KDE-ServiceTypes=Plasma/AdjustableClock
+X-Plasma-API=
+X-Plasma-RemoteLocation=

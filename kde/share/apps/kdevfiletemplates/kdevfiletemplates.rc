@@ -1,0 +1,11 @@
+<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
+<kpartgui version="1" name="KDevFileTemplates">
+ <MenuBar>
+  <Menu name="file">
+   <Action group="new_merge" name="new_from_template"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+ <ActionProperties scheme="Macrobull"/>
+ <ActionProperties scheme="test"/>
+</kpartgui>

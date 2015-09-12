@@ -1,0 +1,120 @@
+datafile=/usr/share/kde4/apps/calligra/thesaurus/thesaurus.txt
+
+[DockWidget sharedtooldocker]
+TabbedMode=false
+
+[Grid]
+ShowGrid=true
+
+[Interface]
+ShowRulers=false
+
+[MainWindow]
+Height 1080=1081
+Height 768=643
+Width 1366=1057
+Width 1920=1921
+ko_geometry=AdnQywABAAAAAABE/////wAAB4EAAAQ5AAAAAAAAAAD////+/////gAAAAACAA==
+ko_windowstate=AAAA/wAAAAD9AAAAAwAAAAAAAAaHAAADi/wCAAAABPsAAAAkAEYAbABvAHcAUwBoAGEAcABlAEIAbwB4AEQAbwBjAGsAZQByAQAAAJwAAAIZAAAAAAAAAAD7AAAADgBUAG8AbwBsAEIAbwB4AQAAAJMAAABVAAAAIgEAAAP7AAAAKABGAGwAbwB3AFMAdABlAG4AYwBpAGwAQgBvAHgARABvAGMAawBlAHIBAAAA6QAAAjAAAACKAAgAF/sAAAAqAGQAbwBjAHUAbQBlAG4AdAAgAHMAZQBjAHQAaQBvAG4AIAB2AGkAZQB3AQAAAxoAAAEEAAAAhAEAAAMAAAABAAAAsgAAA4v8AgAAAAf7AAAAIABzAGgAYQByAGUAZAB0AG8AbwBsAGQAbwBjAGsAZQByAQAAAJMAAAGuAAAAXgEAAAP7AAAAFgBTAHQAeQBsAGUARABvAGMAawBlAHIBAAABlwAAAE8AAAAAAAAAAPwAAAJCAAABdAAAABgA////+gAAAAIBAAAAA/sAAAAiAFMAdAByAG8AawBlACAAUAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAAAAAAAA+wAAACIAUwBoAGEAZABvAHcAIABQAHIAbwBwAGUAcgB0AGkAZQBzAQAAAAD/////AAAAAAAAAAD7AAAAIABTAGgAYQBwAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAQAABBMAAAESAAAAcAEAAAP7AAAAMABEAGUAZgBhAHUAbAB0AFQAbwBvAGwAQQByAHIAYQBuAGcAZQBXAGkAZABnAGUAdAEAAAAVAAAAggAAAAAAAAAA+wAAACoAUwBuAGEAcABHAHUAaQBkAGUAQwBvAG4AZgBpAGcAVwBpAGQAZwBlAHQBAAAAmgAAAEsAAAAAAAAAAPsAAAAiAEQAZQBmAGEAdQBsAHQAVABvAG8AbABXAGkAZABnAGUAdAEAAADoAAAAWwAAAAAAAAAA+wAAACgAUwBuAGEAcABHAHUAaQBkAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAQAAA7cAAABnAAAAGAEAAAMAAAACAAAHOgAAAE/8AQAAAAL7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAAAAAC+AAAAAAAAAAD7AAAAKgBTAGgAYQBwAGUAQwBvAGwAbABlAGMAdABpAG8AbgBEAG8AYwBrAGUAcgEAAAAAAAAHOgAAAOcAAADnAAAAAAAAA4sAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+
+[Misc]
+PasteAtCursor=true
+Units=mm
+
+[Recent Dirs]
+OpenDialog[$e]=$HOME,$HOME/Documents
+
+[Stencil Box]
+viewMode=1
+
+[TemplateChooserDialog]
+AlwaysUseTemplate=
+DetailsPaneSplitterSizes=428,319
+FullTemplateName[$e]=/usr/share/kde4/apps/flow/templates/Basic/.source/empty-landscape.otg
+LastReturnType=Template
+
+[box]
+Value=true
+
+[calligra]
+ColorSpaceExtensionsPlugins=krita_colorspaces_extensions
+ColorSpaceExtensionsPluginsDisabled=
+ColorSpacePlugins=kolcmsengine
+ColorSpacePluginsDisabled=
+DevicePlugins=spacenavigator
+DevicePluginsDisabled=
+DockerPlugins=calligradockers
+DockerPluginsDisabled=
+FlakePlugins=formulashape,vectorshape,textshape
+FlakePluginsDisabled=kexirelationdesignshape
+ShapePlugins=artistictextshape,chartshape,musicshape,pathshapes,pictureshape,pluginshape,spreadsheetshape,stateshape,videoshape,webshape
+ShapePluginsDisabled=
+TextEditingPlugins=autocorrect,changecase,spellcheck,thesaurustool
+TextEditingPluginsDisabled=
+TextInlinePlugins=textvariables
+ToolPlugins=basicflakesplugin,defaulttools,karbontools,kopabackgroundtool
+
+[count]
+Value=3000
+
+[cycles]
+Value=10000
+
+[flow]
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADnAAADaPwCAAAABPsAAAAkAEYAbABvAHcAUwBoAGEAcABlAEIAbwB4AEQAbwBjAGsAZQByAQAAAJwAAAIZAAAAAAAAAAD7AAAADgBUAG8AbwBsAEIAbwB4AQAAAJMAAAB3AAAAOAEAAAP7AAAAKABGAGwAbwB3AFMAdABlAG4AYwBpAGwAQgBvAHgARABvAGMAawBlAHIBAAABCwAAAesAAACOAAgAG/sAAAAqAGQAbwBjAHUAbQBlAG4AdAAgAHMAZQBjAHQAaQBvAG4AIAB2AGkAZQB3AQAAAvcAAAEEAAAAiAEAAAMAAAABAAABEgAAA2j8AgAAAAf7AAAAIABzAGgAYQByAGUAZAB0AG8AbwBsAGQAbwBjAGsAZQByAQAAAJMAAAGuAAAAYgEAAAP7AAAAFgBTAHQAeQBsAGUARABvAGMAawBlAHIBAAABlwAAAE8AAAAAAAAAAPwAAAJCAAAA8wAAABwA////+gAAAAIBAAAAA/sAAAAiAFMAdAByAG8AawBlACAAUAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAAAAAAAA+wAAACIAUwBoAGEAZABvAHcAIABQAHIAbwBwAGUAcgB0AGkAZQBzAQAAAAD/////AAAAAAAAAAD7AAAAIABTAGgAYQBwAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAQAABBMAAAESAAAAsgEAAAP7AAAAMABEAGUAZgBhAHUAbAB0AFQAbwBvAGwAQQByAHIAYQBuAGcAZQBXAGkAZABnAGUAdAEAAAAVAAAAggAAAAAAAAAA+wAAACoAUwBuAGEAcABHAHUAaQBkAGUAQwBvAG4AZgBpAGcAVwBpAGQAZwBlAHQBAAAAmgAAAEsAAAAAAAAAAPsAAAAiAEQAZQBmAGEAdQBsAHQAVABvAG8AbABXAGkAZABnAGUAdAEAAADoAAAAWwAAAAAAAAAA+wAAACgAUwBuAGEAcABHAHUAaQBkAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAQAAAzYAAADFAAAAaAEAAAMAAAACAAAHOgAAAE/8AQAAAAL7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAAAAAC+AAAAAAAAAAD7AAAAKgBTAGgAYQBwAGUAQwBvAGwAbABlAGMAdABpAG8AbgBEAG8AYwBrAGUAcgEAAAAAAAAHOgAAAOcAAADnAAAFPwAAA2gAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[flow][DockWidget FlowStencilBoxDocker]
+Collapsed=false
+DockArea=1
+
+[flow][DockWidget Shape Properties]
+Collapsed=false
+DockArea=2
+
+[flow][DockWidget ShapeCollectionDocker]
+Collapsed=false
+DockArea=4
+
+[flow][DockWidget SnapGuide Properties]
+Collapsed=false
+DockArea=2
+
+[flow][DockWidget ToolBox]
+Collapsed=false
+DockArea=1
+
+[flow][DockWidget document section view]
+Collapsed=false
+DockArea=1
+
+[flow][DockWidget sharedtooldocker]
+Collapsed=false
+DockArea=2
+
+[ncolors]
+Value=200
+
+[periodic]
+Value=true
+
+[ride]
+Value=true
+
+[rotate]
+Value=true
+
+[search]
+Value=true
+
+[showfps]
+Value=true
+
+[size]
+Value=-12
+
+[speed]
+Value=0
+
+[theme]
+Theme=Default

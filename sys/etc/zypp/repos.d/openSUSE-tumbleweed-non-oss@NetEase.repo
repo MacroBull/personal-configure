@@ -1,0 +1,9 @@
+[openSUSE-tumbleweed-non-oss@NetEase]
+name=openSUSE-tumbleweed-non-oss@NetEase
+enabled=0
+autorefresh=1
+baseurl=http://mirrors.163.com/openSUSE/factory/repo/non-oss/
+path=/
+type=yast2
+priority=7
+keeppackages=1

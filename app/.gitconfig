@@ -1,0 +1,47 @@
+[user]
+	email = MacrobullG@Gmail.com
+	name = Macrobull
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = true
+	ui = true
+[alias]
+	co = checkout
+	cm = commit
+	cmm = commit -m
+	cmam = commit -a -m
+	st = status
+	br = branch
+	unstage = reset HEAD
+	hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	type = cat-file -t
+	dump = cat-file -p
+	zz = init && echo "GG"
+[push]
+	default = simple
+[diff]  
+    tool = kompare  
+[difftool]  
+    prompt = false  
+[difftool "kompare"]  
+    cmd = kompare \"$LOCAL\" \"$REMOTE\"  
+[merge]  
+    tool = kompare  
+[core]
+	editor = kate
+[diff "word"]
+	textconv = strings
+[diff "pdf"]
+	textconv = less
+[diff "exif"]
+	textconv = exiftool
+[diff "guitool"]
+	command = kompare \"$LOCAL\" \"$REMOTE\"
+	
+[url "git://anongit.kde.org/"]
+   insteadOf = kde:
+[url "ssh://git@git.kde.org/"]
+   pushInsteadOf = kde:

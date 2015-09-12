@@ -1,0 +1,8 @@
+[delay]
+Value=12
+
+[layers]
+Value=3
+
+[showfps]
+Value=true

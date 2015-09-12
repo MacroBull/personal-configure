@@ -1,0 +1,14 @@
+[delay]
+Value=0
+
+[distance]
+Value=21
+
+[searchers]
+Value=8
+
+[showfps]
+Value=true
+
+[sources]
+Value=11

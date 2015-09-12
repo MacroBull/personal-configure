@@ -1,0 +1,39 @@
+Height 1080=520
+Height 768=483
+State=AAAA/wAAAAD9AAAAAAAABRoAAAKOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1366=860
+Width 1920=1008
+Window-Maximized 768x1366=true
+
+[Colors]
+CurrentPalette=Forty Colors
+
+[KFileDialog Settings]
+Height 1080=540
+Height 768=420
+Recent Files[$e]=Macrobull-Misc.sgrd,$HOME/.kde4/share/apps/ksysguard/Misc.sgrd,$HOME/workspace/personal_conf/individual/Misc.sgrd,$HOME/workspace/personal_conf/kde/share/apps/ksysguard/Misc.sgrd
+Recent URLs[$e]=$HOME/workspace/personal_conf/kde/share/apps/ksysguard/,$HOME/workspace/personal_conf/individual/,$HOME/.kde4/share/apps/ksysguard/
+Width 1366=672
+Width 1920=929
+
+[MainWindow]
+CommandList=
+Height 1080=552
+Height 1366=483
+Height 768=480
+HostList=
+SelectedSheets[$e]=ProcessTable.sgrd,SystemLoad2.sgrd,Sheet 1.sgrd
+SplitterSizeList=1305,0
+State=AAAA/wAAAAD9AAAAAAAABRoAAAK0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=950
+Width 1366=727
+Width 1920=706
+Width 768=694
+Window-Maximized 768x1366=true
+currentSheet=0
+isMinimized=false
+
+[Notification Messages]
+endconfirmation=false
+killconfirmation=false

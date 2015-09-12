@@ -1,0 +1,17 @@
+[altgeom]
+Value=true
+
+[cycles]
+Value=3
+
+[delay]
+Value=19417
+
+[label]
+Value=true
+
+[ncolors]
+Value=255
+
+[showfps]
+Value=true

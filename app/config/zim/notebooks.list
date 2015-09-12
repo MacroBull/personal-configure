@@ -1,0 +1,30 @@
+[NotebookList]
+Default=~/Documents/Notebooks/TechAck
+1=~/Documents/Notebooks/testSite
+2=~/Documents/Notebooks/Omni
+3=~/Documents/Notebooks/TechAck
+4=~/Documents/Notebooks/StudyAbroad
+
+[Notebook 1]
+uri=~/Documents/Notebooks/testSite
+name=testSite
+interwiki=None
+icon=None
+
+[Notebook 2]
+uri=~/Documents/Notebooks/Omni
+name=Omni
+interwiki=None
+icon=None
+
+[Notebook 3]
+uri=~/Documents/Notebooks/TechAck
+name=TechAck
+interwiki=None
+icon=None
+
+[Notebook 4]
+uri=~/Documents/Notebooks/StudyAbroad
+name=StudyAbroad
+interwiki=None
+icon=None

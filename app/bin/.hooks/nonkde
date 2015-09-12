@@ -1,0 +1,6 @@
+#! /bin/bash
+sed -i 's/Palette\\active=.*/#Palette\\active/g' ~/.config/Trolltech.conf
+export PATH=${PATH##*.hooks:}
+exec=`which --skip-dot ${0##*/}` || exec=`which --skip-tilde ${0##*/}`
+echo Launch $exec ...
+KDE_SESSION_VERSION=0 $exec "$@"

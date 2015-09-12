@@ -1,0 +1,8 @@
+[OBS-M17N]
+name=OBS-M17N
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/repositories/M17N/openSUSE_Tumbleweed/
+type=rpm-md
+priority=84
+keeppackages=1

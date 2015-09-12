@@ -1,0 +1,9 @@
+[Packman@TWR]
+name=Packman@TWR
+enabled=1
+autorefresh=1
+baseurl=http://ftp.twaren.net/Linux/Packman/suse/openSUSE_Tumbleweed/
+path=/
+type=rpm-md
+priority=71
+keeppackages=1

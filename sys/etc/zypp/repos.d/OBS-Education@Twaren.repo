@@ -1,0 +1,9 @@
+[OBS-Education@Twaren]
+name=OBS-Education@Twaren
+enabled=1
+autorefresh=1
+baseurl=http://ftp.twaren.net/Linux/OpenSuSE/repositories/Education/openSUSE_Tumbleweed/
+path=/
+type=rpm-md
+priority=65
+keeppackages=1

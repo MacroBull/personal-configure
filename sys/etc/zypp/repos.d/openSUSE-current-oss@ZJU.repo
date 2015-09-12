@@ -1,0 +1,9 @@
+[openSUSE-current-oss@ZJU]
+name=openSUSE-current-oss@ZJU
+enabled=1
+autorefresh=1
+baseurl=http://mirrors.zju.edu.cn/opensuse/distribution/openSUSE-current/repo/oss/
+path=/
+type=yast2
+priority=22
+keeppackages=1

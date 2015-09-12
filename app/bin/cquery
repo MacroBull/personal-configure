@@ -1,0 +1,13 @@
+find -iname "*.c"    > ./cscope.files
+find -iname "*.cpp" >> ./cscope.files
+find -iname "*.cxx" >> ./cscope.files
+find -iname "*.cc " >> ./cscope.files
+find -iname "*.h"   >> ./cscope.files
+find -iname "*.hpp" >> ./cscope.files
+find -iname "*.hxx" >> ./cscope.files
+find -iname "*.hh " >> ./cscope.files
+
+cscope -cb
+ctags --fields=+i -n -R -L ./cscope.files
+cqmakedb -s ./cquery.db -c ./cscope.out -t ./tags -p
+codequery -s ./cquery.db

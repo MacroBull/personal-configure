@@ -1,0 +1,14 @@
+[bigdots]
+Value=true
+
+[delay]
+Value=0
+
+[showfps]
+Value=true
+
+[speed]
+Value=5.688
+
+[zoom]
+Value=100

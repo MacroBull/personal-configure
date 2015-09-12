@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=MGC-Design-Entry
+Comment=Hyperlynx Analog
+Encoding=UTF-8
+Exec="/opt/mentor/2007.7EE/SDD_HOME/common/linux/bin/hla" %f
+Icon=/opt/mentor/2007.7EE/SDD_HOME/standard/toolbox/toolbox9/DxSim.ico
+Name=Hyperlynx Analog
+Terminal=1
+Type=Application

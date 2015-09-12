@@ -1,0 +1,9 @@
+[openSUSE-tumbleweed-non-oss@ZJU]
+name=openSUSE-tumbleweed-non-oss@ZJU
+enabled=1
+autorefresh=1
+baseurl=http://mirrors.zju.edu.cn/opensuse/factory/repo/non-oss/
+path=/
+type=yast2
+priority=7
+keeppackages=1

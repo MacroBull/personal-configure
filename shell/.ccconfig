@@ -1,0 +1,60 @@
+#! /bin/bash
+
+############## CFLAGS ################
+
+load_clang_flags() {
+	export CHOST="x86_64-pc-linux-gnu"
+	export CFLAGS=" -O3 -g -pipe -mfpmath=sse \
+-msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2 -mavx -march=native"
+	export CXXFLAGS=$CFLAGS" "
+	export LDFLAGS=""
+	export CPPFLAGS=$CXXFLAGS
+}
+# export -f load_clang_flags
+
+load_gcc_flags() {
+	export CHOST="x86_64-pc-linux-gnu"
+	export CFLAGS=" -O3 -g -pipe -mfpmath=sse \
+-msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2 -mavx -march=native \
+-maccumulate-outgoing-args -minline-stringops-dynamically \
+-fforce-addr "
+	export CXXFLAGS=$CFLAGS" "
+	export LDFLAGS=""
+	export CPPFLAGS=$CXXFLAGS
+}
+# export -f load_gcc_flags
+
+load_icc_flags() {
+# 	export CHOST="x86_64-pc-linux-gnu"
+	export CFLAGS=" -O3 -g -xHost -no-prec-div -fp-model fast=2 \
+-ipo -parallel "
+# 	-openmp # 	-axAVX -fast contains -static....
+	export CXXFLAGS=$CFLAGS" "
+	export LDFLAGS=" -qopt-report=2 -qopt-report-phase=ipo,par,vec "
+	export CPPFLAGS=$CXXFLAGS
+}
+# export -f load_icc_flags
+
+load_occ_flags() {
+	export CHOST="x86_64-pc-linux-gnu"
+	export CFLAGS=" -O3 -g -pipe \
+-msse -msse2 -msse3"
+	export CXXFLAGS=$CFLAGS" "
+	export LDFLAGS=""
+	export CPPFLAGS=$CXXFLAGS
+}
+# export -f load_occ_flags
+
+
+if [ "$CXX" = "g++" ]; then
+	load_gcc_flags
+elif [ "$CXX" = "icpc" ]; then
+	load_icc_flags
+elif [ "$CXX" = "opencc" ]; then
+	load_occ_flags
+else 
+	load_clang_flags
+fi
+
+
+# export QMAKE_CXXFLAGS=$CXXFLAGS
