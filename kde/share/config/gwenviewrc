@@ -10,43 +10,43 @@ ThumbnailBarIsVisible=true
 ThumbnailBarOrientation=Vertical
 
 [ImageView]
-ThumbnailSplitterSizes=922,136
+ThumbnailSplitterSizes=537,79
 
 [KFileDialog Settings]
 Height 768=420
-Recent Files[$e]=$HOME/tmp/a.png,$HOME/workspace/Embedded/STM32/VectorFontCover.jpg,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/lp.jpg,/mnt/data/misc/100CANON/xIMG_9224.jpg
-Recent URLs[$e]=$HOME/tmp/,/mnt/data/misc/100CANON/,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/,$HOME/workspace/Embedded/STM32/
+Recent Files[$e]=$HOME/tmp/a.png,$HOME/Images/Avatar/Contact/骆奥.jpg,$HOME/Images/Avatar/Contact/唐一禾.jpg,$HOME/workspace/Embedded/STM32/VectorFontCover.jpg,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/lp.jpg,/mnt/data/misc/100CANON/xIMG_9224.jpg
+Recent URLs[$e]=$HOME/tmp/,/mnt/data/misc/100CANON/,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/,$HOME/workspace/Embedded/STM32/,$HOME/Images/Avatar/Contact/,/var/tmp/kdecache-macrobull/krun/
 Width 1366=672
 
 [MainWindow]
 Height 1080=1081
-Height 768=769
-State=AAAA/wAAAAD9AAAAAAAABRoAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 768=543
+State=AAAA/wAAAAD9AAAAAAAAA2AAAAHfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1366=1367
+Width 1366=864
 Width 1920=1921
 
 [Recent Files]
-File1[$e]=/mnt/data/Downloads/KDE/b9ed26bbjw1eu66n1634mj218g0tmq8s.jpg
-File10[$e]=$HOME/workspace/personal-configure/doc/kate0.png
-File2[$e]=/mnt/data/Downloads/KDE/b9ed26bbjw1eu66n35szyj20tm18g0yq.jpg
-File3[$e]=/mnt/data/Downloads/KDE/b9ed26bbjw1eu66n9c70lj23344mou16.jpg
-File4[$e]=/mnt/data/Downloads/KDE/0036ef80224b11e5aa8ae340441bb94b.jpg
-File5[$e]=/mnt/data/Downloads/KDE/0062ojRCjw1eqyknekkwcj30no0vkq60.jpg
-File6[$e]=/mnt/data/Downloads/KDE/0062ojRCjw1eqyknghi13j30no0vkad3.jpg
-File7[$e]=/mnt/data/Downloads/KDE/0062ojRCjw1eqyknijbelj30no0vkjul.jpg
-File8[$e]=/mnt/data/Downloads/KDE/0062ojRCjw1eqyknq59zhj30no0vkacy.jpg
-File9[$e]=/mnt/data/Downloads/KDE/Capture2.PNG
-Name1[$e]=b9ed26bbjw1eu66n1634mj218g0tmq8s.jpg
-Name10[$e]=kate0.png
-Name2[$e]=b9ed26bbjw1eu66n35szyj20tm18g0yq.jpg
-Name3[$e]=b9ed26bbjw1eu66n9c70lj23344mou16.jpg
-Name4[$e]=0036ef80224b11e5aa8ae340441bb94b.jpg
-Name5[$e]=0062ojRCjw1eqyknekkwcj30no0vkq60.jpg
-Name6[$e]=0062ojRCjw1eqyknghi13j30no0vkad3.jpg
-Name7[$e]=0062ojRCjw1eqyknijbelj30no0vkjul.jpg
-Name8[$e]=0062ojRCjw1eqyknq59zhj30no0vkacy.jpg
-Name9[$e]=Capture2.PNG
+File1[$e]=$HOME/tmp.var/Capture/囿子-【再现MMD】猫和老鼠·续-[00_00_52_566].jpg
+File10[$e]=/mnt/data/Downloads/TDDownload/第一會所新片@SIS001@(PRESTIGE)(YRH-101)すんげぇぬるぬる_！！ましろあい_江上しほ_白石悠_双葉ゆきな_白石みお_星野ひびき/(PRESTIGE)(YRH-101)すんげぇぬるぬる ！！ましろあい 江上しほ 白石悠 双葉ゆきな 白石みお 星野ひびき.jpg
+File2[$e]=$HOME/tmp.var/Capture/烤夜雀-【合作】日刊东方排行榜 13年4月1日【東方MMD】-前編[00_06_59_365].jpg
+File3[$e]=$HOME/Images/Avatar/Contact/骆奥.jpg
+File4[$e]=$HOME/Images/Avatar/Contact/唐一禾.jpg
+File5[$e]=$HOME/tmp.var/Screenshot/screencast.gif
+File6[$e]=/tmp/tmp-macrobull/reproduction/Image0005.JPG
+File7[$e]=/tmp/tmp-macrobull/reproduction/Image0004.JPG
+File8[$e]=/tmp/tmp-macrobull/reproduction/Image0003.JPG
+File9[$e]=/tmp/tmp-macrobull/reproduction/Image0002.JPG
+Name1[$e]=囿子-【再现MMD】猫和老鼠·续-[00_00_52_566].jpg
+Name10[$e]=(PRESTIGE)(YRH-101)すんげぇぬるぬる ！！ましろあい 江上しほ 白石悠 双葉ゆきな 白石みお 星野ひびき.jpg
+Name2[$e]=烤夜雀-【合作】日刊东方排行榜 13年4月1日【東方MMD】-前編[00_06_59_365].jpg
+Name3[$e]=骆奥.jpg
+Name4[$e]=唐一禾.jpg
+Name5[$e]=screencast.gif
+Name6[$e]=Image0005.JPG
+Name7[$e]=Image0004.JPG
+Name8[$e]=Image0003.JPG
+Name9[$e]=Image0002.JPG
 
 [SideBar-BrowseMode]
 IsVisible=true

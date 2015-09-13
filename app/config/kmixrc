@@ -9,7 +9,7 @@ MixerIgnoreExpression=Modem
 Orientation.TrayPopup=Horizontal
 Position=60,0
 Size=466,368
-Soundmenu.Mixers=PulseAudio::Capture_Streams:1,PulseAudio::Playback_Devices:1,PulseAudio::Capture_Devices:1,PulseAudio::Playback_Streams:1
+Soundmenu.Mixers=PulseAudio::Capture_Streams:1,PulseAudio::Capture_Devices:1,PulseAudio::Playback_Devices:1,PulseAudio::Playback_Streams:1
 Visible=false
 VolumeOverdrive=true
 

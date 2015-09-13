@@ -129,8 +129,8 @@ DisabledValue=1
 Size=32
 
 [DirSelect Dialog]
-DirSelectDialog Size=1306,737
-History Items[$e]=file://$HOME/workspace/personal-configure,file:///run/media/macrobull/FAT,file:///mnt/fast/tmp,file:///mnt/data/Downloads/TDDownload,file:///mnt/fast/Downloads/TDDownload,file:///tmp/tmp-macrobull,file://$HOME/Images/Wallpaper/XArtwork,file://$HOME/Images/Wallpaper/Entity,file://$HOME/Images/Wallpaper/Abstract,file://$HOME/Downloads/New,file://$HOME/Documents,file://$HOME/Public
+DirSelectDialog Size=932,497
+History Items[$e]=file:///mnt/data/VM/Share,file:///mnt/data/VM,file:///tmp/tmp-macrobull,file://$HOME/workspace/personal-configure,file:///run/media/macrobull/FAT,file:///mnt/fast/tmp,file:///mnt/data/Downloads/TDDownload,file:///mnt/fast/Downloads/TDDownload,file://$HOME/Images/Wallpaper/XArtwork,file://$HOME/Images/Wallpaper/Entity,file://$HOME/Images/Wallpaper/Abstract,file://$HOME/Downloads/New,file://$HOME/Documents,file://$HOME/Public
 
 [Emoticons]
 emoticonsTheme=GoogleEmojiComplete
@@ -175,7 +175,7 @@ Breadcrumb Navigation=false
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Previews=true
+Previews=false
 Show Bookmarks=true
 Show Full Path=false
 Show Preview=false
@@ -184,9 +184,9 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=334
-View Style=Simple
-detailedViewIconSize=55
+Speedbar Width=268
+View Style=DetailTree
+detailedViewIconSize=20
 listViewIconSize=40
 
 [KShortcutsDialog Settings]

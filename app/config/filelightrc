@@ -1,20 +1,20 @@
 [general]
-File1[$e]=/mnt/fast/misc/
-File2[$e]=/mnt/fast/misc/dotfile/
-File3[$e]=$HOME/workspace/personal-configure/app
-File4[$e]=$HOME/workspace/personal-configure/.git
-File5[$e]=$HOME/workspace/personal-configure/
-File6[$e]=$HOME/workspace/personal-configure/.git/
-File7[$e]=$HOME/workspace/personal-configure/.git/objects/
-File8[$e]=$HOME/workspace/personal-configure/.git/objects/pack/
+File1[$e]=$HOME/workspace/personal-configure/.git/objects/
+File2[$e]=$HOME/workspace/personal-configure/.git/objects/pack/
+File3[$e]=/mnt/fast/Images/Web/
+File4[$e]=/mnt/fast/Downloads
+File5[$e]=/mnt/fast
+File6[$e]=/mnt/fast/misc/
+File7[$e]=/mnt/fast/misc/oRoot/
+File8[$e]=$HOME/tmp.var
 Name1[$e]=
 Name2[$e]=
-Name3[$e]=app
-Name4[$e]=.git
-Name5[$e]=
+Name3[$e]=
+Name4[$e]=Downloads
+Name5[$e]=fast
 Name6[$e]=
 Name7[$e]=
-Name8[$e]=
+Name8[$e]=tmp.var
 
 [window]
 Height 768=495
