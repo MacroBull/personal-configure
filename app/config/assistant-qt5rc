@@ -1,0 +1,6 @@
+[FileDialogSize]
+Window-Maximized 768x1366=true
+
+[KFileDialog Settings]
+Recent Files[$e]=qtwebview.qch,/opt/Qt/Docs/Qt-5.5/qtdoc.qch,/opt/Qt/Docs/Qt-5.5/qtdesigner.qch,/opt/Qt/Docs/Qt-5.5/qtdbus.qch,/opt/Qt/Docs/Qt-5.5/qtcore.qch,/opt/Qt/Docs/Qt-5.5/qtconcurrent.qch,/opt/Qt/Docs/Qt-5.5/qtcanvas3d.qch,/opt/Qt/Docs/Qt-5.5/qtbluetooth.qch,/opt/Qt/Docs/Qt-5.5/qtassistant.qch,/opt/Qt/Docs/Qt-5.5/qtandroidextras.qch,/opt/Qt/Docs/Qt-5.5/qt3drenderer.qch,/opt/Qt/Docs/Qt-5.5/qt3drender.qch,/opt/Qt/Docs/Qt-5.5/qt3dcore.qch,/opt/Qt/Docs/Qt-5.5/qmake.qch,/opt/Qt/Docs/Qt-5.5/qdoc.qch,/opt/Qt/Docs/Qt-5.5/activeqt.qch,/opt/Qt/Docs/QtWebView/1.1/qtwebview.qch
+Recent URLs[$e]=/opt/Qt/Docs/QtWebView/1.1/,/opt/Qt/Docs/Qt-5.5/

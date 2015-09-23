@@ -1,0 +1,7 @@
+[FileDialogSize]
+Height 768=737
+Width 1366=1366
+
+[KFileDialog Settings]
+Recent Files[$e]=akonadi.db,$HOME/.local/share/akonadi/akonadi.db
+Recent URLs[$e]=$HOME/.local/share/akonadi/

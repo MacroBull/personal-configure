@@ -1,0 +1,16 @@
+[parameters]
+AccelFactor=0.0318826995790005
+CircScrollDelta=6
+CircularScrolling=true
+CoastingFriction=52
+FingerHigh=62
+FingerLow=34
+HorizScrollDelta=1.9
+LTCornerButton=LeftButton
+MaxTapMove=0
+PalmDetect=true
+PalmMinWidth=4
+PalmMinZ=102
+RTCornerButton=RightButton
+Tapping=false
+VertScrollDelta=0.9

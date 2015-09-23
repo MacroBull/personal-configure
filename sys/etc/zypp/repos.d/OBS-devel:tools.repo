@@ -1,0 +1,9 @@
+[OBS-devel:tools]
+name=OBS-devel:tools
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/repositories/devel:/tools/openSUSE_Factory
+path=/
+type=rpm-md
+priority=33
+keeppackages=1
