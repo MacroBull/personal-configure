@@ -1,3 +1,7 @@
+[FileDialogSize]
+Height 768=496
+Width 1366=734
+
 [KFileDialog Settings]
-Recent Files[$e]=$HOME/workspace/Embedded/STM32/MINI-demo_clock/readme.md,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/test.jpg
-Recent URLs[$e]=$HOME/workspace/Embedded/STM32/MINI-demo_clock/,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/
+Recent Files[$e]=$HOME/workspace/Embedded/STM32/MINI-demo_clock/readme.md,$HOME/Videos.old/Tutorial/MathAnalysis/qnote.md,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/test.jpg
+Recent URLs[$e]=$HOME/workspace/Embedded/STM32/MINI-demo_clock/,$HOME/workspace/Embedded/STM32/MINI-demo_clock/res/,$HOME/Videos.old/Tutorial/MathAnalysis/

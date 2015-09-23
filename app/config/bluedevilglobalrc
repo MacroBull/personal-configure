@@ -2,7 +2,7 @@
 B8:76:3F:A9:CC:C5_powered=true
 
 [Devices]
-connectedDevices=
+connectedDevices=B4:CE:F6:BB:DA:E5
 
 [Global]
 bluetoothBlocked=false

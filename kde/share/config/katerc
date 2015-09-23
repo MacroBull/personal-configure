@@ -39,7 +39,7 @@ Width 1366=668
 
 [KTextEditor::Search]
 Replace History=.,./,qrc:/resources/images/icon512.png,1/controlExt,\\\\t,:,,wget ,acroread,\\\\n,delay_ms,LCD_WR_CMD,LCD_WR_CMD(,LCD_WR
-Search History=GeoPolygon,strok,shad,gradi,qdebug,qtLogoImage.,imageLoad,logo,hard,-hard,include,boost,neon,float,popp,-lgcc,moc_application.o,ldf,-l,ld,link,-mfloat-abi=,-march=,mmpl,player,set_me,soft,sof,-I,qrc:,qrc,qrc://,require,../../../Application/applications/icons/QtIcon.png,png,yAxisPosX + (valueHop*(data.datasets[i].data.length-1)),datasetFillStart,datasetFill,fill,0.25,xPos,bezierCurveTo,bezier,line,grid,biligrab,cook,-c,NO_PARSER_SPECIFIED_WARNING,conn,autorc,recomm,err,connect,publish(,qos,_out_message_mutex,_handle_connack,_out_messages,CONNACK,dup,reserved,publish,_send_simple_command,pingreq,puback,connect(,no,    ,commi,cmm,backup_public,appman,spyder,mpv,sysgu,konsol,akonadi,intel,baloo,photoq,android,uv,katepartplugi,smpl,pulse,mil,make,<<<,biligrab(,keep_fps,increase_fps,mpvflags,fps,title,;,opengl,wayland,^,quad
+Search History=def loop,max_packets,loop_forever,GeoPolygon,strok,shad,gradi,qdebug,qtLogoImage.,imageLoad,logo,hard,-hard,include,boost,neon,float,popp,-lgcc,moc_application.o,ldf,-l,ld,link,-mfloat-abi=,-march=,mmpl,player,set_me,soft,sof,-I,qrc:,qrc,qrc://,require,../../../Application/applications/icons/QtIcon.png,png,yAxisPosX + (valueHop*(data.datasets[i].data.length-1)),datasetFillStart,datasetFill,fill,0.25,xPos,bezierCurveTo,bezier,line,grid,biligrab,cook,-c,NO_PARSER_SPECIFIED_WARNING,conn,autorc,recomm,err,connect,publish(,qos,_out_message_mutex,_handle_connack,_out_messages,CONNACK,dup,reserved,publish,_send_simple_command,pingreq,puback,connect(,no,    ,commi,cmm,backup_public,appman,spyder,mpv,sysgu,konsol,akonadi,intel,baloo,photoq,android,uv,katepartplugi,smpl,pulse,mil,make,<<<,biligrab(,keep_fps,increase_fps,mpvflags,fps,title,;,opengl
 
 [Konsole]
 AutoSyncronize=true
@@ -47,11 +47,12 @@ SetEditor=true
 
 [MainWindow]
 Height 1080=1049
-Height 768=737
-State=AAAA/wAAAAD9AAAAAAAAAooAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAEgBnAGQAYgBwAGwAdQBnAGkAbgEAAAGm/////wAAAAAAAAAA
+Height 768=733
+State=AAAA/wAAAAD9AAAAAAAABRoAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAEgBnAGQAYgBwAGwAdQBnAGkAbgEAAAI2/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1366=650
 Width 1920=957
+Window-Maximized 768x1366=true
 
 [PluginSymbolViewer]
 ExpandTree=true
