@@ -1,6 +1,6 @@
 [GENERAL]
 delay=3
-filename[$e]=file://$HOME/Images/Screenshot/ss53.png
+filename[$e]=file://$HOME/Images/Screenshot/ss71.png
 includeDecorations=true
 includePointer=false
 mode=2
@@ -8,11 +8,11 @@ mode=2
 [KFileDialog Settings]
 Height 1080=420
 Height 768=510
-Recent Files[$e]=$HOME/Images/Screenshot/ss2.png,$HOME/Images/Screenshot/ss52.png,$HOME/Images/Screenshot/ss51.png,$HOME/Images/Screenshot/ss50.png,$HOME/Images/Screenshot/ss49.png,$HOME/Images/Screenshot/ss48.png,$HOME/Images/Screenshot/ss47.png,$HOME/Images/Screenshot/ss46.png,$HOME/Images/Screenshot/ss45.png,$HOME/Images/Screenshot/ss44.png,$HOME/Images/Screenshot/ss43.png,$HOME/Images/Screenshot/ss42.png,$HOME/Images/Screenshot/ss41.png,$HOME/Images/Screenshot/ss40.png,$HOME/Images/Screenshot/ss39.png,$HOME/Images/Screenshot/ss38.png
+Recent Files[$e]=$HOME/Images/Screenshot/ss2.png,$HOME/Images/Screenshot/ss70.png,$HOME/Images/Screenshot/ss69.png,$HOME/Images/Screenshot/ss68.png,$HOME/Images/Screenshot/ss67.png,$HOME/Images/Screenshot/ss66.png,$HOME/Images/Screenshot/ss65.png,$HOME/Images/Screenshot/ss64.png,$HOME/Images/Screenshot/ss63.png,$HOME/Images/Screenshot/ss62.png,$HOME/Images/Screenshot/ss61.png,$HOME/Images/Screenshot/ss60.png,$HOME/Images/Screenshot/ss59.png,$HOME/Images/Screenshot/ss58.png,$HOME/Images/Screenshot/ss57.png,$HOME/Images/Screenshot/ss56.png
 Recent URLs[$e]=$HOME/Images/Screenshot/,$HOME/Images/
 Width 1366=816
 Width 1920=672
 
 [MainWindow]
-Height 768=504
-Width 1366=932
+Height 768=545
+Width 1366=647

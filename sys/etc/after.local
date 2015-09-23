@@ -13,3 +13,4 @@
 # runlevel has been reached.
 #
 
+#umount /sys/firmware/efi/efivars

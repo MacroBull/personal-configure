@@ -15,7 +15,10 @@ case $1 in
 		;;
 esac
 
+echo $url
+
 target="$HOME/Downloads/KDE/`echo "$url" | cut -d '/' -f 7`_`date -I`.iso"
 echo "Save to $target ..."
-curl $url -o $target
+# echo "curl $url -o $target -C -"
+curl $url -o $target -C -
 

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE KSysGuardWorkSheet>
-<WorkSheet locked="0" rows="3" interval="5" columns="2" title="Misc">
- <host command="ksysguardd" name="localhost" shell="" port="-1"/>
- <display vDistance="30" vScroll="0" showUnit="0" max="100" version="1" rowSpan="1" labels="1" unit="" row="1" autoRange="1" hScale="2" vLines="1" fontSize="8" hLines="1" manualRange="1" min="45" stacked="0" column="0" title="Temperature" columnSpan="1" svgBackground="" class="FancyPlotter">
-  <beam color="0xff0057ae" sensorType="integer" sensorName="acpi/Thermal_Zone/0/Temperature" hostName="localhost"/>
-  <beam color="0xffe20800" sensorType="integer" sensorName="acpi/Thermal_Zone/1/Temperature" hostName="localhost"/>
-  <beam color="0xff00a900" sensorType="float" sensorName="lmsensors/coretemp-isa-0000/Core_0" hostName="localhost"/>
-  <beam color="0xffa9287c" sensorType="float" sensorName="lmsensors/coretemp-isa-0000/Core_1" hostName="localhost"/>
+<WorkSheet columns="2" interval="5" rows="3" title="Misc" locked="0">
+ <host command="ksysguardd" name="localhost" port="-1" shell=""/>
+ <display row="1" max="100" rowSpan="1" vDistance="30" stacked="0" vLines="1" unit="" vScroll="0" autoRange="1" svgBackground="" manualRange="1" columnSpan="1" hLines="1" hScale="2" labels="1" title="Temperature" showUnit="0" fontSize="8" class="FancyPlotter" column="0" min="45" version="1">
+  <beam color="0xff0057ae" sensorType="integer" hostName="localhost" sensorName="acpi/Thermal_Zone/0/Temperature"/>
+  <beam color="0xffe20800" sensorType="integer" hostName="localhost" sensorName="acpi/Thermal_Zone/1/Temperature"/>
+  <beam color="0xff00a900" sensorType="float" hostName="localhost" sensorName="lmsensors/coretemp-isa-0000/Core_0"/>
+  <beam color="0xffa9287c" sensorType="float" hostName="localhost" sensorName="lmsensors/coretemp-isa-0000/Core_1"/>
  </display>
- <display vDistance="30" vScroll="0" showUnit="0" version="1" rowSpan="1" labels="1" unit="" row="0" autoRange="1" hScale="2" fontSize="8" vLines="1" hLines="1" manualRange="0" stacked="1" column="1" title="Memory Detail" columnSpan="1" svgBackground="" class="FancyPlotter">
-  <beam color="0xfff3c300" sensorType="integer" sensorName="mem/physical/application" hostName="localhost"/>
-  <beam color="0xff00a900" sensorType="integer" sensorName="mem/physical/cached" hostName="localhost"/>
-  <beam color="0xffff0004" sensorType="integer" sensorName="mem/swap/used" hostName="localhost"/>
+ <display row="0" rowSpan="1" vDistance="30" stacked="1" vLines="1" unit="" vScroll="0" autoRange="1" svgBackground="" manualRange="0" columnSpan="1" hLines="1" hScale="2" labels="1" title="Memory Detail" showUnit="0" fontSize="8" class="FancyPlotter" column="1" version="1">
+  <beam color="0xfff3c300" sensorType="integer" hostName="localhost" sensorName="mem/physical/application"/>
+  <beam color="0xff00a900" sensorType="integer" hostName="localhost" sensorName="mem/physical/cached"/>
+  <beam color="0xffff0004" sensorType="integer" hostName="localhost" sensorName="mem/swap/used"/>
  </display>
- <display vDistance="30" vScroll="0" showUnit="0" version="1" rowSpan="1" labels="1" unit="" row="1" autoRange="1" hScale="2" fontSize="8" vLines="1" hLines="1" manualRange="0" stacked="1" column="1" title="IO" columnSpan="1" svgBackground="" class="FancyPlotter">
-  <beam color="0xff0057ae" sensorType="float" sensorName="disk/sda_(8:0)/Rate/rblk" hostName="localhost"/>
-  <beam color="0xffe20800" sensorType="float" sensorName="disk/sda_(8:0)/Rate/wblk" hostName="localhost"/>
-  <beam color="0xff18f36c" sensorType="float" sensorName="disk/sdb_(8:16)/Rate/rblk" hostName="localhost"/>
-  <beam color="0xffffc038" sensorType="float" sensorName="disk/sdb_(8:16)/Rate/wblk" hostName="localhost"/>
+ <display row="1" rowSpan="1" vDistance="30" stacked="1" vLines="1" unit="" vScroll="0" autoRange="1" svgBackground="" manualRange="0" columnSpan="1" hLines="1" hScale="2" labels="1" title="IO" showUnit="0" fontSize="8" class="FancyPlotter" column="1" version="1">
+  <beam color="0xff0057ae" sensorType="float" hostName="localhost" sensorName="disk/sda_(8:0)/Rate/rblk"/>
+  <beam color="0xffe20800" sensorType="float" hostName="localhost" sensorName="disk/sda_(8:0)/Rate/wblk"/>
+  <beam color="0xff18f36c" sensorType="float" hostName="localhost" sensorName="disk/sdb_(8:16)/Rate/rblk"/>
+  <beam color="0xffffc038" sensorType="float" hostName="localhost" sensorName="disk/sdb_(8:16)/Rate/wblk"/>
  </display>
- <display vDistance="30" vScroll="0" showUnit="0" max="3500" version="1" rowSpan="1" labels="1" unit="" row="0" autoRange="1" hScale="2" vLines="1" fontSize="8" hLines="1" manualRange="1" min="1000" stacked="0" column="0" title="CPU Freq" columnSpan="1" svgBackground="" class="FancyPlotter">
-  <beam color="0xffb7551c" sensorType="float" sensorName="cpu/cpu0/clock" hostName="localhost"/>
-  <beam color="0xff275ba9" sensorType="float" sensorName="cpu/cpu3/clock" hostName="localhost"/>
+ <display row="0" max="3500" rowSpan="1" vDistance="30" stacked="0" vLines="1" unit="" vScroll="0" autoRange="1" svgBackground="" manualRange="1" columnSpan="1" hLines="1" hScale="2" labels="1" title="CPU Freq" showUnit="0" fontSize="8" class="FancyPlotter" column="0" min="1000" version="1">
+  <beam color="0xffb7551c" sensorType="float" hostName="localhost" sensorName="cpu/cpu0/clock"/>
+  <beam color="0xff275ba9" sensorType="float" hostName="localhost" sensorName="cpu/cpu3/clock"/>
  </display>
- <display vDistance="30" vScroll="0" showUnit="0" version="1" rowSpan="1" labels="1" unit="" row="2" autoRange="1" hScale="2" fontSize="8" vLines="1" hLines="1" manualRange="0" stacked="0" column="1" title="Resources" columnSpan="1" svgBackground="" class="FancyPlotter">
-  <beam color="0xff238843" sensorType="float" sensorName="cpu/context" hostName="localhost"/>
-  <beam color="0xffff0000" sensorType="float" sensorName="cpu/interrupts/int00" hostName="localhost"/>
-  <beam color="0xffb919bb" sensorType="integer" sensorName="acpi/battery/0/batteryusage" hostName="localhost"/>
+ <display row="2" rowSpan="1" vDistance="30" stacked="0" vLines="1" unit="" vScroll="0" autoRange="1" svgBackground="" manualRange="0" columnSpan="1" hLines="1" hScale="2" labels="1" title="Resources" showUnit="0" fontSize="8" class="FancyPlotter" column="1" version="1">
+  <beam color="0xff238843" sensorType="float" hostName="localhost" sensorName="cpu/context"/>
+  <beam color="0xffff0000" sensorType="float" hostName="localhost" sensorName="cpu/interrupts/int00"/>
+  <beam color="0xffb919bb" sensorType="integer" hostName="localhost" sensorName="acpi/battery/0/batteryusage"/>
  </display>
- <display vDistance="30" vScroll="0" showUnit="0" version="1" rowSpan="1" labels="1" unit="" row="2" autoRange="1" hScale="2" fontSize="8" vLines="1" hLines="1" manualRange="0" stacked="0" column="0" title="Instant Load" columnSpan="1" svgBackground="" class="FancyPlotter">
-  <beam color="0xffe20800" sensorType="float" sensorName="cpu/system/user" hostName="localhost"/>
-  <beam color="0xfff3c300" sensorType="float" sensorName="cpu/system/sys" hostName="localhost"/>
-  <beam color="0xff3cb179" sensorType="integer" sensorName="acpi/battery/0/batterycharge" hostName="localhost"/>
+ <display row="2" rowSpan="1" vDistance="30" stacked="0" vLines="1" unit="" vScroll="0" autoRange="1" svgBackground="" manualRange="0" columnSpan="1" hLines="1" hScale="2" labels="1" title="Instant Load" showUnit="0" fontSize="8" class="FancyPlotter" column="0" version="1">
+  <beam color="0xffe20800" sensorType="float" hostName="localhost" sensorName="cpu/system/user"/>
+  <beam color="0xfff3c300" sensorType="float" hostName="localhost" sensorName="cpu/system/sys"/>
+  <beam color="0xff3cb179" sensorType="integer" hostName="localhost" sensorName="acpi/battery/0/batterycharge"/>
  </display>
 </WorkSheet>

@@ -80,6 +80,7 @@ alias snapper='snapper -c macrobull'
 # alias qml="nokde QML2_IMPORT_PATH+=. qml"
 alias qml="nokde qml -I . -I imports"
 alias qml2="qmlscene -I . -I imports"
+alias qml-dist="/opt/Qt/Current/gcc_64/bin/qmlscene -I . -I imports"
 # alias qml2="nokde /opt/Qt/Current/gcc_64/bin/qmlscene -I /opt/Qt/Current/gcc_64/qml -I . -I imports"
 
 alias openocd-qserver='ps -ea | grep openocd || openocd -f ~/workspace/Embedded/STM32/stm32-qserver.cfg'

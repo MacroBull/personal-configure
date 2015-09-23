@@ -1,3 +1,9 @@
 [FileDialogSize]
 Height 1080=512
+Height 768=600
+Width 1366=1012
 Width 1920=791
+
+[KFileDialog Settings]
+Recent Files[$e]=两个月亮.torrent,$HOME/Downloads/New/两个月亮.torrent
+Recent URLs[$e]=$HOME/Downloads/New/

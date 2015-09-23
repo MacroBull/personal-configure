@@ -5,7 +5,7 @@ Color Highlighted Line=62,62,62
 Color Icon Bar=34,34,34
 Color Line Number=128,128,128
 Current Color Line Number=240,240,240
-Font=Fantasque Sans Mono,9,-1,5,50,0,0,0,0,0
+Font=Fantasque Sans Mono,10,-1,5,50,0,0,0,0,0
 dummy=prevent-empty-group
 
 [Normal]

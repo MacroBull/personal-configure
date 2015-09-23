@@ -1,9 +1,0 @@
-[openSUSE-current-non-oss@ZJU]
-name=openSUSE-current-non-oss@ZJU
-enabled=1
-autorefresh=1
-baseurl=http://mirrors.zju.edu.cn/opensuse/distribution/openSUSE-current/repo/non-oss/
-path=/
-type=yast2
-priority=22
-keeppackages=1

@@ -10,7 +10,7 @@ ThumbnailBarIsVisible=true
 ThumbnailBarOrientation=Vertical
 
 [ImageView]
-ThumbnailSplitterSizes=537,79
+ThumbnailSplitterSizes=1136,167
 
 [KFileDialog Settings]
 Height 768=420
@@ -19,40 +19,43 @@ Recent URLs[$e]=$HOME/tmp/,/mnt/data/misc/100CANON/,$HOME/workspace/Embedded/STM
 Width 1366=672
 
 [MainWindow]
-Height 1080=1081
-Height 768=543
-State=AAAA/wAAAAD9AAAAAAAAA2AAAAHfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 1080=477
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABRoAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1366=864
-Width 1920=1921
+Width 1366=1367
+Width 1920=864
 
 [Recent Files]
-File1[$e]=$HOME/tmp.var/Capture/囿子-【再现MMD】猫和老鼠·续-[00_00_52_566].jpg
-File10[$e]=/mnt/data/Downloads/TDDownload/第一會所新片@SIS001@(PRESTIGE)(YRH-101)すんげぇぬるぬる_！！ましろあい_江上しほ_白石悠_双葉ゆきな_白石みお_星野ひびき/(PRESTIGE)(YRH-101)すんげぇぬるぬる ！！ましろあい 江上しほ 白石悠 双葉ゆきな 白石みお 星野ひびき.jpg
-File2[$e]=$HOME/tmp.var/Capture/烤夜雀-【合作】日刊东方排行榜 13年4月1日【東方MMD】-前編[00_06_59_365].jpg
-File3[$e]=$HOME/Images/Avatar/Contact/骆奥.jpg
-File4[$e]=$HOME/Images/Avatar/Contact/唐一禾.jpg
-File5[$e]=$HOME/tmp.var/Screenshot/screencast.gif
-File6[$e]=/tmp/tmp-macrobull/reproduction/Image0005.JPG
-File7[$e]=/tmp/tmp-macrobull/reproduction/Image0004.JPG
-File8[$e]=/tmp/tmp-macrobull/reproduction/Image0003.JPG
-File9[$e]=/tmp/tmp-macrobull/reproduction/Image0002.JPG
-Name1[$e]=囿子-【再现MMD】猫和老鼠·续-[00_00_52_566].jpg
-Name10[$e]=(PRESTIGE)(YRH-101)すんげぇぬるぬる ！！ましろあい 江上しほ 白石悠 双葉ゆきな 白石みお 星野ひびき.jpg
-Name2[$e]=烤夜雀-【合作】日刊东方排行榜 13年4月1日【東方MMD】-前編[00_06_59_365].jpg
-Name3[$e]=骆奥.jpg
-Name4[$e]=唐一禾.jpg
-Name5[$e]=screencast.gif
-Name6[$e]=Image0005.JPG
-Name7[$e]=Image0004.JPG
-Name8[$e]=Image0003.JPG
-Name9[$e]=Image0002.JPG
+File1[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnanjr9qj20qo0zke6v.jpg
+File10[$e]=$HOME/Downloads/Images/683dc9bbjw1etz0ifx1e7j21kw16othw.jpg
+File2[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnaplxi5j20qo0zkx4u.jpg
+File3[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnarpnjdj20qo0zk7ue.jpg
+File4[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnatdce3j20qo0zkkfk.jpg
+File5[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnaxpi1rj211i1e0e82.jpg
+File6[$e]=$HOME/Downloads/Images/deb6c3e0bb8d11e4b7b2fb885c2da1c8.jpg
+File7[$e]=$HOME/Downloads/Images/Buddy.jpg
+File8[$e]=$HOME/Downloads/Images/a19ba7d1jw1epg2vfnp8uj20pk2nbax9.jpg
+File9[$e]=$HOME/Downloads/Images/7279f06bgw1eszx8h09smj20v81jktq4.jpg
+Name1[$e]=e4f120e0jw1etxnanjr9qj20qo0zke6v.jpg
+Name10[$e]=683dc9bbjw1etz0ifx1e7j21kw16othw.jpg
+Name2[$e]=e4f120e0jw1etxnaplxi5j20qo0zkx4u.jpg
+Name3[$e]=e4f120e0jw1etxnarpnjdj20qo0zk7ue.jpg
+Name4[$e]=e4f120e0jw1etxnatdce3j20qo0zkkfk.jpg
+Name5[$e]=e4f120e0jw1etxnaxpi1rj211i1e0e82.jpg
+Name6[$e]=deb6c3e0bb8d11e4b7b2fb885c2da1c8.jpg
+Name7[$e]=Buddy.jpg
+Name8[$e]=a19ba7d1jw1epg2vfnp8uj20pk2nbax9.jpg
+Name9[$e]=7279f06bgw1eszx8h09smj20v81jktq4.jpg
 
 [SideBar-BrowseMode]
 IsVisible=true
 
+[SideBar-FullScreenMode]
+IsVisible=false
+
 [SideBar-ViewMode]
-IsVisible=true
+IsVisible=false
 
 [ThumbnailView]
 ThumbnailSize=168

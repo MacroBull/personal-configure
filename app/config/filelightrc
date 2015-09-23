@@ -1,24 +1,25 @@
 [general]
-File1[$e]=$HOME/workspace/personal-configure/.git/objects/
-File2[$e]=$HOME/workspace/personal-configure/.git/objects/pack/
-File3[$e]=/mnt/fast/Images/Web/
-File4[$e]=/mnt/fast/Downloads
-File5[$e]=/mnt/fast
-File6[$e]=/mnt/fast/misc/
-File7[$e]=/mnt/fast/misc/oRoot/
-File8[$e]=$HOME/tmp.var
+File1[$e]=$HOME/workspace/Qt/
+File2[$e]=$HOME/workspace
+File3[$e]=$HOME/workspace/lib-external/
+File4[$e]=$HOME/workspace/testsite/
+File5[$e]=$HOME/workspace/Embedded/STM32/
+File6[$e]=$HOME/workspace/Embedded/
+File7[$e]=$HOME/workspace/
+File8[$e]=$HOME/workspace/qmlcreator/
 Name1[$e]=
-Name2[$e]=
+Name2[$e]=workspace
 Name3[$e]=
-Name4[$e]=Downloads
-Name5[$e]=fast
+Name4[$e]=
+Name5[$e]=
 Name6[$e]=
 Name7[$e]=
-Name8[$e]=tmp.var
+Name8[$e]=
+comboHistory[$e]=/mnt/fast
 
 [window]
 Height 768=495
-State=AAAA/wAAAAD9AAAAAAAABRoAAAKOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAHo/////wAAAAAAAAAAAAAAFgB2AGkAZQB3AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABRoAAAKIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAHj/////wAAAAAAAAAAAAAAFgB2AGkAZQB3AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1366=691
 Window-Maximized 768x1366=true

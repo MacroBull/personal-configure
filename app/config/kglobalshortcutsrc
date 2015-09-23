@@ -8,7 +8,7 @@ Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=KDE Daemon
 
 [amarok]
-_k_friendly_name=amarok
+_k_friendly_name=Amarok
 decreaseVolume=,Meta+-,Decrease Volume
 increaseVolume=Meta++,Meta++,Increase Volume
 loveTrack=Meta+L,Meta+L,Last.fm: Love Current Track
@@ -36,9 +36,9 @@ Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On an
 _k_friendly_name=kaccess
 
 [kcm_touchpad]
-Disable Touchpad=,none,Disable Touchpad
-Enable Touchpad=none,none,Enable Touchpad
-Toggle Touchpad=none,none,Toggle Touchpad
+Disable Touchpad=,,Disable Touchpad
+Enable Touchpad=none,,Enable Touchpad
+Toggle Touchpad=none,,Toggle Touchpad
 _k_friendly_name=kcm_touchpad
 
 [kded5]
@@ -93,6 +93,18 @@ decrease_volume=Volume Down,Volume Down,Decrease Volume
 increase_volume=Volume Up,Volume Up,Increase Volume
 mute=Volume Mute,Volume Mute,Mute
 
+[knotes]
+_k_friendly_name=knotes
+hide_all_notes=Alt+Shift+H,Alt+Shift+H,Hide All Notes
+new_note=Alt+Shift+N,Alt+Shift+N,New Note
+new_note_clipboard=Alt+Shift+C,Alt+Shift+C,New Note From Clipboard
+show_all_notes=Alt+Shift+S,Alt+Shift+S,Show All Notes
+
+[konversation]
+_k_friendly_name=konversation
+next_active_tab=none,none,Next Active Tab
+toggle_mainwindow_visibility=none,none,Show/Hide Konversation
+
 [krunner]
 _k_friendly_name=krunner
 run command=Alt+Space\tAlt+F2\tSearch,Alt+Space,Run Command
@@ -105,6 +117,11 @@ Log Out=Ctrl+Alt+Del,none,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
 _k_friendly_name=ksmserver
+
+[ktorrent]
+_k_friendly_name=ktorrent
+queue_suspend=Alt+Shift+P,Alt+Shift+P,Suspend Torrents
+show_kt=Alt+Shift+T,Alt+Shift+T,Show/Hide KTorrent
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
@@ -262,7 +279,7 @@ view_zoom_in=Meta+=,Meta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
-_k_friendly_name=mediacontrol
+_k_friendly_name=Media Controller
 nextmedia=Media Next,Media Next,Media playback next
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
@@ -270,9 +287,14 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 
 [plasmashell]
 _k_friendly_name=Plasma
+activate widget 13=Meta+N,none,Activate Notifications Widget
 activate widget 20=Alt+F1,none,Activate Application Launcher Widget
 activate widget 22=Meta+Shift+T,none,Activate Digital Clock Widget
+activate widget 27=none,none,Activate Task Manager Widget
 activate widget 29=Alt+F,none,Activate Folder View Widget
+activate widget 44=none,none,Activate Resources Monitor Widget
+activate widget 45=Meta+W,none,Activate Weather Widget Widget
+activate widget 49=none,none,Activate Weather Widget Widget
 activate widget 5=Meta+Shift+N,none,Activate System Tray Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions

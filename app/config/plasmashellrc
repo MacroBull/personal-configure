@@ -148,5 +148,12 @@ Width 1920=791
 [General]
 Number of Actions=9
 
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[Notification Messages]
+ConfirmTrash=true
+really_clear_history=true
+
 [PlasmaViews][Panel 1][Vertical768]
 thickness=60

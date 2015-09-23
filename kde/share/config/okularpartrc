@@ -5,5 +5,8 @@ update_info=okular.upd:sep_settings
 ShellOpenFileInTabs=true
 UseKTTSD=false
 
+[Main View]
+SplitterSizes=195,1029
+
 [PageView]
 MouseMode=TextSelect

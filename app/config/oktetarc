@@ -28,7 +28,5 @@ Window-Maximized 768x1366=true
 [Recent Files]
 File1[$e]=$HOME/workspace/testsite/奋斗STM32开发板MINI+2.4寸(ILI9325-NEW)屏例程-old2/STM32奋斗版ucOS II V2.86 emWin5.12 DEMO/GUILib/gui_fillrect.o
 File2[$e]=$HOME/Application/MiniMetro/MiniMetro-alpha13-linux.x86_64
-File3[$e]=$HOME/tmp/EFI/boot/fallback.efi
 Name1[$e]=gui_fillrect.o
 Name2[$e]=MiniMetro-alpha13-linux.x86_64
-Name3[$e]=fallback.efi

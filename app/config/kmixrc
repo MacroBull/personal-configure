@@ -9,7 +9,7 @@ MixerIgnoreExpression=Modem
 Orientation.TrayPopup=Horizontal
 Position=60,0
 Size=466,368
-Soundmenu.Mixers=PulseAudio::Capture_Streams:1,PulseAudio::Capture_Devices:1,PulseAudio::Playback_Devices:1,PulseAudio::Playback_Streams:1
+Soundmenu.Mixers=PulseAudio::Capture_Devices:1,PulseAudio::Playback_Devices:1,PulseAudio::Capture_Streams:1,PulseAudio::Playback_Streams:1
 Visible=false
 VolumeOverdrive=true
 
@@ -43,10 +43,19 @@ Split=false
 [View.PulseAudio.Playback_Devices.1.default.PulseAudio::Playback_Devices:1.alsa_output.pci-0000_00_1b.0.analog-stereo]
 Split=false
 
+[View.PulseAudio.Playback_Devices.1.default.PulseAudio::Playback_Devices:1.alsa_output.pci-0000_00_1b.0.hdmi-stereo]
+Split=false
+
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.restore:sink-input-by-media-role:event]
 Split=false
 
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:0]
+Split=false
+
+[View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:1]
+Split=false
+
+[View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:100]
 Split=false
 
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:103]
@@ -64,10 +73,16 @@ Split=false
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:26]
 Split=false
 
+[View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:3]
+Split=false
+
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:38]
 Split=false
 
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:565]
+Split=false
+
+[View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:63]
 Split=false
 
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:644]

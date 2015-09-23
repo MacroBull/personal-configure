@@ -130,7 +130,7 @@ Size=32
 
 [DirSelect Dialog]
 DirSelectDialog Size=932,497
-History Items[$e]=file:///mnt/data/VM/Share,file:///mnt/data/VM,file:///tmp/tmp-macrobull,file://$HOME/workspace/personal-configure,file:///run/media/macrobull/FAT,file:///mnt/fast/tmp,file:///mnt/data/Downloads/TDDownload,file:///mnt/fast/Downloads/TDDownload,file://$HOME/Images/Wallpaper/XArtwork,file://$HOME/Images/Wallpaper/Entity,file://$HOME/Images/Wallpaper/Abstract,file://$HOME/Downloads/New,file://$HOME/Documents,file://$HOME/Public
+History Items[$e]=file://$HOME/.fonts/,file://$HOME/Images/Wallpaper/Abstract,file:///mnt/data/VM/Share,file:///mnt/data/VM,file:///tmp/tmp-macrobull,file://$HOME/workspace/personal-configure,file:///run/media/macrobull/FAT,file:///mnt/fast/tmp,file:///mnt/data/Downloads/TDDownload,file:///mnt/fast/Downloads/TDDownload,file://$HOME/Images/Wallpaper/XArtwork,file://$HOME/Images/Wallpaper/Entity,file://$HOME/Downloads/New,file://$HOME/Documents,file://$HOME/Public
 
 [Emoticons]
 emoticonsTheme=GoogleEmojiComplete
@@ -142,9 +142,9 @@ ColorScheme=Current
 Name=Midori.5
 TerminalApplication[$e]=yakuake-session
 XftAntialias=true
-XftHintStyle=hintmedium
+XftHintStyle=hintnone
 XftSubPixel=rgb
-fixed=Fantasque Sans Mono,8,-1,5,50,0,0,0,0,0
+fixed=Fantasque Sans Mono,9,-1,5,50,0,0,0,0,0
 font=Noto Sans CJK,8,-1,5,25,0,0,0,0,0
 menuFont=Noto Sans CJK,8,-1,5,25,0,0,0,0,0
 shadeSortColumn=true
@@ -184,10 +184,13 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=268
+Speedbar Width=253
 View Style=DetailTree
 detailedViewIconSize=20
 listViewIconSize=40
+
+[KScreen]
+ScaleFactor=1
 
 [KShortcutsDialog Settings]
 Dialog Size=1306,737
