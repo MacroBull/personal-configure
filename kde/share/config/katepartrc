@@ -1,7 +1,7 @@
 [Document]
 Allow End of Line Detection=true
 BOM=false
-Backup Flags=0
+Backup Flags=2
 Backup Prefix=
 Backup Suffix=~
 Encoding=UTF-8
