@@ -1,9 +1,6 @@
 [Dolphin]
 GroupedSorting=true
-Timestamp=2015,9,23,16,53,36
+Timestamp=2015,9,23,16,54,10
 Version=3
 ViewMode=1
 VisibleRoles=Details_text,Details_size,Details_date,Details_imageSize,CustomizedDetails
-
-[Settings]
-HiddenFilesShown=true
