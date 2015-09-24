@@ -19,16 +19,17 @@ export QT_IM_MODULE=fcitx
 #export QT_MODULE=fcitx
 
 #### TeX ####
-TEXMFHOME=$HOME/.local/share/texmf
-export TEXMFHOME
-# export TEXMFCONFIG=$HOMETEXMF
-
-
-
+# TEXMFHOME=$HOME/.local/share/texmf
+# export TEXMFHOME
+# # export TEXMFCONFIG=$HOMETEXMF
+#
+#
+#
 # TEXINPUTS=/usr/share/texmf/tex
-TEXINPUTS+=:$HOME/Templates/Tex
-
-export TEXINPUTS
+# # TEXINPUTS+=:$HOME/.local/share
+# TEXINPUTS+=:$HOME/Templates/Tex
+#
+# export TEXINPUTS
 
 ##### Go lang env #### 
 

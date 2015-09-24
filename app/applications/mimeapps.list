@@ -1,6 +1,7 @@
 [Added Associations]
 application/json=org.kde.kate.desktop;iccexamin.desktop;kde4-okularApplication_txt.desktop;
 application/node-webkit=node-webkit.desktop;
+application/x-bittorrent=xware-desktop.desktop;kde4-ktorrent.desktop;kde4-kget.desktop;
 application/x-cue=mpv.desktop;flacon.desktop;kde4-kate.desktop;
 application/x-kicad-project=kicad.desktop;
 application/x-wine-extension-ini=kde4-kate.desktop;
@@ -23,6 +24,7 @@ x-scheme-handler/tg=telegramdesktop.desktop
 
 [Default Applications]
 application/json=org.kde.kate.desktop;
+application/x-bittorrent=xware-desktop.desktop;
 text/html=google-chrome.desktop
 video/mp4=mpv.desktop;
 video/x-flv=mpv.desktop;
