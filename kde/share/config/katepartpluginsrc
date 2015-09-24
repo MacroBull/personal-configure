@@ -1,6 +1,6 @@
 [Kate Part Plugins]
 kdeviconinserter=false
-ktexteditorautobrace=true
+ktexteditorautobrace=false
 ktexteditorexporter=true
 ktexteditorhlselection=true
 ktexteditorinsertfile=false

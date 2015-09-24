@@ -8,4 +8,4 @@ loadAll=false
 pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations,baloosearch
 
 [RecentlyUsed]
-Applications=spyder.desktop,google-chrome.desktop,org.kde.ksysguard.desktop,kde4-dolphin.desktop,systemsettings.desktop
+Applications=spyder.desktop,org.kde.ksysguard.desktop,kde4-dolphin.desktop,systemsettings.desktop,google-chrome.desktop
