@@ -1,4 +1,8 @@
+[$Version]
+update_info=disable_kmix.upd:PlasmaVolume_DisableKMixAutostart
+
 [Global]
+AutoStart=false
 AutoUseMultimediaKeys=true
 ConfigVersion=3
 DefaultCardOnStart=PulseAudio.Playback_Devices.1.default
@@ -9,9 +13,10 @@ MixerIgnoreExpression=Modem
 Orientation.TrayPopup=Horizontal
 Position=60,0
 Size=466,368
-Soundmenu.Mixers=PulseAudio::Capture_Devices:1,PulseAudio::Playback_Devices:1,PulseAudio::Capture_Streams:1,PulseAudio::Playback_Streams:1
+Soundmenu.Mixers=PulseAudio::Playback_Devices:1,PulseAudio::Playback_Streams:1,PulseAudio::Capture_Streams:1,PulseAudio::Capture_Devices:1
 Visible=false
 VolumeOverdrive=true
+startkdeRestore=false
 
 [Profiles]
 PulseAudio::Capture_Devices:1=PulseAudio.Capture_Devices.1.default

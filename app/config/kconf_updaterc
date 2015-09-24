@@ -1,5 +1,10 @@
 updateInfoAdded=true
 
+[disable_kmix.upd]
+ctime=1443062241
+done=PlasmaVolume_DisableKMixAutostart
+mtime=1440081539
+
 [kcalcrc.upd]
 ctime=1438362053
 mtime=1428953701
@@ -12,6 +17,10 @@ mtime=1440074591
 [kgthemeprovider-migration.upd]
 ctime=1438362053
 mtime=1423052612
+
+[kile.upd]
+ctime=1443064754
+mtime=1439689815
 
 [konversation.upd]
 ctime=1438362053

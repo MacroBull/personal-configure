@@ -88,7 +88,7 @@ repeat_action=,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show-on-mouse-pos=none,none,Open Klipper at Mouse Position
 
 [kmix]
-_k_friendly_name=Audio Volume
+_k_friendly_name=kmix
 decrease_volume=Volume Down,Volume Down,Decrease Volume
 increase_volume=Volume Up,Volume Up,Increase Volume
 mute=Volume Mute,Volume Mute,Mute
@@ -119,7 +119,7 @@ Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
 _k_friendly_name=ksmserver
 
 [ktorrent]
-_k_friendly_name=KTorrent
+_k_friendly_name=ktorrent
 queue_suspend=Alt+Shift+P,Alt+Shift+P,Suspend Torrents
 show_kt=Alt+Shift+T,Alt+Shift+T,Show/Hide KTorrent
 
@@ -288,17 +288,11 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 [plasmashell]
 _k_friendly_name=Plasma
 activate widget 13=Meta+N,none,Activate Notifications Widget
-activate widget 18=Meta+R,none,Activate Networks Widget
-activate widget 20=Alt+F1,none,Activate Application Launcher Widget
-activate widget 22=Meta+Shift+T,none,Activate Digital Clock Widget
 activate widget 27=none,none,Activate Task Manager Widget
 activate widget 29=Alt+F,none,Activate Folder View Widget
 activate widget 44=none,none,Activate Resources Monitor Widget
 activate widget 45=Meta+W,none,Activate Weather Widget Widget
 activate widget 49=none,none,Activate Weather Widget Widget
-activate widget 5=Meta+Shift+N,none,Activate System Tray Widget
-activate widget 59=none,none,Activate Quick Share Widget
-activate widget 61=Meta+V,none,Activate Audio Volume Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item

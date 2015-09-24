@@ -16,6 +16,7 @@ Height 1080=439
 Height 768=472
 Width 1366=711
 Width 1920=670
+Window-Maximized 768x1366=true
 
 [General]
 Config Revision=10
@@ -33,13 +34,13 @@ Startup Session=last
 
 [KFileDialog Settings]
 Height 768=480
-Recent Files[$e]=$HOME/Documents/Works/api_advi,$HOME/workspace/Qt/Minefeet-qml/geo.js,/var/log/mongodb/mongodb.log,$HOME/.zshrc,$HOME/workspace/Qt/jsonmodels/jsonmodelsbasic.qml,$HOME/workspace/Qt/jsonmodels/loader.qml,$HOME/workspace/qmlcreator/build.ARMv7-Android/build.gradle,$HOME/workspace/qmlcreator/qml/examples/Pdf/main.qml,/opt/Qt/5.5/android_armv7/mkspecs/android-g++/qplatformdefs.h,$HOME/workspace/qmlcreator/qml/examples/Planets/planets.qml,$HOME/workspace/qmlcreator/qml/examples/Applauncher/main.qml,$HOME/.alias,$HOME/workspace/lib-external/qml/jbQuick/Charts/QChart.qml,/tmp/tmp-macrobull/東方爆音ジャズ/東方爆音ジャズ.cue,/tmp/tmp-macrobull/qtworldsummit/app/build/vegguide/mobile/VegGuide/build/qt-qml-engine-mind6-frontend/main.cpp,/usr/lib/python3.4/site-packages/paho/__init__.py
-Recent URLs[$e]=/opt/Qt/5.5/android_armv7/mkspecs/android-g++/,$HOME/workspace/qmlcreator/qml/examples/Pdf/,$HOME/workspace/qmlcreator/build.ARMv7-Android/,$HOME/workspace/Qt/jsonmodels/,/var/log/mongodb/,$HOME/Documents/Works/,$HOME/workspace/Qt/Minefeet-qml/
+Recent Files[$e]=$HOME/Documents/Works/api_advi,/mnt/fast/Application/dot.xware-desktop/profile/cfg/thunder_mounts.cfg,/mnt/fast/Application/dot.xware-desktop/profile/cfg/etm.cfg,/mnt/fast/Application/dot.xware-desktop/profile/etc/xwared.ini,/opt/xware-desktop/frontend/libxware/mounts.py,$HOME/.envs,$HOME/workspace/Qt/Minefeet-qml/geo.js,/var/log/mongodb/mongodb.log,$HOME/.zshrc,$HOME/workspace/Qt/jsonmodels/jsonmodelsbasic.qml,$HOME/workspace/Qt/jsonmodels/loader.qml,$HOME/workspace/qmlcreator/build.ARMv7-Android/build.gradle,$HOME/workspace/qmlcreator/qml/examples/Pdf/main.qml,/opt/Qt/5.5/android_armv7/mkspecs/android-g++/qplatformdefs.h,$HOME/workspace/qmlcreator/qml/examples/Planets/planets.qml,$HOME/workspace/qmlcreator/qml/examples/Applauncher/main.qml
+Recent URLs[$e]=/var/log/mongodb/,$HOME/Documents/Works/,$HOME/workspace/Qt/Minefeet-qml/,/opt/xware-desktop/frontend/libxware/,/mnt/fast/Application/dot.xware-desktop/profile/etc/,/mnt/fast/Application/dot.xware-desktop/profile/cfg/,/mnt/fast/Application/dot.xware-desktop/profile/cfg/
 Width 1366=668
 
 [KTextEditor::Search]
 Replace History=.,./,qrc:/resources/images/icon512.png,1/controlExt,\\\\t,:,,wget ,acroread,\\\\n,delay_ms,LCD_WR_CMD,LCD_WR_CMD(,LCD_WR
-Search History=def loop,max_packets,loop_forever,GeoPolygon,strok,shad,gradi,qdebug,qtLogoImage.,imageLoad,logo,hard,-hard,include,boost,neon,float,popp,-lgcc,moc_application.o,ldf,-l,ld,link,-mfloat-abi=,-march=,mmpl,player,set_me,soft,sof,-I,qrc:,qrc,qrc://,require,../../../Application/applications/icons/QtIcon.png,png,yAxisPosX + (valueHop*(data.datasets[i].data.length-1)),datasetFillStart,datasetFill,fill,0.25,xPos,bezierCurveTo,bezier,line,grid,biligrab,cook,-c,NO_PARSER_SPECIFIED_WARNING,conn,autorc,recomm,err,connect,publish(,qos,_out_message_mutex,_handle_connack,_out_messages,CONNACK,dup,reserved,publish,_send_simple_command,pingreq,puback,connect(,no,    ,commi,cmm,backup_public,appman,spyder,mpv,sysgu,konsol,akonadi,intel,baloo,photoq,android,uv,katepartplugi,smpl,pulse,mil,make,<<<,biligrab(,keep_fps,increase_fps,mpvflags,fps,title,;,opengl
+Search History=volume,._mounts,_mounts,_mount,=3,log,tex,def loop,max_packets,loop_forever,GeoPolygon,strok,shad,gradi,qdebug,qtLogoImage.,imageLoad,logo,hard,-hard,include,boost,neon,float,popp,-lgcc,moc_application.o,ldf,-l,ld,link,-mfloat-abi=,-march=,mmpl,player,set_me,soft,sof,-I,qrc:,qrc,qrc://,require,../../../Application/applications/icons/QtIcon.png,png,yAxisPosX + (valueHop*(data.datasets[i].data.length-1)),datasetFillStart,datasetFill,fill,0.25,xPos,bezierCurveTo,bezier,line,grid,biligrab,cook,-c,NO_PARSER_SPECIFIED_WARNING,conn,autorc,recomm,err,connect,publish(,qos,_out_message_mutex,_handle_connack,_out_messages,CONNACK,dup,reserved,publish,_send_simple_command,pingreq,puback,connect(,no,    ,commi,cmm,backup_public,appman,spyder,mpv,sysgu,konsol,akonadi,intel,baloo,photoq,android,uv,katepartplugi,smpl,pulse,mil,make,<<<,biligrab(
 
 [Konsole]
 AutoSyncronize=true
@@ -50,7 +51,7 @@ Height 1080=1049
 Height 768=733
 State=AAAA/wAAAAD9AAAAAAAABRoAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAEgBnAGQAYgBwAGwAdQBnAGkAbgEAAAI2/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1366=650
+Width 1366=842
 Width 1920=957
 Window-Maximized 768x1366=true
 
