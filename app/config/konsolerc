@@ -5,7 +5,7 @@ update_info=konsole.upd:2.9.0-global-options
 DefaultProfile=Shell.profile
 
 [Favorite Profiles]
-Favorites=Shell.profile,Root Shell.profile
+Favorites=Root Shell.profile,Shell.profile
 
 [FileDialogSize]
 Height 768=620
@@ -16,13 +16,12 @@ Recent Files[$e]=40941098(Alpha-SP).xcf,$HOME/Images/Wallpaper/AlphaConsole/4094
 Recent URLs[$e]=$HOME/Images/Wallpaper/AlphaConsole/
 
 [MainWindow]
-Height 1080=710
-Height 768=827
-State=AAAA/wAAAAD9AAAAAAAABRoAAALHAAAABAAAAAQAAAAIAAAACPwAAAAA
+Height 1080=999
+Height 768=737
+State=AAAA/wAAAAD9AAAAAAAABAEAAALHAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1366=1215
-Width 1920=912
-Window-Maximized 768x1366=true
+Width 1366=1025
+Width 1920=1537
 
 [Notification Messages]
 CloseAllTabs=true

@@ -18,19 +18,19 @@ Width 1920=929
 
 [MainWindow]
 CommandList=
-Height 1080=1049
+Height 1080=706
 Height 1366=483
-Height 768=577
+Height 768=706
 HostList=
 SelectedSheets[$e]=ProcessTable.sgrd,SystemLoad2.sgrd,Sheet 1.sgrd
-SplitterSizeList=1182,0
-State=AAAA/wAAAAD9AAAAAAAAA70AAAPsAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+SplitterSizeList=1136,0
+State=AAAA/wAAAAD9AAAAAAAABHEAAAKVAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1024=950
-Width 1366=1183
-Width 1920=957
+Width 1366=1137
+Width 1920=1137
 Width 768=694
-currentSheet=0
+currentSheet=2
 isMinimized=false
 
 [Notification Messages]

@@ -10,7 +10,7 @@ ThumbnailBarIsVisible=true
 ThumbnailBarOrientation=Vertical
 
 [ImageView]
-ThumbnailSplitterSizes=1136,167
+ThumbnailSplitterSizes=1133,167
 
 [KFileDialog Settings]
 Height 768=420
@@ -27,26 +27,26 @@ Width 1366=1367
 Width 1920=864
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnanjr9qj20qo0zke6v.jpg
-File10[$e]=$HOME/Downloads/Images/683dc9bbjw1etz0ifx1e7j21kw16othw.jpg
-File2[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnaplxi5j20qo0zkx4u.jpg
-File3[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnarpnjdj20qo0zk7ue.jpg
-File4[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnatdce3j20qo0zkkfk.jpg
-File5[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnaxpi1rj211i1e0e82.jpg
-File6[$e]=$HOME/Downloads/Images/deb6c3e0bb8d11e4b7b2fb885c2da1c8.jpg
-File7[$e]=$HOME/Downloads/Images/Buddy.jpg
-File8[$e]=$HOME/Downloads/Images/a19ba7d1jw1epg2vfnp8uj20pk2nbax9.jpg
-File9[$e]=$HOME/Downloads/Images/7279f06bgw1eszx8h09smj20v81jktq4.jpg
-Name1[$e]=e4f120e0jw1etxnanjr9qj20qo0zke6v.jpg
-Name10[$e]=683dc9bbjw1etz0ifx1e7j21kw16othw.jpg
-Name2[$e]=e4f120e0jw1etxnaplxi5j20qo0zkx4u.jpg
-Name3[$e]=e4f120e0jw1etxnarpnjdj20qo0zk7ue.jpg
-Name4[$e]=e4f120e0jw1etxnatdce3j20qo0zkkfk.jpg
-Name5[$e]=e4f120e0jw1etxnaxpi1rj211i1e0e82.jpg
-Name6[$e]=deb6c3e0bb8d11e4b7b2fb885c2da1c8.jpg
-Name7[$e]=Buddy.jpg
-Name8[$e]=a19ba7d1jw1epg2vfnp8uj20pk2nbax9.jpg
-Name9[$e]=7279f06bgw1eszx8h09smj20v81jktq4.jpg
+File1[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnaplxi5j20qo0zkx4u.jpg
+File10[$e]=$HOME/workspace/Qt/panel_interface/Screenshot_2015-09-24-14-32-35.png
+File2[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnarpnjdj20qo0zk7ue.jpg
+File3[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnatdce3j20qo0zkkfk.jpg
+File4[$e]=$HOME/Downloads/Images/e4f120e0jw1etxnaxpi1rj211i1e0e82.jpg
+File5[$e]=$HOME/Downloads/Images/deb6c3e0bb8d11e4b7b2fb885c2da1c8.jpg
+File6[$e]=$HOME/Downloads/Images/Buddy.jpg
+File7[$e]=$HOME/Downloads/Images/a19ba7d1jw1epg2vfnp8uj20pk2nbax9.jpg
+File8[$e]=$HOME/Downloads/Images/7279f06bgw1eszx8h09smj20v81jktq4.jpg
+File9[$e]=$HOME/Downloads/Images/683dc9bbjw1etz0ifx1e7j21kw16othw.jpg
+Name1[$e]=e4f120e0jw1etxnaplxi5j20qo0zkx4u.jpg
+Name10[$e]=Screenshot_2015-09-24-14-32-35.png
+Name2[$e]=e4f120e0jw1etxnarpnjdj20qo0zk7ue.jpg
+Name3[$e]=e4f120e0jw1etxnatdce3j20qo0zkkfk.jpg
+Name4[$e]=e4f120e0jw1etxnaxpi1rj211i1e0e82.jpg
+Name5[$e]=deb6c3e0bb8d11e4b7b2fb885c2da1c8.jpg
+Name6[$e]=Buddy.jpg
+Name7[$e]=a19ba7d1jw1epg2vfnp8uj20pk2nbax9.jpg
+Name8[$e]=7279f06bgw1eszx8h09smj20v81jktq4.jpg
+Name9[$e]=683dc9bbjw1etz0ifx1e7j21kw16othw.jpg
 
 [SideBar-BrowseMode]
 IsVisible=true

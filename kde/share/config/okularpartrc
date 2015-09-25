@@ -9,4 +9,4 @@ UseKTTSD=false
 SplitterSizes=195,1029
 
 [PageView]
-MouseMode=Zoom
+MouseMode=TextSelect

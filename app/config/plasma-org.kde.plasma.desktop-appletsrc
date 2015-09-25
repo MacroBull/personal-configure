@@ -207,6 +207,13 @@ DialogWidth=560
 immutability=1
 plugin=org.kde.weatherWidget
 
+[Containments][1][Applets][5][Configuration][Containments][10][Applets][58][Configuration][ConfigDialog]
+DialogHeight=485
+DialogWidth=560
+
+[Containments][1][Applets][5][Configuration][Containments][10][Applets][58][Configuration][General]
+townStrings=[{"placeAlias":"Guangzhou","townString":"China/Guangdong/Guangzhou"},{"placeAlias":"Hangzhou","townString":"China/Zhejiang/Hangzhou"},{"placeAlias":"Shanghai","townString":"China/Shanghai/Shanghai"}]
+
 [Containments][1][Applets][5][Configuration][Containments][10][Applets][61]
 immutability=1
 plugin=org.kde.plasma.volume
@@ -220,33 +227,23 @@ global=Meta+V
 
 [Containments][1][Applets][5][Configuration][General]
 extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.weatherWidget,org.kde.plasma.printmanager,org.kde.plasma.volume
+hiddenItems=XwareDesktop
 knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.pkupdates,org.kde.plasma.volume
-shownItems=kmix,org.kde.plasma.notifications
+shownItems=kmix,org.kde.plasma.notifications,org.kde.plasma.volume
 
 [Containments][1][Applets][5][Shortcuts]
 global=Meta+Shift+N
-
-[Containments][1][Applets][59]
-immutability=1
-plugin=org.kde.plasma.quickshare
 
 [Containments][1][Applets][59][Configuration][Appearance]
 copyAutomatically=true
 historySize=9
 
-[Containments][1][Applets][59][Configuration][ConfigDialog]
-DialogHeight=420
-DialogWidth=560
-
-[Containments][1][Applets][59][Shortcuts]
-global=
-
 [Containments][1][ConfigDialog]
 DialogHeight=768
-DialogWidth=159
+DialogWidth=172
 
 [Containments][1][General]
-AppletOrder=20;27;44;59;22;5
+AppletOrder=20;27;44;22;5
 
 [Containments][48]
 activityId=6134f113-d345-4618-b790-2a23d6139ad6

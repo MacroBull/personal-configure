@@ -1,6 +1,9 @@
 127.0.0.1       Macrobull-x230
-192.168.1.109   raspi
+9.9.9.6		raspi
+9.9.9.6		raspi-ether
+9.9.9.5		raspi-wlan
 54.223.232.66	bitnami
+9.9.9.9		newifi
 
 10.14.113.180	ee212
 10.50.200.245   net.zju.edu.cn

@@ -77,13 +77,10 @@ View Style=Simple
 listViewIconSize=0
 
 [Files]
-LastDocument[$e]=$HOME/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex
 lastDir[$e]=$HOME/
 
 [FilesOpenOnStart]
-DocsOpenOnStart0[$e]=$HOME/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex
-EncodingsOfDocsOpenOnStart0[$e]=UTF-8
-NoDOOS=1
+NoDOOS=0
 NoPOOS=0
 
 [Geometries]
@@ -107,10 +104,12 @@ Height 768=781
 Width 1366=890
 
 [KileMainWindow]
+Height 1080=737
 Height 768=623
 State=AAAA/wAAAAD9AAAAAAAABRoAAAKIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAADl/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1366=945
+Width 1920=1306
 Window-Maximized 768x1366=true
 
 [MainWindow]
@@ -128,14 +127,14 @@ convert=true
 dvipng=true
 
 [Recent Files]
-File1[$e]=$HOME/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex
-File2[$e]=/usr/share/texmf/tex/latex/xcolor/xcolor.sty
-File3[$e]=/usr/share/texmf/tex/latex/moderncv/moderncvstyleclassic.sty
-File4[$e]=/usr/share/texmf/tex/latex/base/fontenc.sty
-Name1[$e]=cv-骆乃瑞.浙江大学.tex
-Name2[$e]=xcolor.sty
-Name3[$e]=moderncvstyleclassic.sty
-Name4[$e]=fontenc.sty
+File1[$e]=/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+File2[$e]=/usr/share/texmf/tex/latex/moderncv/moderncvstyleclassic.sty
+File3[$e]=/usr/share/texmf/tex/latex/base/fontenc.sty
+File4[$e]=$HOME/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex
+Name1[$e]=xcolor.sty
+Name2[$e]=moderncvstyleclassic.sty
+Name3[$e]=fontenc.sty
+Name4[$e]=cv-骆乃瑞.浙江大学.tex
 
 [Scripting]
 ScriptNameColumnWidth=100
@@ -146,7 +145,7 @@ IDs=
 
 [Session Settings]
 Documents=file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex
-Saved Documents=file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/usr/share/texmf/tex/latex/base/fontenc.sty,file://:@/usr/share/texmf/tex/latex/base/fontenc.sty,file://:@/usr/share/texmf/tex/latex/moderncv/moderncvstyleclassic.sty,file://:@/usr/share/texmf/tex/latex/xcolor/xcolor.sty,file://:@/usr/share/texmf/tex/latex/xcolor/xcolor.sty,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/usr/share/texmf/tex/latex/xcolor/xcolor.sty,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/tmp/kile-Smj1HW/test.tex,file://:@/tmp/kile-Smj1HW/test.tex,file://:@/tmp/kile-DTWHmR/test.tex,file://:@/tmp/kile-DTWHmR/test.tex
+Saved Documents=file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/usr/share/texmf/tex/latex/base/fontenc.sty,file://:@/usr/share/texmf/tex/latex/base/fontenc.sty,file://:@/usr/share/texmf/tex/latex/moderncv/moderncvstyleclassic.sty,file://:@/usr/share/texmf/tex/latex/xcolor/xcolor.sty,file://:@/usr/share/texmf/tex/latex/xcolor/xcolor.sty,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/usr/share/texmf/tex/latex/xcolor/xcolor.sty,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/home/macrobull/Documents/Tex/Resume/cv-骆乃瑞.浙江大学.tex,file://:@/tmp/kile-Smj1HW/test.tex,file://:@/tmp/kile-Smj1HW/test.tex,file://:@/tmp/kile-DTWHmR/test.tex,file://:@/tmp/kile-DTWHmR/test.tex
 
 [Show]
 BottomBarSize=215

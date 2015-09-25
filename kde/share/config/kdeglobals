@@ -130,7 +130,7 @@ Size=32
 
 [DirSelect Dialog]
 DirSelectDialog Size=1012,600
-History Items[$e]=file:///mnt/data/Downloads/TDDownload,file:///mnt/fast/Downloads/TDDownload,file:///tmp/tmp-macrobull,file://$HOME/Documents/Tex,file://$HOME/.fonts/,file://$HOME/Images/Wallpaper/Abstract,file:///mnt/data/VM/Share,file:///mnt/data/VM,file://$HOME/workspace/personal-configure,file:///run/media/macrobull/FAT,file:///mnt/fast/tmp,file://$HOME/Images/Wallpaper/XArtwork,file://$HOME/Images/Wallpaper/Entity,file://$HOME/Downloads/New,file://$HOME/Documents,file://$HOME/Public
+History Items[$e]=file:///tmp/tmp-macrobull,file:///mnt/data/Downloads/TDDownload,file:///mnt/fast/Downloads/TDDownload,file://$HOME/Documents/Tex,file://$HOME/.fonts/,file://$HOME/Images/Wallpaper/Abstract,file:///mnt/data/VM/Share,file:///mnt/data/VM,file://$HOME/workspace/personal-configure,file:///run/media/macrobull/FAT,file:///mnt/fast/tmp,file://$HOME/Images/Wallpaper/XArtwork,file://$HOME/Images/Wallpaper/Entity,file://$HOME/Downloads/New,file://$HOME/Documents,file://$HOME/Public
 
 [Emoticons]
 emoticonsTheme=GoogleEmojiComplete
@@ -184,7 +184,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=258
+Speedbar Width=256
 View Style=DetailTree
 detailedViewIconSize=20
 listViewIconSize=40

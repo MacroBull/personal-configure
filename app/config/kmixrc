@@ -13,7 +13,7 @@ MixerIgnoreExpression=Modem
 Orientation.TrayPopup=Horizontal
 Position=60,0
 Size=466,368
-Soundmenu.Mixers=PulseAudio::Playback_Devices:1,PulseAudio::Playback_Streams:1,PulseAudio::Capture_Streams:1,PulseAudio::Capture_Devices:1
+Soundmenu.Mixers=PulseAudio::Playback_Devices:1,PulseAudio::Capture_Streams:1,PulseAudio::Capture_Devices:1,PulseAudio::Playback_Streams:1
 Visible=false
 VolumeOverdrive=true
 startkdeRestore=false
@@ -84,6 +84,9 @@ Split=false
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:38]
 Split=false
 
+[View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:50]
+Split=false
+
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:565]
 Split=false
 
@@ -100,4 +103,7 @@ Split=false
 Split=false
 
 [View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:74]
+Split=false
+
+[View.PulseAudio.Playback_Streams.1.default.PulseAudio::Playback_Streams:1.stream:9]
 Split=false
